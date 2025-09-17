@@ -384,6 +384,84 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Data-Driven Investment Decisions Section */}
+      <section className="py-16 lg:py-24 px-4 md:px-8 lg:px-24 bg-unlock-light">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col items-center gap-12">
+            {/* Section Title */}
+            <h2 className="text-unlock-dark font-aeonik text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%] tracking-tight text-center w-full">
+              Data-Driven Investment Decisions
+            </h2>
+
+            {/* Content Layout */}
+            <div className="flex flex-col lg:flex-row items-end gap-8 lg:gap-16 w-full">
+              {/* Left Column - Description & CTA */}
+              <div className="flex flex-col justify-between items-start w-full lg:w-[356px] h-auto lg:h-[265px] gap-8 lg:gap-0">
+                <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
+                  Our reports are data-driven, objective, and built for investors who want clarity—not sales pitches. Unlock does not provide investment advice or endorsements, ensuring you receive unbiased insights.
+                </p>
+                <UnlockButton
+                  variant="outline"
+                  size="default"
+                  className="rounded border border-unlock-dark text-unlock-dark font-medium uppercase tracking-wide hover:bg-unlock-dark hover:text-unlock-light"
+                >
+                  Join Our Waiting List
+                </UnlockButton>
+              </div>
+
+              {/* Right Column - Report Types */}
+              <div className="flex flex-col md:flex-row items-center gap-8 md:gap-5 flex-1">
+                {/* Report Type 1 - Snapshot Reports */}
+                <div className="flex flex-col items-start gap-9 w-full md:w-[400px]">
+                  {/* Number with Dot */}
+                  <div className="flex items-end">
+                    <span className="text-unlock-green font-aeonik text-8xl md:text-9xl lg:text-[150px] font-extralight leading-[90%] tracking-[-0.02em]">
+                      1
+                    </span>
+                    <span className="text-unlock-green font-bold text-6xl md:text-7xl lg:text-8xl leading-[90%] tracking-[-0.02em] mb-2">
+                      .
+                    </span>
+                  </div>
+
+                  {/* Content */}
+                  <div className="flex flex-col items-start gap-6 w-full">
+                    <h3 className="text-unlock-green font-aeonik text-xl md:text-2xl lg:text-3xl font-light leading-[110%] tracking-tight w-full">
+                      Snapshot Reports
+                    </h3>
+                    <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] max-w-[293px]">
+                      Get a quick at-a-glance view of a business with our snapshot reports
+                    </p>
+                  </div>
+                </div>
+
+                {/* Report Type 2 - Deep Dive Reports */}
+                <div className="flex flex-col items-start gap-9 w-full md:w-[400px]">
+                  {/* Number with Dot */}
+                  <div className="flex items-end">
+                    <span className="text-unlock-green font-aeonik text-8xl md:text-9xl lg:text-[150px] font-extralight leading-[90%] tracking-[-0.02em]">
+                      2
+                    </span>
+                    <span className="text-unlock-green font-bold text-6xl md:text-7xl lg:text-8xl leading-[90%] tracking-[-0.02em] mb-2">
+                      .
+                    </span>
+                  </div>
+
+                  {/* Content */}
+                  <div className="flex flex-col items-start gap-6 w-full">
+                    <h3 className="text-unlock-green font-aeonik text-xl md:text-2xl lg:text-3xl font-light leading-[110%] tracking-tight w-full">
+                      Deep Dive Reports
+                    </h3>
+                    <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] max-w-[287px]">
+                      Gain detailed analysis on a business with our deep dive reports
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-24 bg-unlock-dark border-t border-unlock-gray-dark/20">
         <div className="container mx-auto max-w-6xl px-4">
