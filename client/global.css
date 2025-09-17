@@ -110,8 +110,8 @@
     --unlock-gray-medium: 0 0% 83%; /* #D3D3D3 */
     --unlock-gray-dark: 0 0% 24%; /* #3E3E3E */
 
-    --background: 0 0% 100%;
-    --foreground: 236 29% 13%;
+    --background: 236 29% 13%;
+    --foreground: 0 0% 100%;
 
     --card: 0 0% 100%;
     --card-foreground: 236 29% 13%;
