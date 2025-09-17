@@ -63,9 +63,9 @@ export default function Index() {
                   >
                     <image
                       xlinkHref="https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2F4906c9fc7ed54a478117acb57b612c45?format=webp&width=800"
-                      x="0"
+                      x="-0.2"
                       y="0"
-                      width="1"
+                      width="1.4"
                       height="1"
                       preserveAspectRatio="xMidYMid slice"
                     />
