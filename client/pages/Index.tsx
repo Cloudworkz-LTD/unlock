@@ -65,7 +65,7 @@ export default function Index() {
       <section className="px-4 md:px-8 lg:px-10 py-8 lg:py-12">
         <div className="max-w-7xl mx-auto">
           <div
-            className="relative h-[400px] md:h-[449px] rounded-[10px] overflow-hidden flex items-center px-4 md:px-10 lg:px-10"
+            className="relative h-[400px] md:h-[449px] rounded-[10px] overflow-hidden flex items-center justify-end px-4 md:px-10 lg:px-10"
             style={{
               backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Ff643326cf0d34403934d58a749837989?format=webp&width=2460')`,
               backgroundSize: "cover",
@@ -73,7 +73,15 @@ export default function Index() {
               backgroundRepeat: "no-repeat",
             }}
           >
-            {/* Content would go here - currently empty as per Figma design */}
+            {/* Text Content Block */}
+            <div className="flex flex-col items-start gap-12 lg:gap-[156px] max-w-2xl lg:max-w-[609px] text-right lg:text-left">
+              <h2 className="text-unlock-light font-serif text-2xl md:text-3xl lg:text-4xl font-medium leading-[110%] w-full">
+                Make informed investment decisions with clear, factual insights
+              </h2>
+              <p className="text-unlock-light font-serif text-sm md:text-base font-medium leading-[120%] max-w-xs lg:max-w-[295px]">
+                Our due diligence reports aggregate financial, legal, and operational data from trusted sources, ensuring accuracy and transparency
+              </p>
+            </div>
           </div>
         </div>
       </section>
