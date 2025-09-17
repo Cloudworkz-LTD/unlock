@@ -398,7 +398,10 @@ export default function Index() {
               {/* Left Column - Description & CTA */}
               <div className="flex flex-col justify-between items-start w-full lg:w-[356px] h-auto lg:h-[265px] gap-8 lg:gap-0">
                 <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
-                  Our reports are data-driven, objective, and built for investors who want clarity—not sales pitches. Unlock does not provide investment advice or endorsements, ensuring you receive unbiased insights.
+                  Our reports are data-driven, objective, and built for
+                  investors who want clarity—not sales pitches. Unlock does not
+                  provide investment advice or endorsements, ensuring you
+                  receive unbiased insights.
                 </p>
                 <UnlockButton
                   variant="outline"
@@ -429,7 +432,8 @@ export default function Index() {
                       Snapshot Reports
                     </h3>
                     <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] max-w-[293px]">
-                      Get a quick at-a-glance view of a business with our snapshot reports
+                      Get a quick at-a-glance view of a business with our
+                      snapshot reports
                     </p>
                   </div>
                 </div>
@@ -452,7 +456,8 @@ export default function Index() {
                       Deep Dive Reports
                     </h3>
                     <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] max-w-[287px]">
-                      Gain detailed analysis on a business with our deep dive reports
+                      Gain detailed analysis on a business with our deep dive
+                      reports
                     </p>
                   </div>
                 </div>
@@ -474,7 +479,10 @@ export default function Index() {
             </div>
 
             {/* Testimonials Horizontal Scroll */}
-            <div className="flex gap-6 w-full overflow-x-auto pb-4" style={{scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
+            <div
+              className="flex gap-6 w-full overflow-x-auto pb-4"
+              style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+            >
               <style>{`
                 div::-webkit-scrollbar {
                   display: none;
@@ -483,7 +491,9 @@ export default function Index() {
               {/* Testimonial 1 - Elena Morozova */}
               <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light flex-shrink-0">
                 <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
-                  Unlock transformed the way we assess risk. Their data dashboards are sharp, intuitive, and investor-ready. I finally feel like we're making decisions with clarity, not guesswork
+                  Unlock transformed the way we assess risk. Their data
+                  dashboards are sharp, intuitive, and investor-ready. I finally
+                  feel like we're making decisions with clarity, not guesswork
                 </p>
                 <div className="flex flex-col items-start w-full">
                   <p className="text-unlock-dark font-serif text-base font-medium leading-[120%] w-full">
@@ -498,7 +508,10 @@ export default function Index() {
               {/* Testimonial 2 - John Doe */}
               <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light flex-shrink-0">
                 <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
-                  Unlock's due diligence services have been invaluable in helping me make informed investment decisions. Their meticulous research and analysis have given me the confidence to invest with clarity and certainty.
+                  Unlock's due diligence services have been invaluable in
+                  helping me make informed investment decisions. Their
+                  meticulous research and analysis have given me the confidence
+                  to invest with clarity and certainty.
                 </p>
                 <div className="flex flex-col items-start w-full">
                   <p className="text-unlock-dark font-serif text-base font-medium leading-[120%] w-full">
@@ -513,7 +526,9 @@ export default function Index() {
               {/* Testimonial 3 - James Carter */}
               <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light flex-shrink-0">
                 <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
-                  Their team doesn't just deliver insights — they uncover opportunities. Thanks to Unlock, we spotted a trend early that became one of our strongest portfolio wins last year.
+                  Their team doesn't just deliver insights — they uncover
+                  opportunities. Thanks to Unlock, we spotted a trend early that
+                  became one of our strongest portfolio wins last year.
                 </p>
                 <div className="flex flex-col items-start w-full">
                   <p className="text-unlock-dark font-serif text-base font-medium leading-[120%] w-full">
@@ -528,7 +543,9 @@ export default function Index() {
               {/* Testimonial 4 - Tariq El-Amin */}
               <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light flex-shrink-0">
                 <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
-                  Before Unlock, our analytics felt like a black box. Now, every metric has a narrative, and every report drives action. It's like having an in-house intelligence unit.
+                  Before Unlock, our analytics felt like a black box. Now, every
+                  metric has a narrative, and every report drives action. It's
+                  like having an in-house intelligence unit.
                 </p>
                 <div className="flex flex-col items-start w-full">
                   <p className="text-unlock-dark font-serif text-base font-medium leading-[120%] w-full">
@@ -543,7 +560,9 @@ export default function Index() {
               {/* Testimonial 5 - Laura Gutiérrez */}
               <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light flex-shrink-0">
                 <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
-                  Unlock brings precision to a chaotic market. Their investor-focused dashboards helped us streamline our pitch decks and wow LPs with confidence.
+                  Unlock brings precision to a chaotic market. Their
+                  investor-focused dashboards helped us streamline our pitch
+                  decks and wow LPs with confidence.
                 </p>
                 <div className="flex flex-col items-start w-full">
                   <p className="text-unlock-dark font-serif text-base font-medium leading-[120%] w-full">
@@ -558,7 +577,9 @@ export default function Index() {
               {/* Testimonial 6 - David Kwan (Dark Card) */}
               <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-dark flex-shrink-0">
                 <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[140%] w-full">
-                  We used to rely on generic market reports. Unlock built us a custom analytics engine tailored to our vertical. It's now our competitive edge.
+                  We used to rely on generic market reports. Unlock built us a
+                  custom analytics engine tailored to our vertical. It's now our
+                  competitive edge.
                 </p>
                 <div className="flex flex-col items-start w-full">
                   <p className="text-unlock-light font-aeonik text-base font-normal leading-[150%] w-full">
