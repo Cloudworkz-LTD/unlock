@@ -47,35 +47,13 @@ export default function Index() {
           {/* Image */}
           <div className="lg:w-1/3 flex justify-center lg:justify-end">
             <div className="relative w-72 h-[450px] md:w-80 md:h-[500px] lg:w-72 lg:h-[454px]">
-              <svg
-                className="w-full h-full"
-                viewBox="0 0 283 454"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-              >
-                <defs>
-                  <pattern
-                    id="heroImagePattern"
-                    patternContentUnits="objectBoundingBox"
-                    width="1"
-                    height="1"
-                  >
-                    <image
-                      xlinkHref="https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2F4906c9fc7ed54a478117acb57b612c45?format=webp&width=800"
-                      x="-0.2"
-                      y="0"
-                      width="1.4"
-                      height="1"
-                      preserveAspectRatio="xMidYMid slice"
-                    />
-                  </pattern>
-                </defs>
-                <path
-                  d="M244.86 226.957V111.738C244.86 41.7739 198.974 0 122.109 0C45.2447 0 0 41.7739 0 111.738V227H38.1547V342.262C38.1547 412.226 83.7981 454 160.25 454C236.702 454 283 412.226 283 342.262V226.957H244.845H244.86Z"
-                  fill="url(#heroImagePattern)"
+              <div className="w-full h-full rounded-t-full overflow-hidden bg-unlock-gray-medium/20">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2F4906c9fc7ed54a478117acb57b612c45?format=webp&width=800"
+                  alt="Professional businessman in suit"
+                  className="w-full h-full object-cover object-center"
                 />
-              </svg>
+              </div>
             </div>
           </div>
         </div>
