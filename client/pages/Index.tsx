@@ -651,7 +651,8 @@ export default function Index() {
             {/* Right Side - Description & CTA */}
             <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[226px] flex-shrink-0">
               <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
-                Join our waiting list to begin making more informed investment decisions.
+                Join our waiting list to begin making more informed investment
+                decisions.
               </p>
 
               <div className="flex items-center gap-4">
