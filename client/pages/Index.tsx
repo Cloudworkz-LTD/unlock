@@ -344,15 +344,16 @@ export default function Index() {
       </section>
 
       {/* Underwater Background Section */}
-      <section className="px-4 md:px-8 lg:px-24 py-16 lg:py-24">
+      <section>
         <div className="max-w-7xl mx-auto">
           <div
-            className="relative h-[500px] md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden flex flex-col justify-between items-start p-8 md:p-16 lg:p-24"
+            className="relative h-[500px] md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden flex flex-col justify-between items-start"
             style={{
               backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Fdaf7b67ad79a4dd4805e13de6138450b?format=webp&width=2460')`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
+              padding: "96px 70px 96px 96px",
             }}
           >
             {/* Text Content Layout */}
@@ -374,7 +375,7 @@ export default function Index() {
 
               {/* Bottom Right - Value Proposition */}
               <div className="absolute bottom-0 right-0">
-                <p className="text-unlock-light font-serif text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium leading-[110%] max-w-xl text-right">
+                <p className="text-unlock-light font-serif text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium leading-[110%] max-w-sm text-left" style={{ marginLeft: "-5px" }}>
                   Get detailed reports faster, without the complexity or high
                   costs of traditional due diligence services
                 </p>
