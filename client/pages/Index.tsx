@@ -473,10 +473,19 @@ export default function Index() {
               </h2>
             </div>
 
-            {/* Testimonials Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full">
+            {/* Testimonials Horizontal Scroll */}
+            <div className="flex gap-6 w-full overflow-x-auto pb-4 scrollbar-hide">
+              <style jsx>{`
+                .scrollbar-hide {
+                  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+                  scrollbar-width: none;     /* Firefox */
+                }
+                .scrollbar-hide::-webkit-scrollbar {
+                  display: none;             /* Safari and Chrome */
+                }
+              `}</style>
               {/* Testimonial 1 - Elena Morozova */}
-              <div className="flex flex-col justify-between items-start w-full h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light">
+              <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light flex-shrink-0">
                 <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
                   Unlock transformed the way we assess risk. Their data dashboards are sharp, intuitive, and investor-ready. I finally feel like we're making decisions with clarity, not guesswork
                 </p>
@@ -491,7 +500,7 @@ export default function Index() {
               </div>
 
               {/* Testimonial 2 - John Doe */}
-              <div className="flex flex-col justify-between items-start w-full h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light">
+              <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light flex-shrink-0">
                 <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
                   Unlock's due diligence services have been invaluable in helping me make informed investment decisions. Their meticulous research and analysis have given me the confidence to invest with clarity and certainty.
                 </p>
@@ -506,7 +515,7 @@ export default function Index() {
               </div>
 
               {/* Testimonial 3 - James Carter */}
-              <div className="flex flex-col justify-between items-start w-full h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light">
+              <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light flex-shrink-0">
                 <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
                   Their team doesn't just deliver insights — they uncover opportunities. Thanks to Unlock, we spotted a trend early that became one of our strongest portfolio wins last year.
                 </p>
@@ -521,7 +530,7 @@ export default function Index() {
               </div>
 
               {/* Testimonial 4 - Tariq El-Amin */}
-              <div className="flex flex-col justify-between items-start w-full h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light">
+              <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light flex-shrink-0">
                 <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
                   Before Unlock, our analytics felt like a black box. Now, every metric has a narrative, and every report drives action. It's like having an in-house intelligence unit.
                 </p>
@@ -536,7 +545,7 @@ export default function Index() {
               </div>
 
               {/* Testimonial 5 - Laura Gutiérrez */}
-              <div className="flex flex-col justify-between items-start w-full h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light">
+              <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-gray-light flex-shrink-0">
                 <p className="text-unlock-dark font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
                   Unlock brings precision to a chaotic market. Their investor-focused dashboards helped us streamline our pitch decks and wow LPs with confidence.
                 </p>
@@ -551,7 +560,7 @@ export default function Index() {
               </div>
 
               {/* Testimonial 6 - David Kwan (Dark Card) */}
-              <div className="flex flex-col justify-between items-start w-full h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-dark">
+              <div className="flex flex-col justify-between items-start w-[323px] h-[275px] p-6 md:p-10 rounded-[10px] border border-unlock-gray-medium bg-unlock-dark flex-shrink-0">
                 <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[140%] w-full">
                   We used to rely on generic market reports. Unlock built us a custom analytics engine tailored to our vertical. It's now our competitive edge.
                 </p>
