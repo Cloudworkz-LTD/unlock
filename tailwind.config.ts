@@ -13,6 +13,11 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'aeonik': ['Inter', 'system-ui', 'sans-serif'], // Using Inter as Aeonik substitute
+        'serif': ['Noto Serif', 'Georgia', 'serif'],
+        'sans': ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -58,8 +63,14 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         unlock: {
+          green: "hsl(var(--unlock-green))",
           dark: "hsl(var(--unlock-dark))",
           light: "hsl(var(--unlock-light))",
+          gray: {
+            light: "hsl(var(--unlock-gray-light))",
+            medium: "hsl(var(--unlock-gray-medium))",
+            dark: "hsl(var(--unlock-gray-dark))",
+          },
         },
       },
       borderRadius: {
