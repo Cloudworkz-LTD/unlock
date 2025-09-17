@@ -375,7 +375,10 @@ export default function Index() {
 
               {/* Bottom Right - Value Proposition */}
               <div className="absolute bottom-0 right-0">
-                <p className="text-unlock-light font-serif text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium leading-[110%] max-w-sm text-left" style={{ marginLeft: "-5px" }}>
+                <p
+                  className="text-unlock-light font-serif text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium leading-[110%] max-w-sm text-left"
+                  style={{ marginLeft: "-5px" }}
+                >
                   Get detailed reports faster, without the complexity or high
                   costs of traditional due diligence services
                 </p>
