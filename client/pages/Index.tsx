@@ -595,6 +595,78 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Final CTA Section */}
+      <section className="py-24 lg:py-32 px-4 md:px-8 lg:px-24 bg-unlock-dark relative">
+        <div className="max-w-7xl mx-auto">
+          {/* Decorative SVG Lines */}
+          <div className="absolute inset-0 flex items-end justify-center overflow-hidden">
+            <svg
+              className="w-full max-w-6xl h-auto opacity-50"
+              width="1241"
+              height="394"
+              viewBox="0 0 1241 394"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1047.3 387.582H1.61719V0.898438H1239.39V387.582"
+                stroke="#F5F7F0"
+                strokeWidth="0.83"
+                strokeMiterlimit="10"
+              />
+              <path
+                d="M586.068 387.582H1049.18"
+                stroke="#00BB77"
+                strokeWidth="6"
+                strokeMiterlimit="10"
+              />
+            </svg>
+          </div>
+
+          {/* Content */}
+          <div className="relative flex flex-col lg:flex-row justify-between items-end gap-12 lg:gap-16">
+            {/* Left Side - Lock Icon & Main Text */}
+            <div className="flex items-center gap-8 lg:gap-12 flex-1">
+              {/* Lock Icon */}
+              <svg
+                className="w-16 h-20 lg:w-20 lg:h-32 flex-shrink-0"
+                width="81"
+                height="130"
+                viewBox="0 0 81 130"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M70.0821 64.9911V31.9944C70.0821 11.9569 56.9434 0 34.9478 0C12.9522 0 0 11.9569 0 31.9944V65H10.9179V98.0056C10.9179 118.043 23.9855 130 45.8656 130C67.7458 130 81 118.043 81 98.0056V64.9911H70.0821ZM45.8834 109.661C37.0532 109.661 32.7624 105.678 32.7624 97.4823V65H21.8446V32.5355C21.8446 24.1 26.011 20.1706 34.9656 20.1706C43.9202 20.1706 48.2553 24.1 48.2553 32.5355V64.9911H59.1643V67.0756H59.1732V97.4823C59.1732 105.678 54.8202 109.661 45.8834 109.661Z"
+                  fill="#00BB77"
+                />
+              </svg>
+
+              {/* Main Heading */}
+              <h2 className="text-unlock-green font-aeonik text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-light leading-[110%] tracking-tight max-w-2xl">
+                Start to making more informed investment decisions
+              </h2>
+            </div>
+
+            {/* Right Side - Description & CTA */}
+            <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[226px] flex-shrink-0">
+              <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
+                Join our waiting list to begin making more informed investment decisions.
+              </p>
+
+              <div className="flex items-center gap-4">
+                <UnlockButton
+                  size="default"
+                  className="rounded bg-white text-unlock-dark font-medium uppercase tracking-wide hover:bg-white/90"
+                >
+                  Join Our Waiting List
+                </UnlockButton>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-24 bg-unlock-dark border-t border-unlock-gray-dark/20">
         <div className="container mx-auto max-w-6xl px-4">
