@@ -58,20 +58,20 @@ export default function Index() {
       </section>
 
       {/* Features Section */}
-      <section className="py-24 bg-unlock-light/5">
+      <section className="py-24 bg-unlock-dark border-t border-unlock-gray-dark/20">
         <div className="container mx-auto max-w-6xl px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Why Choose Unlock?
+            <h2 className="text-4xl md:text-5xl font-light font-aeonik text-white mb-6">
+              Why Choose <span className="text-unlock-green">Unlock</span>?
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-unlock-light font-light font-aeonik max-w-2xl mx-auto leading-[1.2]">
               Experience the difference with our cutting-edge features designed
-              to empower your journey.
+              to empower your investment journey.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-8 rounded-lg bg-card border border-border">
+            <div className="text-center p-8 rounded-lg bg-unlock-gray-dark/20 border border-unlock-gray-dark/30">
               <div className="w-16 h-16 bg-unlock-green rounded-full flex items-center justify-center mx-auto mb-6">
                 <svg
                   className="w-8 h-8 text-white"
@@ -87,16 +87,15 @@ export default function Index() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-4">
-                Secure
+              <h3 className="text-xl font-medium font-aeonik text-white mb-4">
+                AI-Powered Analysis
               </h3>
-              <p className="text-muted-foreground">
-                Your data is protected with enterprise-grade security measures
-                and encryption.
+              <p className="text-unlock-light font-light font-aeonik leading-[1.2]">
+                Advanced AI algorithms analyze market data and financial reports to deliver comprehensive insights.
               </p>
             </div>
 
-            <div className="text-center p-8 rounded-lg bg-card border border-border">
+            <div className="text-center p-8 rounded-lg bg-unlock-gray-dark/20 border border-unlock-gray-dark/30">
               <div className="w-16 h-16 bg-unlock-green rounded-full flex items-center justify-center mx-auto mb-6">
                 <svg
                   className="w-8 h-8 text-white"
@@ -112,16 +111,15 @@ export default function Index() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-4">
-                Fast
+              <h3 className="text-xl font-medium font-aeonik text-white mb-4">
+                Expert Validation
               </h3>
-              <p className="text-muted-foreground">
-                Lightning-fast performance ensures you can focus on what matters
-                most.
+              <p className="text-unlock-light font-light font-aeonik leading-[1.2]">
+                Our team of financial experts reviews and validates all reports to ensure accuracy and reliability.
               </p>
             </div>
 
-            <div className="text-center p-8 rounded-lg bg-card border border-border">
+            <div className="text-center p-8 rounded-lg bg-unlock-gray-dark/20 border border-unlock-gray-dark/30">
               <div className="w-16 h-16 bg-unlock-green rounded-full flex items-center justify-center mx-auto mb-6">
                 <svg
                   className="w-8 h-8 text-white"
@@ -137,12 +135,11 @@ export default function Index() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-4">
-                Intuitive
+              <h3 className="text-xl font-medium font-aeonik text-white mb-4">
+                Actionable Insights
               </h3>
-              <p className="text-muted-foreground">
-                Designed with user experience in mind for effortless navigation
-                and use.
+              <p className="text-unlock-light font-light font-aeonik leading-[1.2]">
+                Clear, actionable recommendations that help you make informed investment decisions with confidence.
               </p>
             </div>
           </div>
@@ -150,16 +147,18 @@ export default function Index() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24">
+      <section className="py-24 bg-unlock-dark border-t border-unlock-gray-dark/20">
         <div className="container mx-auto max-w-4xl px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+          <h2 className="text-4xl md:text-5xl font-light font-aeonik text-white mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Join thousands of users who have already unlocked their potential
-            with our platform.
+          <p className="text-lg text-unlock-light font-light font-aeonik mb-8 max-w-2xl mx-auto leading-[1.2]">
+            Join thousands of investors who trust Unlock for their due diligence needs.
           </p>
-          <UnlockButton size="lg" className="min-w-[250px]">
+          <UnlockButton
+            size="lg"
+            className="min-w-[250px] rounded-[10px] bg-unlock-green text-unlock-light font-medium uppercase tracking-wide"
+          >
             Join Now
           </UnlockButton>
         </div>
