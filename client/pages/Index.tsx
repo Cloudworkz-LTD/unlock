@@ -23,7 +23,9 @@ export default function Index() {
 
             {/* Description */}
             <p className="text-lg md:text-xl text-white font-light font-aeonik leading-[1.2] max-w-2xl">
-              Unlock delivers data-backed due diligence reports, using AI and expert analysis to provide investors with clear, actionable insights.
+              Unlock delivers data-backed due diligence reports, using AI and
+              expert analysis to provide investors with clear, actionable
+              insights.
             </p>
 
             {/* Buttons */}
@@ -93,7 +95,8 @@ export default function Index() {
                 AI-Powered Analysis
               </h3>
               <p className="text-unlock-light font-light font-aeonik leading-[1.2]">
-                Advanced AI algorithms analyze market data and financial reports to deliver comprehensive insights.
+                Advanced AI algorithms analyze market data and financial reports
+                to deliver comprehensive insights.
               </p>
             </div>
 
@@ -117,7 +120,8 @@ export default function Index() {
                 Expert Validation
               </h3>
               <p className="text-unlock-light font-light font-aeonik leading-[1.2]">
-                Our team of financial experts reviews and validates all reports to ensure accuracy and reliability.
+                Our team of financial experts reviews and validates all reports
+                to ensure accuracy and reliability.
               </p>
             </div>
 
@@ -141,7 +145,8 @@ export default function Index() {
                 Actionable Insights
               </h3>
               <p className="text-unlock-light font-light font-aeonik leading-[1.2]">
-                Clear, actionable recommendations that help you make informed investment decisions with confidence.
+                Clear, actionable recommendations that help you make informed
+                investment decisions with confidence.
               </p>
             </div>
           </div>
@@ -155,7 +160,8 @@ export default function Index() {
             Ready to Get Started?
           </h2>
           <p className="text-lg text-unlock-light font-light font-aeonik mb-8 max-w-2xl mx-auto leading-[1.2]">
-            Join thousands of investors who trust Unlock for their due diligence needs.
+            Join thousands of investors who trust Unlock for their due diligence
+            needs.
           </p>
           <UnlockButton
             size="lg"
