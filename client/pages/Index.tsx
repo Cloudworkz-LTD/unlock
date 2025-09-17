@@ -470,7 +470,7 @@ export default function Index() {
       {/* Section Divider */}
       <div className="bg-unlock-light">
         <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-24">
-          <div className="h-px bg-gradient-to-r from-transparent via-unlock-gray-medium to-transparent opacity-30"></div>
+          <div className="h-px bg-black"></div>
         </div>
       </div>
 
