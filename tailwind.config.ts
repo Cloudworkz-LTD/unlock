@@ -57,6 +57,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        unlock: {
+          dark: "hsl(var(--unlock-dark))",
+          light: "hsl(var(--unlock-light))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
