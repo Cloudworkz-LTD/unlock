@@ -350,9 +350,9 @@ export default function Index() {
             className="relative h-[500px] md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden flex flex-col justify-between items-start p-8 md:p-16 lg:p-24"
             style={{
               backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Fdaf7b67ad79a4dd4805e13de6138450b?format=webp&width=2460')`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             {/* Text Content Layout */}
@@ -365,14 +365,18 @@ export default function Index() {
               {/* Bottom Left - Description */}
               <div className="absolute bottom-0 left-0">
                 <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[130%] max-w-md lg:max-w-[389px]">
-                  Unlock streamlines the due diligence process with AI-powered risk detection and anomaly analysis, delivering more innovative, faster insights while incorporating expert validation where needed.
+                  Unlock streamlines the due diligence process with AI-powered
+                  risk detection and anomaly analysis, delivering more
+                  innovative, faster insights while incorporating expert
+                  validation where needed.
                 </p>
               </div>
 
               {/* Bottom Right - Value Proposition */}
               <div className="absolute bottom-0 right-0">
                 <p className="text-unlock-light font-serif text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium leading-[110%] max-w-xl text-right">
-                  Get detailed reports faster, without the complexity or high costs of traditional due diligence services
+                  Get detailed reports faster, without the complexity or high
+                  costs of traditional due diligence services
                 </p>
               </div>
             </div>
