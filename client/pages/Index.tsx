@@ -68,9 +68,9 @@ export default function Index() {
             className="relative h-[400px] md:h-[449px] rounded-[10px] overflow-hidden flex items-center px-4 md:px-10 lg:px-10"
             style={{
               backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Ff643326cf0d34403934d58a749837989?format=webp&width=2460')`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             {/* Content would go here - currently empty as per Figma design */}
