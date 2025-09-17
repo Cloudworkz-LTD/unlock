@@ -12,9 +12,15 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    /* Unlock Brand Colors */
+    /* Unlock Brand Colors - Main Colors */
+    --unlock-green: 155 100% 37%; /* #00BB77 */
     --unlock-dark: 236 29% 13%; /* #212023 */
     --unlock-light: 72 38% 96%; /* #F5F7F0 */
+
+    /* Unlock Brand Colors - Secondary Colors */
+    --unlock-gray-light: 72 15% 92%; /* #EBEFE1 */
+    --unlock-gray-medium: 0 0% 83%; /* #D3D3D3 */
+    --unlock-gray-dark: 0 0% 24%; /* #3E3E3E */
 
     --background: 0 0% 100%;
     --foreground: 236 29% 13%;
@@ -25,24 +31,24 @@
     --popover: 0 0% 100%;
     --popover-foreground: 236 29% 13%;
 
-    --primary: 236 29% 13%;
-    --primary-foreground: 72 38% 96%;
+    --primary: 155 100% 37%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 72 38% 96%;
     --secondary-foreground: 236 29% 13%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 72 15% 92%;
+    --muted-foreground: 0 0% 24%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 236 29% 13%;
+    --accent: 155 100% 37%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 72 38% 96%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 236 29% 13%;
+    --border: 0 0% 83%;
+    --input: 0 0% 83%;
+    --ring: 155 100% 37%;
 
     --radius: 0.25rem;
 
