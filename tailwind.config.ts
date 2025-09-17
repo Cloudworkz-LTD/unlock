@@ -14,9 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        'aeonik': ['Inter', 'system-ui', 'sans-serif'], // Using Inter as Aeonik substitute
-        'serif': ['Noto Serif', 'Georgia', 'serif'],
-        'sans': ['Inter', 'system-ui', 'sans-serif'],
+        aeonik: ["Inter", "system-ui", "sans-serif"], // Using Inter as Aeonik substitute
+        serif: ["Noto Serif", "Georgia", "serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

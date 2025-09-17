@@ -8,9 +8,12 @@ const unlockButtonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-unlock-green text-white hover:bg-unlock-green/90 font-medium",
-        secondary: "bg-unlock-light text-unlock-dark hover:bg-unlock-light/90 font-medium",
-        outline: "border border-unlock-green text-unlock-green hover:bg-unlock-green hover:text-white font-medium",
+        default:
+          "bg-unlock-green text-white hover:bg-unlock-green/90 font-medium",
+        secondary:
+          "bg-unlock-light text-unlock-dark hover:bg-unlock-light/90 font-medium",
+        outline:
+          "border border-unlock-green text-unlock-green hover:bg-unlock-green hover:text-white font-medium",
         ghost: "text-unlock-green hover:bg-unlock-green/10 font-medium",
       },
       size: {
@@ -23,7 +26,7 @@ const unlockButtonVariants = cva(
       variant: "default",
       size: "default",
     },
-  }
+  },
 );
 
 export interface UnlockButtonProps
@@ -42,7 +45,7 @@ const UnlockButton = React.forwardRef<HTMLButtonElement, UnlockButtonProps>(
         {...props}
       />
     );
-  }
+  },
 );
 UnlockButton.displayName = "UnlockButton";
 
