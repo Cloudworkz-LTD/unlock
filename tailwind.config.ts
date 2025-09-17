@@ -18,6 +18,10 @@ export default {
         serif: ["Noto Serif", "Georgia", "serif"],
         sans: ["Inter", "system-ui", "sans-serif"],
       },
+      fontWeight: {
+        extralight: "200",
+        light: "300",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
