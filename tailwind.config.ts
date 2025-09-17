@@ -14,9 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        aeonik: ["Inter", "system-ui", "sans-serif"], // Using Inter as Aeonik substitute
-        serif: ["Noto Serif", "Georgia", "serif"],
-        sans: ["Inter", "system-ui", "sans-serif"],
+        aeonik: ["Aeonik", "system-ui", "sans-serif"],
+        serif: ["Noto Serif JP", "Georgia", "serif"],
+        sans: ["Aeonik", "system-ui", "sans-serif"],
       },
       fontWeight: {
         extralight: "200",
