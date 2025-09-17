@@ -2,29 +2,56 @@ import { UnlockButton } from "@/components/ui/unlock-button";
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-unlock-dark">
       {/* Hero Section */}
-      <section className="pt-20 pb-32 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center">
-            <h1 className="text-5xl md:text-7xl font-bold font-aeonik text-foreground mb-6 leading-tight">
-              Welcome to <span className="text-unlock-green">Unlock</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-              Discover endless possibilities and unlock your potential with our
-              innovative platform designed to transform your experience.
+      <section className="px-4 md:px-8 lg:px-24 py-20 lg:py-24">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-28 max-w-7xl mx-auto">
+          {/* Content */}
+          <div className="flex flex-col items-start gap-8 lg:w-2/3">
+            {/* Title Block */}
+            <div className="flex flex-col items-start gap-2 w-full">
+              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-light font-aeonik text-unlock-green leading-[0.81] tracking-[-0.03em] w-full">
+                Due Diligence
+              </h1>
+              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-extralight font-aeonik text-white leading-[0.81] tracking-[-0.03em] w-full">
+                for Smarter
+              </h1>
+              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-extralight font-aeonik text-white leading-[0.81] tracking-[-0.03em] w-full">
+                Investments
+              </h1>
+            </div>
+
+            {/* Description */}
+            <p className="text-lg md:text-xl text-white font-light font-aeonik leading-[1.2] max-w-2xl">
+              Unlock delivers data-backed due diligence reports, using AI and expert analysis to provide investors with clear, actionable insights.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <UnlockButton size="lg" className="min-w-[200px]">
-                Get Started
+
+            {/* Buttons */}
+            <div className="flex flex-col sm:flex-row items-start gap-4">
+              <UnlockButton
+                size="default"
+                className="rounded-[10px] bg-unlock-green text-unlock-light font-medium uppercase tracking-wide"
+              >
+                Join
               </UnlockButton>
               <UnlockButton
                 variant="outline"
-                size="lg"
-                className="min-w-[200px]"
+                size="default"
+                className="rounded-[10px] border-unlock-light text-unlock-light font-medium uppercase tracking-wide hover:bg-unlock-light hover:text-unlock-dark"
               >
                 Learn More
               </UnlockButton>
+            </div>
+          </div>
+
+          {/* Image */}
+          <div className="lg:w-1/3 flex justify-center lg:justify-end">
+            <div className="relative w-72 h-96 md:w-80 md:h-[450px] lg:w-72 lg:h-[450px] rounded-t-full overflow-hidden bg-unlock-gray-medium">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2F8e9ca630e8834bc2a00f25a7399c78fc?format=webp&width=800"
+                alt="Professional businessman in suit"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
           </div>
         </div>
