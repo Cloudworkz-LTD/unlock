@@ -79,7 +79,9 @@ export default function Index() {
                 Make informed investment decisions with clear, factual insights
               </h2>
               <p className="text-unlock-light font-serif text-sm md:text-base font-medium leading-[120%] max-w-xs lg:max-w-[295px]">
-                Our due diligence reports aggregate financial, legal, and operational data from trusted sources, ensuring accuracy and transparency
+                Our due diligence reports aggregate financial, legal, and
+                operational data from trusted sources, ensuring accuracy and
+                transparency
               </p>
             </div>
 
