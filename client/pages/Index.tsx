@@ -347,7 +347,7 @@ export default function Index() {
       <section className="px-4 md:px-8 lg:px-24 py-16 lg:py-24">
         <div className="max-w-7xl mx-auto">
           <div
-            className="relative h-[500px] md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden flex items-start justify-start p-8 md:p-16 lg:p-24"
+            className="relative h-[500px] md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden flex flex-col justify-between items-start p-8 md:p-16 lg:p-24"
             style={{
               backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Fdaf7b67ad79a4dd4805e13de6138450b?format=webp&width=2460')`,
               backgroundSize: 'cover',
@@ -355,9 +355,14 @@ export default function Index() {
               backgroundRepeat: 'no-repeat'
             }}
           >
-            {/* Content can be added here if needed */}
-            <div className="w-full h-full flex items-center justify-center">
-              {/* This section appears to be primarily decorative in the Figma design */}
+            {/* Text Content - Left Aligned */}
+            <div className="flex flex-col justify-between items-start flex-1 self-stretch max-w-3xl">
+              <h2 className="text-unlock-light font-aeonik text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%] max-w-3xl">
+                AI-Enhanced Due Diligence
+              </h2>
+              <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[130%] max-w-md lg:max-w-[389px]">
+                Unlock streamlines the due diligence process with AI-powered risk detection and anomaly analysis, delivering more innovative, faster insights while incorporating expert validation where needed.
+              </p>
             </div>
           </div>
         </div>
