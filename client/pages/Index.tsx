@@ -474,14 +474,10 @@ export default function Index() {
             </div>
 
             {/* Testimonials Horizontal Scroll */}
-            <div className="flex gap-6 w-full overflow-x-auto pb-4 scrollbar-hide">
-              <style jsx>{`
-                .scrollbar-hide {
-                  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-                  scrollbar-width: none;     /* Firefox */
-                }
-                .scrollbar-hide::-webkit-scrollbar {
-                  display: none;             /* Safari and Chrome */
+            <div className="flex gap-6 w-full overflow-x-auto pb-4" style={{scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
+              <style>{`
+                div::-webkit-scrollbar {
+                  display: none;
                 }
               `}</style>
               {/* Testimonial 1 - Elena Morozova */}
