@@ -355,14 +355,26 @@ export default function Index() {
               backgroundRepeat: 'no-repeat'
             }}
           >
-            {/* Text Content - Left Aligned */}
-            <div className="flex flex-col justify-between items-start flex-1 self-stretch max-w-3xl">
+            {/* Text Content Layout */}
+            <div className="relative flex-1 self-stretch w-full">
+              {/* Top Left - Main Title */}
               <h2 className="text-unlock-light font-aeonik text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%] max-w-3xl">
                 AI-Enhanced Due Diligence
               </h2>
-              <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[130%] max-w-md lg:max-w-[389px]">
-                Unlock streamlines the due diligence process with AI-powered risk detection and anomaly analysis, delivering more innovative, faster insights while incorporating expert validation where needed.
-              </p>
+
+              {/* Bottom Left - Description */}
+              <div className="absolute bottom-0 left-0">
+                <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[130%] max-w-md lg:max-w-[389px]">
+                  Unlock streamlines the due diligence process with AI-powered risk detection and anomaly analysis, delivering more innovative, faster insights while incorporating expert validation where needed.
+                </p>
+              </div>
+
+              {/* Bottom Right - Value Proposition */}
+              <div className="absolute bottom-0 right-0">
+                <p className="text-unlock-light font-serif text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium leading-[110%] max-w-xl text-right">
+                  Get detailed reports faster, without the complexity or high costs of traditional due diligence services
+                </p>
+              </div>
             </div>
           </div>
         </div>
