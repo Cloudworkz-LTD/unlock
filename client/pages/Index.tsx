@@ -343,6 +343,26 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Underwater Background Section */}
+      <section className="px-4 md:px-8 lg:px-24 py-16 lg:py-24">
+        <div className="max-w-7xl mx-auto">
+          <div
+            className="relative h-[500px] md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden flex items-start justify-start p-8 md:p-16 lg:p-24"
+            style={{
+              backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Fdaf7b67ad79a4dd4805e13de6138450b?format=webp&width=2460')`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat'
+            }}
+          >
+            {/* Content can be added here if needed */}
+            <div className="w-full h-full flex items-center justify-center">
+              {/* This section appears to be primarily decorative in the Figma design */}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-24 bg-unlock-dark border-t border-unlock-gray-dark/20">
         <div className="container mx-auto max-w-6xl px-4">
