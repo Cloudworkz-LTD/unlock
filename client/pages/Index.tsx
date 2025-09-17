@@ -468,11 +468,7 @@ export default function Index() {
       </section>
 
       {/* Section Divider */}
-      <div className="bg-unlock-light">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-24">
-          <div className="h-px bg-black"></div>
-        </div>
-      </div>
+      <div className="w-full h-px bg-black"></div>
 
       {/* Testimonials Section */}
       <section className="py-16 lg:py-24 px-4 md:px-8 lg:px-24 bg-unlock-light">
