@@ -61,6 +61,23 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Boat Background Section */}
+      <section className="px-4 md:px-8 lg:px-10 py-8 lg:py-12">
+        <div className="max-w-7xl mx-auto">
+          <div
+            className="relative h-[400px] md:h-[449px] rounded-[10px] overflow-hidden flex items-center px-4 md:px-10 lg:px-10"
+            style={{
+              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Ff643326cf0d34403934d58a749837989?format=webp&width=2460')`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat'
+            }}
+          >
+            {/* Content would go here - currently empty as per Figma design */}
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-24 bg-unlock-dark border-t border-unlock-gray-dark/20">
         <div className="container mx-auto max-w-6xl px-4">
