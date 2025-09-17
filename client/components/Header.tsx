@@ -90,7 +90,7 @@ export const Header = () => {
               </Link>
             ))}
           </div>
-          <UnlockButton size="default" className="ml-4">
+          <UnlockButton variant="secondary" size="default" className="ml-4">
             Join
           </UnlockButton>
         </nav>
