@@ -49,7 +49,7 @@ export default function Index() {
             <div className="relative w-72 h-[450px] md:w-80 md:h-[500px] lg:w-72 lg:h-[454px]">
               <div className="w-full h-full rounded-t-full overflow-hidden">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Fe2d3df77f0f141dfa42167108d54aaf2"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2F4906c9fc7ed54a478117acb57b612c45?format=webp&width=800"
                   alt="Professional businessman in suit"
                   className="w-full h-full object-cover object-center"
                 />
