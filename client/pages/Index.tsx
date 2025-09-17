@@ -47,7 +47,7 @@ export default function Index() {
           {/* Image */}
           <div className="lg:w-1/3 flex justify-center lg:justify-end">
             <div className="relative w-72 h-[450px] md:w-80 md:h-[500px] lg:w-72 lg:h-[454px]">
-              <div className="w-full h-full rounded-t-full overflow-hidden">
+              <div className="">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Fe2d3df77f0f141dfa42167108d54aaf2"
                   alt="Professional businessman in suit"
