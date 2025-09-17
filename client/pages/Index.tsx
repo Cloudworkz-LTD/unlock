@@ -7,9 +7,9 @@ export default function Index() {
       <section className="pt-20 pb-32 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center">
-            <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
+            <h1 className="text-5xl md:text-7xl font-bold font-aeonik text-foreground mb-6 leading-tight">
               Welcome to{" "}
-              <span className="text-unlock-dark">Unlock</span>
+              <span className="text-unlock-green">Unlock</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
               Discover endless possibilities and unlock your potential with our innovative platform designed to transform your experience.
@@ -52,8 +52,8 @@ export default function Index() {
             </div>
 
             <div className="text-center p-8 rounded-lg bg-card border border-border">
-              <div className="w-16 h-16 bg-unlock-dark rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-unlock-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 bg-unlock-green rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
@@ -64,8 +64,8 @@ export default function Index() {
             </div>
 
             <div className="text-center p-8 rounded-lg bg-card border border-border">
-              <div className="w-16 h-16 bg-unlock-dark rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-unlock-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 bg-unlock-green rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
