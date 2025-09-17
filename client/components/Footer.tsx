@@ -147,7 +147,10 @@ export const Footer = () => {
 
             {/* Newsletter Subscription */}
             <div className="flex flex-col sm:flex-row items-start gap-2.5 w-full">
-              <form onSubmit={handleSubscribe} className="flex flex-col w-full sm:w-[360px] gap-1">
+              <form
+                onSubmit={handleSubscribe}
+                className="flex flex-col w-full sm:w-[360px] gap-1"
+              >
                 <input
                   type="email"
                   value={email}
@@ -157,7 +160,8 @@ export const Footer = () => {
                   required
                 />
                 <p className="text-[#737373] text-[10px] leading-[120%] font-aeonik max-w-[313px]">
-                  By subscribing, you agree to our Privacy Policy and consent to receive updates from our company.
+                  By subscribing, you agree to our Privacy Policy and consent to
+                  receive updates from our company.
                 </p>
               </form>
               <UnlockButton
