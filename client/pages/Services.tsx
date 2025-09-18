@@ -260,7 +260,10 @@ export default function Services() {
                 Quick Insights for Informed Preliminary Investment Decisions
               </h4>
               <p className="text-unlock-dark font-aeonik text-base leading-[1.3]">
-                Unlock's Snapshot Report offers a rapid overview of a business's potential and current standing. It provides preliminary insights based on publicly available data, helping investors identify red flags and assess potential investments efficiently.
+                Unlock's Snapshot Report offers a rapid overview of a business's
+                potential and current standing. It provides preliminary insights
+                based on publicly available data, helping investors identify red
+                flags and assess potential investments efficiently.
               </p>
             </div>
 
@@ -269,7 +272,8 @@ export default function Services() {
               <div className="flex flex-col">
                 <div className="flex items-start gap-3 py-4 px-3 border-b border-gray-300">
                   <p className="flex-1 text-unlock-dark font-aeonik text-lg leading-[1.3]">
-                    Quickly assess business potential with Unlock's Snapshot Report.
+                    Quickly assess business potential with Unlock's Snapshot
+                    Report.
                   </p>
                 </div>
                 <div className="flex items-start gap-3 py-4 px-3 border-b border-gray-300">
@@ -304,7 +308,9 @@ export default function Services() {
               {/* Testimonial 1 - Elena Morozova */}
               <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-gray-light border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
                 <p className="text-unlock-dark font-aeonik text-base font-light leading-[1.4]">
-                  Unlock transformed the way we assess risk. Their data dashboards are sharp, intuitive, and investor-ready. I finally feel like we're making decisions with clarity, not guesswork
+                  Unlock transformed the way we assess risk. Their data
+                  dashboards are sharp, intuitive, and investor-ready. I finally
+                  feel like we're making decisions with clarity, not guesswork
                 </p>
                 <div className="flex flex-col">
                   <h4 className="text-unlock-dark font-aeonik text-base font-normal leading-[1.5]">
@@ -319,7 +325,10 @@ export default function Services() {
               {/* Testimonial 2 - John Doe */}
               <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-gray-light border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
                 <p className="text-unlock-dark font-aeonik text-base font-light leading-[1.4]">
-                  Unlock's due diligence services have been invaluable in helping me make informed investment decisions. Their meticulous research and analysis have given me the confidence to invest with clarity and certainty.
+                  Unlock's due diligence services have been invaluable in
+                  helping me make informed investment decisions. Their
+                  meticulous research and analysis have given me the confidence
+                  to invest with clarity and certainty.
                 </p>
                 <div className="flex flex-col">
                   <h4 className="text-unlock-dark font-aeonik text-base font-normal leading-[1.5]">
@@ -334,7 +343,9 @@ export default function Services() {
               {/* Testimonial 3 - James Carter */}
               <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-gray-light border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
                 <p className="text-unlock-dark font-aeonik text-base font-light leading-[1.4]">
-                  Their team doesn't just deliver insights — they uncover opportunities. Thanks to Unlock, we spotted a trend early that became one of our strongest portfolio wins last year.
+                  Their team doesn't just deliver insights — they uncover
+                  opportunities. Thanks to Unlock, we spotted a trend early that
+                  became one of our strongest portfolio wins last year.
                 </p>
                 <div className="flex flex-col">
                   <h4 className="text-unlock-dark font-aeonik text-base font-normal leading-[1.5]">
@@ -349,7 +360,9 @@ export default function Services() {
               {/* Testimonial 4 - Tariq El-Amin */}
               <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-gray-light border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
                 <p className="text-unlock-dark font-aeonik text-base font-light leading-[1.4]">
-                  Before Unlock, our analytics felt like a black box. Now, every metric has a narrative, and every report drives action. It's like having an in-house intelligence unit.
+                  Before Unlock, our analytics felt like a black box. Now, every
+                  metric has a narrative, and every report drives action. It's
+                  like having an in-house intelligence unit.
                 </p>
                 <div className="flex flex-col">
                   <h4 className="text-unlock-dark font-aeonik text-base font-normal leading-[1.5]">
@@ -364,7 +377,9 @@ export default function Services() {
               {/* Testimonial 5 - Laura Gutiérrez */}
               <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-gray-light border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
                 <p className="text-unlock-dark font-aeonik text-base font-light leading-[1.4]">
-                  Unlock brings precision to a chaotic market. Their investor-focused dashboards helped us streamline our pitch decks and wow LPs with confidence.
+                  Unlock brings precision to a chaotic market. Their
+                  investor-focused dashboards helped us streamline our pitch
+                  decks and wow LPs with confidence.
                 </p>
                 <div className="flex flex-col">
                   <h4 className="text-unlock-dark font-aeonik text-base font-normal leading-[1.5]">
@@ -379,7 +394,9 @@ export default function Services() {
               {/* Testimonial 6 - David Kwan (Featured) */}
               <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-dark border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
                 <p className="text-unlock-light font-aeonik text-base font-light leading-[1.4]">
-                  We used to rely on generic market reports. Unlock built us a custom analytics engine tailored to our vertical. It's now our competitive edge.
+                  We used to rely on generic market reports. Unlock built us a
+                  custom analytics engine tailored to our vertical. It's now our
+                  competitive edge.
                 </p>
                 <div className="flex flex-col">
                   <h4 className="text-unlock-light font-aeonik text-base font-normal leading-[1.5]">
