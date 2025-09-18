@@ -165,7 +165,7 @@ export const Footer = () => {
                 </p>
               </form>
               <UnlockButton
-                variant="primary"
+                variant="default"
                 onClick={handleSubscribe}
                 className="mt-1 sm:mt-0 px-8 py-2.5 text-sm font-medium uppercase"
               >
