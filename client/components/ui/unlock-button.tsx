@@ -17,7 +17,8 @@ const unlockButtonVariants = cva(
         ghost: "text-unlock-green hover:bg-unlock-green/10 font-medium",
       },
       size: {
-        default: "px-8 py-[10px] text-sm font-medium uppercase tracking-wide leading-[150%]",
+        default:
+          "px-8 py-[10px] text-sm font-medium uppercase tracking-wide leading-[150%]",
         sm: "px-6 py-2 text-xs font-medium uppercase tracking-wide leading-[150%]",
         lg: "px-10 py-3 text-base font-medium uppercase tracking-wide leading-[150%]",
       },
