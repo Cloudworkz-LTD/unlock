@@ -170,7 +170,9 @@ export default function Services() {
             {/* Left Content */}
             <div className="flex flex-col justify-between h-auto lg:h-[265px] max-w-[356px] w-full">
               <p className="text-white font-aeonik text-base leading-[1.5] mb-8 lg:mb-0">
-                Investors often face challenges in obtaining reliable and comprehensive information about potential investments, leading to uncertainty and missed opportunities.
+                Investors often face challenges in obtaining reliable and
+                comprehensive information about potential investments, leading
+                to uncertainty and missed opportunities.
               </p>
               <div className="flex justify-start">
                 <UnlockButton
@@ -200,7 +202,8 @@ export default function Services() {
                     Snapshot Reports
                   </h3>
                   <p className="text-white font-aeonik text-base font-light leading-[1.5] max-w-[293px]">
-                    Get a quick, "at a glance" understanding of a business's potential and current standing.
+                    Get a quick, "at a glance" understanding of a business's
+                    potential and current standing.
                   </p>
                 </div>
               </div>
@@ -220,7 +223,8 @@ export default function Services() {
                     Deep Dive Reports
                   </h3>
                   <p className="text-white font-aeonik text-base font-light leading-[1.5] max-w-[287px]">
-                    Gain comprehensive analysis and insights through active participation from the business being analysed.
+                    Gain comprehensive analysis and insights through active
+                    participation from the business being analysed.
                   </p>
                 </div>
               </div>
