@@ -411,6 +411,115 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      {/* Pricing Options Section */}
+      <section className="px-4 sm:px-8 md:px-16 lg:px-[100px] pt-16 lg:pt-[100px] pb-8 lg:pb-[50px]">
+        <div className="flex flex-col gap-6">
+          {/* Section Header */}
+          <div className="flex flex-col gap-6 max-w-[817px]">
+            <h2 className="text-white font-aeonik text-3xl sm:text-4xl md:text-5xl lg:text-[60px] font-light leading-[1.1] max-w-[572px]">
+              Pricing Options
+            </h2>
+            <p className="text-unlock-light font-aeonik text-base font-light leading-[1.5]">
+              Unlock offers transparent pricing options for our services. Choose our Free Plan and gain access to example due diligence reports, investment risk assessment, market analysis and trends, competitor analysis, financial performance evaluation, investment recommendations, 24/7 customer support, monthly investment insights, and risk management strategies. Get started today and make smarter, more informed investment decisions.
+            </p>
+          </div>
+
+          {/* Pricing Cards */}
+          <div className="flex flex-col lg:flex-row gap-0">
+            {/* Observer Plan */}
+            <div className="flex-1 h-auto lg:h-[474px] p-8 border border-unlock-gray-dark flex flex-col justify-between">
+              <div className="flex flex-col gap-10">
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-unlock-light font-aeonik text-2xl lg:text-[32px] font-medium leading-[1.1] tracking-[-0.64px]">
+                    Observer
+                  </h3>
+                  <p className="text-unlock-light font-aeonik text-base font-medium leading-[1.1] tracking-[-0.32px]">
+                    For curious investors and first-time users
+                  </p>
+                </div>
+                <div className="text-unlock-light font-aeonik text-base font-light leading-[1.3] tracking-[-0.32px]">
+                  <p>Browse the opportunity directory (limited filters)</p>
+                  <p>View 1 summary due diligence report per month</p>
+                  <p>View syndicate deal activity (join at a nominal, one-time fee)</p>
+                  <p>Add companies to watchlist</p>
+                  <p>Participate in community discussions</p>
+                </div>
+              </div>
+              <div className="flex flex-col max-w-[165px] mt-8 lg:mt-0">
+                <div className="text-unlock-light font-aeonik text-3xl lg:text-[48px] font-normal leading-[1] tracking-[-0.96px]">
+                  £0
+                </div>
+                <div className="text-unlock-light text-center font-aeonik text-lg lg:text-xl font-medium leading-[1] tracking-[-0.4px]">
+                  per month
+                </div>
+              </div>
+            </div>
+
+            {/* Investor Plan (Featured) */}
+            <div className="flex-1 h-auto lg:h-[474px] p-8 bg-unlock-gray-dark flex flex-col justify-between">
+              <div className="flex flex-col gap-10">
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-unlock-green font-aeonik text-2xl lg:text-[32px] font-medium leading-[1.1] tracking-[-0.64px]">
+                    Investor
+                  </h3>
+                  <p className="text-unlock-light font-aeonik text-base font-medium leading-[1.1] tracking-[-0.32px]">
+                    Active individual investors using research and co-investment tools
+                  </p>
+                </div>
+                <div className="text-unlock-light font-aeonik text-base font-light leading-[1.3] tracking-[-0.32px]">
+                  <p>Full access to due diligence reports</p>
+                  <p>Request up to 3 new reports/month</p>
+                  <p>Join 1 group investment per month (included)</p>
+                  <p>Additional syndicate joins at a 15% discounted nominal cost</p>
+                  <p>Bookmark, track, and follow opportunities</p>
+                  <p>Alerts on new opportunities & report releases</p>
+                  <p>Monthly webinars or insights</p>
+                </div>
+              </div>
+              <div className="flex flex-col mt-8 lg:mt-0">
+                <div className="text-unlock-green font-aeonik text-3xl lg:text-[48px] font-normal leading-[1] tracking-[-0.96px]">
+                  £99
+                </div>
+                <div className="text-unlock-green font-aeonik text-lg lg:text-xl font-medium leading-[1] tracking-[-0.4px]">
+                  per month
+                </div>
+              </div>
+            </div>
+
+            {/* Investor+ Plan */}
+            <div className="flex-1 h-auto lg:h-[474px] p-8 border border-unlock-gray-dark flex flex-col justify-between">
+              <div className="flex flex-col gap-10">
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-unlock-light font-aeonik text-2xl lg:text-[32px] font-medium leading-[1.1] tracking-[-0.64px]">
+                    Investor+
+                  </h3>
+                  <p className="text-unlock-light font-aeonik text-base font-medium leading-[1.1] tracking-[-0.32px]">
+                    Power users who want maximum access, insight, and flexibility
+                  </p>
+                </div>
+                <div className="text-unlock-light font-aeonik text-base font-light leading-[1.3] tracking-[-0.32px]">
+                  <p>All Investor Tier benefits</p>
+                  <p>Join 3 syndicates per month included</p>
+                  <p>10+ due diligence requests/month</p>
+                  <p>Early-access or exclusive deals</p>
+                  <p>Access to investor-only discussion channels or expert sessions</p>
+                  <p>1 free syndicate setup (SPV) per year (only if used)</p>
+                  <p>Priority support</p>
+                </div>
+              </div>
+              <div className="flex flex-col mt-8 lg:mt-0">
+                <div className="text-unlock-light font-aeonik text-3xl lg:text-[48px] font-normal leading-[1] tracking-[-0.96px]">
+                  £249
+                </div>
+                <div className="text-unlock-light font-aeonik text-lg lg:text-xl font-medium leading-[1] tracking-[-0.4px]">
+                  per month
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
