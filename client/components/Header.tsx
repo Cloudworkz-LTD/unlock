@@ -113,19 +113,23 @@ export const Header = () => {
           <div
             className="fixed inset-0 z-50 md:hidden flex flex-col"
             style={{
-              backgroundColor: '#212023',
-              position: 'fixed',
+              backgroundColor: "#212023",
+              position: "fixed",
               top: 0,
               left: 0,
               right: 0,
               bottom: 0,
-              width: '100vw',
-              height: '100vh'
+              width: "100vw",
+              height: "100vh",
             }}
           >
             {/* Header with Logo and Close Button */}
             <div className="h-20 flex items-center justify-between px-4">
-              <Link to="/" className="flex-shrink-0" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link
+                to="/"
+                className="flex-shrink-0"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
                 <svg
                   className="w-[94px] h-6 flex-shrink-0"
                   width="95"
