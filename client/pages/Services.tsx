@@ -13,19 +13,21 @@ export default function Services() {
         <div className="container mx-auto max-w-7xl">
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-[113px] text-center lg:text-left">
             {/* Hero Content */}
-            <div className="flex-1 max-w-2xl">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                Our Services
-              </h1>
-              <p className="text-lg sm:text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-                Unlock your potential with our comprehensive range of professional services designed to transform your business.
+            <div className="flex flex-col items-center gap-8 max-w-4xl mx-auto text-center">
+              <div className="flex flex-col items-center gap-2">
+                <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-[140px] font-extralight text-white leading-[0.81] tracking-[-4.2px] mb-0">
+                  Informed Investing, Simplified
+                </h1>
+              </div>
+              <p className="max-w-[629px] text-white text-lg sm:text-xl font-light leading-[1.2] mb-0">
+                Discover our comprehensive due diligence solutions for smarter investment decisions.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <UnlockButton size="lg" className="bg-unlock-green hover:bg-unlock-green/90 text-white">
-                  Explore Services
-                </UnlockButton>
-                <UnlockButton variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-unlock-dark">
-                  Get Started
+              <div className="flex items-center gap-4">
+                <UnlockButton
+                  size="lg"
+                  className="bg-unlock-green hover:bg-unlock-green/90 text-unlock-light px-8 py-3 rounded-[10px] uppercase text-sm font-medium tracking-wider"
+                >
+                  JOIN
                 </UnlockButton>
               </div>
             </div>
