@@ -421,7 +421,13 @@ export default function Services() {
               Pricing Options
             </h2>
             <p className="text-unlock-light font-aeonik text-base font-light leading-[1.5]">
-              Unlock offers transparent pricing options for our services. Choose our Free Plan and gain access to example due diligence reports, investment risk assessment, market analysis and trends, competitor analysis, financial performance evaluation, investment recommendations, 24/7 customer support, monthly investment insights, and risk management strategies. Get started today and make smarter, more informed investment decisions.
+              Unlock offers transparent pricing options for our services. Choose
+              our Free Plan and gain access to example due diligence reports,
+              investment risk assessment, market analysis and trends, competitor
+              analysis, financial performance evaluation, investment
+              recommendations, 24/7 customer support, monthly investment
+              insights, and risk management strategies. Get started today and
+              make smarter, more informed investment decisions.
             </p>
           </div>
 
@@ -441,7 +447,10 @@ export default function Services() {
                 <div className="text-unlock-light font-aeonik text-base font-light leading-[1.3] tracking-[-0.32px]">
                   <p>Browse the opportunity directory (limited filters)</p>
                   <p>View 1 summary due diligence report per month</p>
-                  <p>View syndicate deal activity (join at a nominal, one-time fee)</p>
+                  <p>
+                    View syndicate deal activity (join at a nominal, one-time
+                    fee)
+                  </p>
                   <p>Add companies to watchlist</p>
                   <p>Participate in community discussions</p>
                 </div>
@@ -464,14 +473,17 @@ export default function Services() {
                     Investor
                   </h3>
                   <p className="text-unlock-light font-aeonik text-base font-medium leading-[1.1] tracking-[-0.32px]">
-                    Active individual investors using research and co-investment tools
+                    Active individual investors using research and co-investment
+                    tools
                   </p>
                 </div>
                 <div className="text-unlock-light font-aeonik text-base font-light leading-[1.3] tracking-[-0.32px]">
                   <p>Full access to due diligence reports</p>
                   <p>Request up to 3 new reports/month</p>
                   <p>Join 1 group investment per month (included)</p>
-                  <p>Additional syndicate joins at a 15% discounted nominal cost</p>
+                  <p>
+                    Additional syndicate joins at a 15% discounted nominal cost
+                  </p>
                   <p>Bookmark, track, and follow opportunities</p>
                   <p>Alerts on new opportunities & report releases</p>
                   <p>Monthly webinars or insights</p>
@@ -495,7 +507,8 @@ export default function Services() {
                     Investor+
                   </h3>
                   <p className="text-unlock-light font-aeonik text-base font-medium leading-[1.1] tracking-[-0.32px]">
-                    Power users who want maximum access, insight, and flexibility
+                    Power users who want maximum access, insight, and
+                    flexibility
                   </p>
                 </div>
                 <div className="text-unlock-light font-aeonik text-base font-light leading-[1.3] tracking-[-0.32px]">
@@ -503,7 +516,10 @@ export default function Services() {
                   <p>Join 3 syndicates per month included</p>
                   <p>10+ due diligence requests/month</p>
                   <p>Early-access or exclusive deals</p>
-                  <p>Access to investor-only discussion channels or expert sessions</p>
+                  <p>
+                    Access to investor-only discussion channels or expert
+                    sessions
+                  </p>
                   <p>1 free syndicate setup (SPV) per year (only if used)</p>
                   <p>Priority support</p>
                 </div>
