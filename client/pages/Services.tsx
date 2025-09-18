@@ -79,7 +79,13 @@ export default function Services() {
                     Risk Mitigation for Investors
                   </h3>
                   <p className="text-unlock-light font-aeonik text-base font-light leading-[1.5]">
-                    Our mission is to ensure that every investor gets access to high-quality, detailed insights to make informed investment decisions. We started with a simple goal: to provide clarity in a complex investment landscape. Over the years, we've grown into a trusted partner for investors worldwide, helping them navigate investment opportunities with confidence.
+                    Our mission is to ensure that every investor gets access to
+                    high-quality, detailed insights to make informed investment
+                    decisions. We started with a simple goal: to provide clarity
+                    in a complex investment landscape. Over the years, we've
+                    grown into a trusted partner for investors worldwide,
+                    helping them navigate investment opportunities with
+                    confidence.
                   </p>
                 </div>
               </div>
@@ -93,10 +99,13 @@ export default function Services() {
                 />
                 <div className="flex flex-col gap-4">
                   <h3 className="text-unlock-green font-aeonik text-2xl lg:text-[32px] font-normal leading-[1.2]">
-                    Our Commitment to Transparency and Trust: Building Strong Relationships
+                    Our Commitment to Transparency and Trust: Building Strong
+                    Relationships
                   </h3>
                   <p className="text-unlock-light font-aeonik text-base font-light leading-[1.5]">
-                    Unlock is committed to fostering transparency and trust in the investment process through open and honest communication of our due diligence findings.
+                    Unlock is committed to fostering transparency and trust in
+                    the investment process through open and honest communication
+                    of our due diligence findings.
                   </p>
                 </div>
               </div>
@@ -116,7 +125,10 @@ export default function Services() {
                     Due Diligence Made Accessible
                   </h3>
                   <p className="text-unlock-light font-aeonik text-base font-light leading-[1.5]">
-                    Unlock democratises access to thorough and reliable due diligence, enabling more investors to benefit from high-quality investment analysis without the prohibitive costs.
+                    Unlock democratises access to thorough and reliable due
+                    diligence, enabling more investors to benefit from
+                    high-quality investment analysis without the prohibitive
+                    costs.
                   </p>
                 </div>
               </div>
@@ -130,10 +142,13 @@ export default function Services() {
                 />
                 <div className="flex flex-col gap-4">
                   <h3 className="text-unlock-green font-aeonik text-2xl lg:text-[32px] font-normal leading-[1.2]">
-                    Unlock's Educational Resource Hub: Empowering Investors with Knowledge
+                    Unlock's Educational Resource Hub: Empowering Investors with
+                    Knowledge
                   </h3>
                   <p className="text-unlock-light font-aeonik text-base font-light leading-[1.5]">
-                    Our website is your go-to resource hub for learning about due diligence, investment strategies, and market insights through blogs, tutorials, and webinars.
+                    Our website is your go-to resource hub for learning about
+                    due diligence, investment strategies, and market insights
+                    through blogs, tutorials, and webinars.
                   </p>
                 </div>
               </div>
