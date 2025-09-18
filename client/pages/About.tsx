@@ -187,6 +187,27 @@ export default function About() {
         </div>
       </section>
 
+      {/* Our Inspiration Section */}
+      <section className="py-16 lg:py-20 xl:py-24 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-36 bg-unlock-green">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-16">
+            {/* Left - Heading */}
+            <div className="flex-1">
+              <h2 className="text-white font-aeonik text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%] tracking-[-0.02em]">
+                Our Inspiration
+              </h2>
+            </div>
+
+            {/* Right - Description */}
+            <div className="w-full lg:max-w-[690px]">
+              <p className="text-white font-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold leading-[110%]">
+                Unlock was born out of the need to provide investors with comprehensive insights and guidance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission Section */}
       <section className="py-16 lg:py-24 px-4 md:px-8 lg:px-24 bg-unlock-light">
         <div className="max-w-7xl mx-auto">
