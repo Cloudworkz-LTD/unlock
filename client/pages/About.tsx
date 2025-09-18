@@ -326,10 +326,36 @@ export default function About() {
         </div>
       </section>
 
-      {/* Final CTA Section with Logo */}
-      <section className="py-24 lg:py-32 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-36 bg-unlock-dark">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col lg:flex-row justify-between items-end gap-12 lg:gap-16">
+      {/* Final CTA Section with Decorative Frame */}
+      <section className="flex flex-col items-center bg-unlock-dark">
+        <div className="relative w-full max-w-[1241px] min-h-[574px]">
+          {/* Decorative SVG Border Frame */}
+          <div className="absolute inset-0 flex items-start justify-center overflow-hidden pointer-events-none">
+            <svg
+              className="w-full max-w-[1241px] h-[394px] absolute top-[115px]"
+              width="1242"
+              height="394"
+              viewBox="0 0 1242 394"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1047.8 387.582H2.11719V0.898438H1239.89V387.582"
+                stroke="#F5F7F0"
+                strokeWidth="0.83"
+                strokeMiterlimit="10"
+              />
+              <path
+                d="M586.568 387.582H1049.68"
+                stroke="#00BB77"
+                strokeWidth="6"
+                strokeMiterlimit="10"
+              />
+            </svg>
+          </div>
+
+          {/* Content Container */}
+          <div className="relative z-10 w-full h-[574px] px-4 md:px-8 lg:px-20 py-16 lg:py-24 xl:py-32 flex flex-col lg:flex-row justify-between items-end gap-12 lg:gap-16">
             {/* Left Side - Logo & Heading */}
             <div className="flex items-center gap-12 lg:gap-16 flex-1">
               {/* Lock Icon */}
@@ -349,7 +375,7 @@ export default function About() {
 
               {/* Mixed Color Heading */}
               <div className="max-w-[687px]">
-                <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal font-aeonik leading-[90%]">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-normal font-aeonik leading-[90%]">
                   <span className="text-unlock-light">Unlock: </span>
                   <span className="text-unlock-green">
                     Connecting Investors Through Insights
