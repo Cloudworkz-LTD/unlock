@@ -538,26 +538,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Final CTA Section */}
-      <section className="py-20 lg:py-32 px-4 md:px-8 lg:px-24 bg-unlock-dark">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col items-center gap-8 text-center">
-            <h2 className="text-unlock-green font-aeonik text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%] max-w-4xl">
-              Ready to unlock smarter investment decisions?
-            </h2>
-            <p className="text-unlock-light font-aeonik text-lg md:text-xl font-light leading-[130%] max-w-2xl">
-              Join our waiting list and be among the first to experience the
-              future of due diligence.
-            </p>
-            <UnlockButton
-              size="default"
-              className="rounded-[10px] bg-unlock-green text-unlock-light font-medium uppercase tracking-wide hover:bg-unlock-green/90"
-            >
-              Join Our Waiting List
-            </UnlockButton>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
