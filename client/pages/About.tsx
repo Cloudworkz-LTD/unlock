@@ -355,7 +355,7 @@ export default function About() {
           </div>
 
           {/* Content Container */}
-          <div className="relative z-10 w-full h-[574px] px-4 md:px-8 lg:px-20 py-16 lg:py-24 xl:py-32 flex flex-col lg:flex-row justify-between items-end gap-12 lg:gap-16">
+          <div className="relative z-10 w-full h-[574px] px-20 pt-[50px] pb-32 flex flex-col lg:flex-row justify-between items-end gap-12 lg:gap-16">
             {/* Left Side - Logo & Heading */}
             <div className="flex items-center gap-12 lg:gap-16 flex-1">
               {/* Lock Icon */}
