@@ -138,7 +138,7 @@ export default function About() {
 
       {/* Underwater Background Section */}
       <section
-        className="relative flex flex-col items-start min-h-[469px] py-16 lg:py-20 xl:py-24 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-36"
+        className="relative flex flex-col items-center min-h-[469px] py-8 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-36"
         style={{
           backgroundImage: `url('https://api.builder.io/api/v1/image/assets/TEMP/370eeb296a8b4a65a63c48a44464742bee4db7fa?width=2880')`,
           backgroundSize: "100% 384.362%",
@@ -147,7 +147,38 @@ export default function About() {
           backgroundColor: "lightgray",
         }}
       >
-        {/* This section serves as a visual break with the underwater background */}
+        <div className="flex flex-col items-center gap-16 lg:gap-20 w-full max-w-7xl">
+          {/* Title */}
+          <div className="flex flex-col items-start w-full max-w-[416px]">
+            <h2 className="text-unlock-light font-aeonik text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%] tracking-[-0.02em] w-full">
+              Investor Insights
+            </h2>
+          </div>
+
+          {/* Insights Grid */}
+          <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-16 xl:gap-[70px] w-full">
+            {/* Insight 1 */}
+            <div className="flex-1">
+              <p className="text-unlock-light font-aeonik text-base font-light leading-[130%] tracking-[-0.02em]">
+                Over four in ten (45%) self-directed investors do not view 'losing some money' as a potential risk of investing, despite disclaimers​
+              </p>
+            </div>
+
+            {/* Insight 2 */}
+            <div className="flex-1">
+              <p className="text-unlock-light font-aeonik text-base font-light leading-[130%] tracking-[-0.02em]">
+                38% of self-directed investors are driven solely by emotional and social motivations, especially those involved in high-risk, high-return investments
+              </p>
+            </div>
+
+            {/* Insight 3 */}
+            <div className="flex-1">
+              <p className="text-unlock-light font-aeonik text-base font-light leading-[130%] tracking-[-0.02em]">
+                41% of newer self-directed investors believe that losing some of the money they invest is a genuine risk, indicating lower risk awareness
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Mission Section */}
