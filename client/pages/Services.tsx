@@ -4,10 +4,10 @@ export default function Services() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section 
+      <section
         className="relative flex items-center justify-center min-h-[722px] px-4 sm:px-8 md:px-16 lg:px-[100px] bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('https://api.builder.io/api/v1/image/assets/TEMP/9ec8aa91ee034596b7a7289cf1af4e9adbb76aed?width=2880')`
+          backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('https://api.builder.io/api/v1/image/assets/TEMP/9ec8aa91ee034596b7a7289cf1af4e9adbb76aed?width=2880')`,
         }}
       >
         <div className="container mx-auto max-w-7xl">
@@ -20,7 +20,8 @@ export default function Services() {
                 </h1>
               </div>
               <p className="max-w-[629px] text-white text-lg sm:text-xl font-light leading-[1.2] mb-0">
-                Discover our comprehensive due diligence solutions for smarter investment decisions.
+                Discover our comprehensive due diligence solutions for smarter
+                investment decisions.
               </p>
               <div className="flex items-center gap-4">
                 <UnlockButton
@@ -42,15 +43,18 @@ export default function Services() {
             What We Offer
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Discover our comprehensive range of services designed to unlock your potential and drive your success forward.
+            Discover our comprehensive range of services designed to unlock your
+            potential and drive your success forward.
           </p>
-          
+
           <div className="bg-unlock-light/5 rounded-lg p-8">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
               Services Content Coming Soon
             </h3>
             <p className="text-muted-foreground mb-6">
-              We're working on adding detailed service offerings. Continue prompting to help us build out this section with specific services, features, and pricing.
+              We're working on adding detailed service offerings. Continue
+              prompting to help us build out this section with specific
+              services, features, and pricing.
             </p>
             <UnlockButton variant="outline">Help Us Build This</UnlockButton>
           </div>
