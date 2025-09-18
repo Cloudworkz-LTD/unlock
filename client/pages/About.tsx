@@ -136,6 +136,20 @@ export default function About() {
         </div>
       </section>
 
+      {/* Underwater Background Section */}
+      <section
+        className="relative flex flex-col items-start min-h-[469px] py-16 lg:py-20 xl:py-24 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-36"
+        style={{
+          backgroundImage: `url('https://api.builder.io/api/v1/image/assets/TEMP/370eeb296a8b4a65a63c48a44464742bee4db7fa?width=2880')`,
+          backgroundSize: "100% 384.362%",
+          backgroundPosition: "0px -666.828px",
+          backgroundRepeat: "no-repeat",
+          backgroundColor: "lightgray",
+        }}
+      >
+        {/* This section serves as a visual break with the underwater background */}
+      </section>
+
       {/* Mission Section */}
       <section className="py-16 lg:py-24 px-4 md:px-8 lg:px-24 bg-unlock-light">
         <div className="max-w-7xl mx-auto">
