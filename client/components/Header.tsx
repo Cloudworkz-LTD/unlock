@@ -108,28 +108,126 @@ export const Header = () => {
           )}
         </button>
 
-        {/* Mobile Navigation */}
+        {/* Mobile Navigation - Full Screen Overlay */}
         {isMobileMenuOpen && (
-          <div className="absolute top-full left-0 right-0 bg-unlock-dark border-t border-unlock-light/10 md:hidden">
-            <nav className="container mx-auto px-4 py-6">
-              <div className="flex flex-col gap-4">
-                {navigationItems.map((item) => (
-                  <Link
-                    key={item.name}
-                    to={item.href}
-                    className="text-unlock-light font-normal text-base leading-6 hover:text-unlock-light/80 transition-colors py-2"
+          <div className="fixed inset-0 bg-unlock-dark z-50 md:hidden flex flex-col">
+            {/* Header with Logo and Close Button */}
+            <div className="h-20 flex items-center justify-between px-4">
+              <Link to="/" className="flex-shrink-0" onClick={() => setIsMobileMenuOpen(false)}>
+                <svg
+                  className="w-[94px] h-6 flex-shrink-0"
+                  width="95"
+                  height="25"
+                  viewBox="0 0 95 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clipPath="url(#clip0_mobile_menu)">
+                    <rect width="94.3196" height="24.0659" fill="#212023" />
+                    <path
+                      d="M8.91712 18.0348C8.91712 19.5957 8.14693 20.3228 6.49159 20.3228C4.83626 20.3228 4.06607 19.5957 4.06607 18.0348V0.328125H0V18.1349C0 21.8443 2.42716 24.0584 6.49324 24.0584C10.5593 24.0584 12.9881 21.8459 12.9881 18.1382V0.328125H8.91876V18.0348H8.91712Z"
+                      fill="#F5F7F0"
+                    />
+                    <path
+                      d="M25.9822 10.5181C25.9822 12.2315 26.0134 13.6281 26.0577 14.7457C25.6918 13.7561 25.2357 12.5531 24.6794 11.1335L20.4167 0.329766H16.2754V23.7228H20.3068V13.4C20.3068 11.7604 20.2658 10.3753 20.2083 9.2429C20.5972 10.2736 21.0664 11.4929 21.6112 12.8535L25.8756 23.7196H29.9824V0.328125H25.9838V10.5181H25.9822Z"
+                      fill="#F5F7F0"
+                    />
+                    <path
+                      d="M37.5065 0.332031H33.4453V23.7268H43.8933V20.0629H37.5065V0.332031Z"
+                      fill="#F5F7F0"
+                    />
+                    <path
+                      d="M68.3767 0C64.3367 0 61.9238 2.21348 61.9238 5.92287V18.143C61.9238 21.8524 64.3367 24.0659 68.3767 24.0659C72.4167 24.0659 74.864 21.8524 74.864 18.143V15.6964H70.8338V18.0428C70.8338 19.5617 70.0301 20.3007 68.38 20.3007C66.7299 20.3007 65.9573 19.5831 65.9573 18.0428V6.02304C65.9573 4.46145 66.7266 3.73402 68.38 3.73402C70.0334 3.73402 70.8338 4.46145 70.8338 6.02304V8.43685H74.864V5.92287C74.864 2.21348 72.4397 0 68.3767 0Z"
+                      fill="#F5F7F0"
+                    />
+                    <path
+                      d="M86.0529 11.6792L91.2041 0.328125H86.7802L81.7715 11.7415L86.944 23.7228H91.5006L86.0529 11.6792Z"
+                      fill="#F5F7F0"
+                    />
+                    <path
+                      d="M93.1829 0.253906C92.5618 0.253906 92.0566 0.759155 92.0566 1.3805C92.0566 2.00184 92.5618 2.50709 93.1829 2.50709C93.8041 2.50709 94.3092 2.00184 94.3092 1.3805C94.3092 0.759155 93.8041 0.253906 93.1829 0.253906ZM93.1829 2.25364C92.7023 2.25364 92.31 1.86285 92.31 1.3805C92.31 0.898139 92.7007 0.507348 93.1829 0.507348C93.6651 0.507348 94.0558 0.898139 94.0558 1.3805C94.0558 1.86285 93.6651 2.25364 93.1829 2.25364Z"
+                      fill="#F5F7F0"
+                    />
+                    <path
+                      d="M93.3568 1.66194C93.3208 1.68156 93.2783 1.69137 93.2293 1.69137C93.1868 1.69137 93.1492 1.6832 93.1132 1.66848C93.0773 1.65377 93.0478 1.63251 93.0217 1.60471C92.9955 1.57691 92.9759 1.54421 92.9628 1.50661C92.9481 1.469 92.9416 1.42648 92.9416 1.3807C92.9416 1.33492 92.9481 1.29404 92.9628 1.25643C92.9776 1.21883 92.9972 1.18612 93.0233 1.15833C93.0495 1.13053 93.0805 1.10927 93.1165 1.09292C93.1525 1.07657 93.1917 1.07003 93.2342 1.07003C93.2734 1.07003 93.311 1.07821 93.3486 1.09292C93.3862 1.10764 93.4156 1.13217 93.4385 1.16323L93.6053 0.996451C93.5628 0.947398 93.5056 0.90979 93.4369 0.885264C93.3682 0.860737 93.2963 0.847656 93.2244 0.847656C93.1476 0.847656 93.074 0.860737 93.007 0.885264C92.94 0.90979 92.8811 0.945763 92.8321 0.991546C92.783 1.03733 92.7438 1.09456 92.7144 1.15996C92.6866 1.22537 92.6719 1.30058 92.6719 1.3807C92.6719 1.46082 92.685 1.53277 92.7127 1.59981C92.7405 1.66521 92.7781 1.72244 92.8272 1.76986C92.8762 1.81728 92.9334 1.85325 93.0004 1.87941C93.0675 1.90557 93.1394 1.91865 93.2179 1.91865C93.3045 1.91865 93.3797 1.90394 93.4467 1.87287C93.5121 1.84344 93.5677 1.80256 93.6134 1.75024L93.4418 1.59C93.4189 1.62106 93.3911 1.64559 93.3535 1.66521L93.3568 1.66194Z"
+                      fill="#F5F7F0"
+                    />
+                    <path
+                      d="M81.6441 0.328125H77.5703V23.7228H81.6441V0.328125Z"
+                      fill="#F5F7F0"
+                    />
+                    <path
+                      d="M57.4239 12.0313V5.92287C57.4239 2.21348 54.9984 0 50.9379 0C46.8774 0 44.4863 2.21348 44.4863 5.92287V12.0329H46.5018V18.143C46.5018 21.8524 48.9142 24.0659 52.9534 24.0659C56.9926 24.0659 59.4394 21.8524 59.4394 18.143V12.0313H57.4239ZM52.9567 20.3007C51.3266 20.3007 50.5345 19.5634 50.5345 18.0461V12.0329H48.519V6.02304C48.519 4.46145 49.2881 3.73402 50.9412 3.73402C52.5943 3.73402 53.3946 4.46145 53.3946 6.02304V12.0313H55.4084V12.4172H55.4101V18.0461C55.4101 19.5634 54.6065 20.3007 52.9567 20.3007Z"
+                      fill="#F5F7F0"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_mobile_menu">
+                      <rect width="94.3196" height="24.0659" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </Link>
+              <button
+                className="text-unlock-light p-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+                aria-label="Close mobile menu"
+              >
+                <X className="h-6 w-6" />
+              </button>
+            </div>
+
+            {/* Main Menu Content - Centered */}
+            <div className="flex-1 flex flex-col items-center justify-center px-4">
+              <div className="flex flex-col items-center gap-16 w-full max-w-[219px]">
+                {/* Navigation Items */}
+                <nav className="flex flex-col items-center gap-8">
+                  {navigationItems.map((item) => (
+                    <Link
+                      key={item.name}
+                      to={item.href}
+                      className="text-unlock-light font-aeonik text-xl font-normal leading-[150%] hover:text-unlock-light/80 transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </nav>
+
+                {/* Social Media Icons */}
+                <div className="flex items-center gap-[15px]">
+                  <a
+                    href="#"
+                    className="w-10 h-10 flex items-center justify-center"
+                    aria-label="Facebook"
+                  >
+                    <Facebook className="w-6 h-6 text-unlock-green stroke-[1.5]" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-10 h-10 flex items-center justify-center"
+                    aria-label="LinkedIn"
+                  >
+                    <Linkedin className="w-6 h-6 text-unlock-green stroke-[1.5]" />
+                  </a>
+                </div>
+
+                {/* Join Button */}
+                <div className="w-[180px]">
+                  <UnlockButton
+                    variant="primary"
+                    size="default"
+                    className="w-full h-[41px] bg-unlock-green text-unlock-light font-aeonik text-sm font-medium uppercase tracking-wide"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    {item.name}
-                  </Link>
-                ))}
-                <div className="pt-4">
-                  <UnlockButton size="default" className="w-full">
                     Join
                   </UnlockButton>
                 </div>
               </div>
-            </nav>
+            </div>
+
+            {/* Bottom Padding */}
+            <div className="h-[103px]" />
           </div>
         )}
       </div>
