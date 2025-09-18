@@ -156,6 +156,78 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      {/* Comprehensive Due Diligence Section */}
+      <section className="bg-unlock-green px-4 sm:px-8 md:px-16 lg:px-[100px] py-16 lg:py-[100px]">
+        <div className="flex flex-col gap-12">
+          {/* Section Title */}
+          <h2 className="text-white font-aeonik text-3xl sm:text-4xl md:text-5xl lg:text-[60px] font-light leading-[1.1] max-w-[818px]">
+            Comprehensive Due Diligence for Smarter Investments
+          </h2>
+
+          {/* Content Layout */}
+          <div className="flex flex-col lg:flex-row items-end gap-8 lg:gap-[62px]">
+            {/* Left Content */}
+            <div className="flex flex-col justify-between h-auto lg:h-[265px] max-w-[356px] w-full">
+              <p className="text-white font-aeonik text-base leading-[1.5] mb-8 lg:mb-0">
+                Investors often face challenges in obtaining reliable and comprehensive information about potential investments, leading to uncertainty and missed opportunities.
+              </p>
+              <div className="flex justify-start">
+                <UnlockButton
+                  variant="outline"
+                  size="lg"
+                  className="border-white text-white hover:bg-white hover:text-unlock-green px-8 py-3 rounded uppercase text-sm font-medium tracking-wider"
+                >
+                  SIGN UP
+                </UnlockButton>
+              </div>
+            </div>
+
+            {/* Right Content - Service Cards */}
+            <div className="flex flex-col md:flex-row items-start gap-5 lg:gap-[20px] flex-1">
+              {/* Snapshot Reports Card */}
+              <div className="flex flex-col gap-9 max-w-[400px] w-full">
+                <div className="flex items-end">
+                  <span className="text-white font-aeonik text-8xl sm:text-9xl lg:text-[150px] font-extralight leading-[0.9] tracking-[-3px]">
+                    1
+                  </span>
+                  <span className="text-white text-6xl sm:text-7xl lg:text-[100px] font-medium leading-[0.9] tracking-[-2px] mb-2">
+                    .
+                  </span>
+                </div>
+                <div className="flex flex-col gap-6">
+                  <h3 className="text-white font-aeonik text-2xl lg:text-[32px] font-normal leading-[1.2]">
+                    Snapshot Reports
+                  </h3>
+                  <p className="text-white font-aeonik text-base font-light leading-[1.5] max-w-[293px]">
+                    Get a quick, "at a glance" understanding of a business's potential and current standing.
+                  </p>
+                </div>
+              </div>
+
+              {/* Deep Dive Reports Card */}
+              <div className="flex flex-col gap-9 max-w-[400px] w-full">
+                <div className="flex items-end">
+                  <span className="text-white font-aeonik text-8xl sm:text-9xl lg:text-[150px] font-extralight leading-[0.9] tracking-[-3px]">
+                    2
+                  </span>
+                  <span className="text-white text-6xl sm:text-7xl lg:text-[100px] font-medium leading-[0.9] tracking-[-2px] mb-2">
+                    .
+                  </span>
+                </div>
+                <div className="flex flex-col gap-6">
+                  <h3 className="text-white font-aeonik text-2xl lg:text-[32px] font-normal leading-[1.2]">
+                    Deep Dive Reports
+                  </h3>
+                  <p className="text-white font-aeonik text-base font-light leading-[1.5] max-w-[287px]">
+                    Gain comprehensive analysis and insights through active participation from the business being analysed.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
