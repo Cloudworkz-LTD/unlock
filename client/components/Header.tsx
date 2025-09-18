@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { UnlockButton } from "@/components/ui/unlock-button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Facebook, Linkedin } from "lucide-react";
 
 const UnlockLogo = () => (
   <svg
