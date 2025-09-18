@@ -76,8 +76,8 @@ export default function About() {
               </div>
 
               {/* Vision Text */}
-              <div className="relative z-10 pt-12">
-                <h2 className="text-unlock-green font-serif text-3xl font-semibold leading-tight max-w-[690px] py-5 pl-8">
+              <div className="relative z-10 pt-12 mb-9">
+                <h2 className="text-unlock-green font-serif text-3xl font-semibold leading-tight max-w-[690px] pt-5 pb-7 pl-8">
                   A world where every investor makes decisions with clarity and confidence, backed by thorough due diligence.
                 </h2>
               </div>
@@ -85,7 +85,7 @@ export default function About() {
 
             {/* Right - Description */}
             <div className="flex-shrink-0 max-w-md lg:max-w-sm xl:max-w-md">
-              <p className="text-unlock-light font-aeonik text-base font-light leading-[150%]">
+              <p className="text-unlock-light font-aeonik text-base font-light leading-[150%] pt-[68px]">
                 Unlock is a trusted provider of meticulous due diligence on investment opportunities. Our history is rooted in serving investors by transforming uncertainty into clarity. With a commitment to our core values and overarching goals, we empower you to make smarter, more informed decisions, invest confidently, and gain a competitive edge in the investment world.
               </p>
             </div>
