@@ -362,7 +362,7 @@ export default function About() {
               <svg
                 className="w-16 h-24 lg:w-20 lg:h-32 flex-shrink-0"
                 width="82"
-                height="130"
+                height="80"
                 viewBox="0 0 82 130"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
