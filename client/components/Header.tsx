@@ -110,7 +110,7 @@ export const Header = () => {
 
         {/* Mobile Navigation - Full Screen Overlay */}
         {isMobileMenuOpen && (
-          <div className="fixed inset-0 bg-unlock-dark z-50 md:hidden flex flex-col">
+          <div className="fixed inset-0 bg-unlock-dark z-50 md:hidden flex flex-col" style={{ backgroundColor: '#212023' }}>
             {/* Header with Logo and Close Button */}
             <div className="h-20 flex items-center justify-between px-4">
               <Link to="/" className="flex-shrink-0" onClick={() => setIsMobileMenuOpen(false)}>
