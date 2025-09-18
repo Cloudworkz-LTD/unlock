@@ -302,6 +302,29 @@ export default function About() {
         </div>
       </section>
 
+      {/* Partners Section */}
+      <section className="py-12 lg:py-16 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-36 bg-unlock-light">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col items-center gap-8">
+            {/* Heading */}
+            <div className="w-full max-w-[556px]">
+              <h2 className="text-unlock-dark font-aeonik text-xl md:text-2xl lg:text-3xl font-normal leading-[140%] text-center">
+                Partnering with Industry Leaders to Deliver Unmatched Due Diligence
+              </h2>
+            </div>
+
+            {/* Partner Logos */}
+            <div className="w-full">
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/9d033399df82085c111bb63d53b2bcde1ec9f1b4?width=2480"
+                alt="Industry partner logos"
+                className="w-full h-auto flex justify-center items-center"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission Section */}
       <section className="py-16 lg:py-24 px-4 md:px-8 lg:px-24 bg-unlock-light">
         <div className="max-w-7xl mx-auto">
