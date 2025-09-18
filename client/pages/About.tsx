@@ -100,6 +100,37 @@ export default function About() {
         </div>
       </section>
 
+      {/* Empowering Investors Section */}
+      <section className="py-16 lg:py-20 xl:py-24 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-36 bg-unlock-dark">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col items-start gap-8">
+            {/* Heading */}
+            <div className="flex items-center gap-2.5 w-full min-h-[132px]">
+              <h2 className="text-unlock-light font-aeonik text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%] max-w-[820px]">
+                Empowering Investors Through Comprehensive Due Diligence
+              </h2>
+            </div>
+
+            {/* Content */}
+            <div className="flex flex-col items-start gap-8 w-full max-w-[820px]">
+              {/* Description */}
+              <p className="text-unlock-light font-aeonik text-base font-light leading-[150%] w-full">
+                Our mission is to ensure that every investor gets access to high-quality, detailed insights to make informed investment decisions. We started with a simple goal: to provide clarity in a complex investment landscape. Over the years, we've grown into a trusted partner for investors worldwide, helping them navigate investment opportunities with confidence.
+              </p>
+
+              {/* Button */}
+              <UnlockButton
+                variant="outline"
+                size="default"
+                className="rounded border border-unlock-light text-unlock-light font-medium uppercase tracking-wide hover:bg-unlock-light hover:text-unlock-dark"
+              >
+                Join Our Waiting List
+              </UnlockButton>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission Section */}
       <section className="py-16 lg:py-24 px-4 md:px-8 lg:px-24 bg-unlock-light">
         <div className="max-w-7xl mx-auto">
