@@ -232,6 +232,61 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      {/* Report Details Section */}
+      <section className="bg-unlock-light px-4 sm:px-8 md:px-16 lg:px-[100px] py-16 lg:py-[100px]">
+        <div className="flex flex-col gap-15">
+          {/* Tab Headers */}
+          <div className="flex flex-col sm:flex-row">
+            {/* Active Tab - Snapshot Report */}
+            <div className="flex-1 flex justify-center items-start p-6 border-b-4 border-unlock-green">
+              <h3 className="text-unlock-dark font-aeonik text-2xl sm:text-3xl lg:text-[48px] font-medium leading-[1.1]">
+                Snapshot Report
+              </h3>
+            </div>
+            {/* Inactive Tab - Deep Dive Report */}
+            <div className="flex-1 flex justify-center items-start p-6 border-b-2 border-gray-300">
+              <h3 className="text-unlock-dark font-aeonik text-2xl sm:text-3xl lg:text-[48px] font-light leading-[1.1]">
+                Deep Dive Report
+              </h3>
+            </div>
+          </div>
+
+          {/* Tab Content */}
+          <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-[152px] pt-8">
+            {/* Left Content */}
+            <div className="flex flex-col gap-8 lg:gap-[190px] max-w-[598px] w-full">
+              <h4 className="text-unlock-green font-serif text-2xl sm:text-3xl lg:text-[36px] font-semibold leading-[1.1] max-w-[400px]">
+                Quick Insights for Informed Preliminary Investment Decisions
+              </h4>
+              <p className="text-unlock-dark font-aeonik text-base leading-[1.3]">
+                Unlock's Snapshot Report offers a rapid overview of a business's potential and current standing. It provides preliminary insights based on publicly available data, helping investors identify red flags and assess potential investments efficiently.
+              </p>
+            </div>
+
+            {/* Right Content - Feature List */}
+            <div className="flex flex-col max-w-[467px] w-full">
+              <div className="flex flex-col">
+                <div className="flex items-start gap-3 py-4 px-3 border-b border-gray-300">
+                  <p className="flex-1 text-unlock-dark font-aeonik text-lg leading-[1.3]">
+                    Quickly assess business potential with Unlock's Snapshot Report.
+                  </p>
+                </div>
+                <div className="flex items-start gap-3 py-4 px-3 border-b border-gray-300">
+                  <p className="flex-1 text-unlock-dark font-aeonik text-lg leading-[1.3]">
+                    Identify red flags and make informed investment decisions.
+                  </p>
+                </div>
+                <div className="flex items-start gap-3 py-4 px-3 border-b border-gray-300">
+                  <p className="flex-1 text-unlock-dark font-aeonik text-lg leading-[1.3]">
+                    Gain insights for smarter investment decisions with Unlock.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
