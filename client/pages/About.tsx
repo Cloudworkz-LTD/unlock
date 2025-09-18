@@ -225,7 +225,14 @@ export default function About() {
               {/* Right - Description */}
               <div className="w-full lg:w-[399px] flex flex-col gap-32">
                 <p className="text-unlock-dark font-aeonik text-base font-normal leading-[130%]">
-                  In today's dynamic UK market, alternative investments are becoming an increasingly vital component of diversified portfolios. To navigate this complex landscape, thorough and strategic due diligence is essential for uncovering opportunities and mitigating risks. Whether you're assessing private equity, real estate, or hedge funds, staying ahead of market trends and regulatory requirements can unlock smarter, more responsible investment decisions.
+                  In today's dynamic UK market, alternative investments are
+                  becoming an increasingly vital component of diversified
+                  portfolios. To navigate this complex landscape, thorough and
+                  strategic due diligence is essential for uncovering
+                  opportunities and mitigating risks. Whether you're assessing
+                  private equity, real estate, or hedge funds, staying ahead of
+                  market trends and regulatory requirements can unlock smarter,
+                  more responsible investment decisions.
                 </p>
               </div>
             </div>
@@ -244,7 +251,9 @@ export default function About() {
                 </div>
                 <div className="w-full max-w-[350px]">
                   <p className="text-unlock-dark font-aeonik text-base font-light leading-[150%]">
-                    investors plan to increase their allocations to alternative investments in the next 12 months, with 32% aiming to grow their holdings by 10% or more.
+                    investors plan to increase their allocations to alternative
+                    investments in the next 12 months, with 32% aiming to grow
+                    their holdings by 10% or more.
                   </p>
                 </div>
               </div>
@@ -261,7 +270,11 @@ export default function About() {
                 </div>
                 <div className="w-full max-w-[350px]">
                   <p className="text-unlock-dark font-aeonik text-base font-light leading-[150%]">
-                    The importance of ESG (Environmental, Social, and Governance) due diligence continues to rise, with 80% of UK dealmakers now prioritizing ESG factors in their transaction processes. Moreover, 50% of these investors consider ESG a potential deal stopper​
+                    The importance of ESG (Environmental, Social, and
+                    Governance) due diligence continues to rise, with 80% of UK
+                    dealmakers now prioritizing ESG factors in their transaction
+                    processes. Moreover, 50% of these investors consider ESG a
+                    potential deal stopper​
                   </p>
                 </div>
               </div>
@@ -278,7 +291,9 @@ export default function About() {
                 </div>
                 <div className="w-full max-w-[350px]">
                   <p className="text-unlock-dark font-aeonik text-base font-light leading-[150%]">
-                    Of UK institutional investors now incorporate Environmental, Social, and Governance (ESG) factors as a critical part of their due diligence when evaluating alternative investments
+                    Of UK institutional investors now incorporate Environmental,
+                    Social, and Governance (ESG) factors as a critical part of
+                    their due diligence when evaluating alternative investments
                   </p>
                 </div>
               </div>
