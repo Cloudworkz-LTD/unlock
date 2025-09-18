@@ -48,9 +48,34 @@ export default function About() {
               </div>
             </div>
 
-            {/* Right side content/space for future content */}
-            <div className="hidden lg:block lg:w-1/3 flex-shrink-0">
-              {/* This space can be used for future content like stats, image, or other elements */}
+            {/* Statistics/Key Points */}
+            <div className="hidden lg:flex lg:w-1/3 flex-shrink-0 justify-end">
+              <div className="flex flex-col gap-8">
+                <div className="flex flex-col items-end text-right">
+                  <span className="text-unlock-green font-aeonik text-4xl xl:text-5xl font-light leading-none">
+                    10x
+                  </span>
+                  <span className="text-unlock-light font-aeonik text-sm font-light leading-tight max-w-32">
+                    Faster due diligence than traditional methods
+                  </span>
+                </div>
+                <div className="flex flex-col items-end text-right">
+                  <span className="text-unlock-green font-aeonik text-4xl xl:text-5xl font-light leading-none">
+                    AI
+                  </span>
+                  <span className="text-unlock-light font-aeonik text-sm font-light leading-tight max-w-32">
+                    Enhanced analysis for deeper insights
+                  </span>
+                </div>
+                <div className="flex flex-col items-end text-right">
+                  <span className="text-unlock-green font-aeonik text-4xl xl:text-5xl font-light leading-none">
+                    100%
+                  </span>
+                  <span className="text-unlock-light font-aeonik text-sm font-light leading-tight max-w-32">
+                    Unbiased reporting with no investment advice
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
