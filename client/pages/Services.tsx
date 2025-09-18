@@ -575,6 +575,76 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      {/* CTA Section */}
+      <section className="relative overflow-hidden">
+        {/* Background SVG */}
+        <div className="absolute inset-0 w-full h-full">
+          <svg
+            className="absolute left-0 top-[115px] w-full h-[394px]"
+            viewBox="0 0 1242 394"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1047.8 387.582H2.11719V0.898438H1239.89V387.582"
+              stroke="#F5F7F0"
+              strokeWidth="0.83"
+              strokeMiterlimit="10"
+            />
+            <path
+              d="M586.568 387.582H1049.68"
+              stroke="#00BB77"
+              strokeWidth="6"
+              strokeMiterlimit="10"
+            />
+          </svg>
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 px-4 sm:px-8 md:px-16 lg:px-[78px] py-24 lg:py-[200px]">
+          <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-16">
+            {/* Left Content */}
+            <div className="flex flex-col lg:flex-row items-start lg:items-center gap-8 lg:gap-[50px]">
+              {/* Unlock Logo */}
+              <div className="flex-shrink-0">
+                <svg
+                  className="w-16 h-24 lg:w-[81px] lg:h-[130px] fill-unlock-green"
+                  viewBox="0 0 82 130"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M70.5821 64.9911V31.9944C70.5821 11.9569 57.4434 0 35.4478 0C13.4522 0 0.5 11.9569 0.5 31.9944V65H11.4179V98.0056C11.4179 118.043 24.4855 130 46.3656 130C68.2458 130 81.5 118.043 81.5 98.0056V64.9911H70.5821ZM46.3834 109.661C37.5532 109.661 33.2624 105.678 33.2624 97.4823V65H22.3446V32.5355C22.3446 24.1 26.511 20.1706 35.4656 20.1706C44.4202 20.1706 48.7553 24.1 48.7553 32.5355V64.9911H59.6643V67.0756H59.6732V97.4823C59.6732 105.678 55.3202 109.661 46.3834 109.661Z"
+                    fill="#00BB77"
+                  />
+                </svg>
+              </div>
+
+              {/* Title */}
+              <h2 className="text-unlock-light font-aeonik text-3xl sm:text-4xl md:text-5xl lg:text-[64px] font-normal leading-[0.9] max-w-[461px]">
+                Think Smarter. Invest Better.
+              </h2>
+            </div>
+
+            {/* Right Content */}
+            <div className="flex flex-col gap-4 max-w-[404px] flex-shrink-0">
+              <p className="text-unlock-light font-aeonik text-sm leading-[1.5]">
+                Don't leave your investments to chance. Unlock offers meticulous due diligence, turning complex data into clear, actionable insights for your investment strategy. Join our waiting list today and discover how Unlock can help you make smarter investment decisions.
+              </p>
+              <div className="flex items-center gap-4">
+                <UnlockButton
+                  size="lg"
+                  className="bg-white hover:bg-white/90 text-unlock-dark px-8 py-3 rounded uppercase text-sm font-medium tracking-wider"
+                >
+                  JOIN
+                </UnlockButton>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
