@@ -77,7 +77,7 @@ export default function About() {
 
               {/* Vision Text */}
               <div className="relative z-10 pt-8 lg:pt-12">
-                <h2 className="text-unlock-green font-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold leading-[110%] max-w-[690px]">
+                <h2 className="text-unlock-green font-serif text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold leading-[110%] max-w-[690px]">
                   A world where every investor makes decisions with clarity and confidence, backed by thorough due diligence.
                 </h2>
               </div>
