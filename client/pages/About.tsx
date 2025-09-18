@@ -209,6 +209,84 @@ export default function About() {
         </div>
       </section>
 
+      {/* Due Diligence Insights Section */}
+      <section className="py-16 lg:py-20 xl:py-24 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-36 bg-unlock-light">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col items-end gap-8 lg:gap-10">
+            {/* Header Content */}
+            <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-16 w-full">
+              {/* Left - Main Title */}
+              <div className="w-full lg:max-w-[693px]">
+                <h2 className="text-unlock-dark font-aeonik text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%]">
+                  Due Diligence Insights for a Thriving UK Alternative Market
+                </h2>
+              </div>
+
+              {/* Right - Description */}
+              <div className="w-full lg:w-[399px] flex flex-col gap-32">
+                <p className="text-unlock-dark font-aeonik text-base font-normal leading-[130%]">
+                  In today's dynamic UK market, alternative investments are becoming an increasingly vital component of diversified portfolios. To navigate this complex landscape, thorough and strategic due diligence is essential for uncovering opportunities and mitigating risks. Whether you're assessing private equity, real estate, or hedge funds, staying ahead of market trends and regulatory requirements can unlock smarter, more responsible investment decisions.
+                </p>
+              </div>
+            </div>
+
+            {/* Statistics Grid */}
+            <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-5 w-full">
+              {/* Statistic 1 - 72% */}
+              <div className="flex flex-col items-start gap-9 w-full lg:w-[400px]">
+                <div className="flex items-end">
+                  <span className="text-unlock-green font-aeonik text-8xl md:text-9xl lg:text-[150px] font-extralight leading-[90%] tracking-[-0.02em]">
+                    72
+                  </span>
+                  <span className="text-unlock-green font-aeonik text-5xl md:text-6xl lg:text-[64px] font-medium leading-[90%] tracking-[-0.02em] mb-2">
+                    %
+                  </span>
+                </div>
+                <div className="w-full max-w-[350px]">
+                  <p className="text-unlock-dark font-aeonik text-base font-light leading-[150%]">
+                    investors plan to increase their allocations to alternative investments in the next 12 months, with 32% aiming to grow their holdings by 10% or more.
+                  </p>
+                </div>
+              </div>
+
+              {/* Statistic 2 - 80% */}
+              <div className="flex flex-col items-start gap-9 w-full lg:w-[400px]">
+                <div className="flex items-end">
+                  <span className="text-unlock-green font-aeonik text-8xl md:text-9xl lg:text-[150px] font-extralight leading-[90%] tracking-[-0.02em]">
+                    80
+                  </span>
+                  <span className="text-unlock-green font-aeonik text-5xl md:text-6xl lg:text-[64px] font-medium leading-[90%] tracking-[-0.02em] mb-2">
+                    %
+                  </span>
+                </div>
+                <div className="w-full max-w-[350px]">
+                  <p className="text-unlock-dark font-aeonik text-base font-light leading-[150%]">
+                    The importance of ESG (Environmental, Social, and Governance) due diligence continues to rise, with 80% of UK dealmakers now prioritizing ESG factors in their transaction processes. Moreover, 50% of these investors consider ESG a potential deal stopper​
+                  </p>
+                </div>
+              </div>
+
+              {/* Statistic 3 - +70% */}
+              <div className="flex flex-col items-start gap-9 w-full lg:w-[400px]">
+                <div className="flex items-end">
+                  <span className="text-unlock-green font-aeonik text-8xl md:text-9xl lg:text-[150px] font-extralight leading-[90%] tracking-[-0.02em]">
+                    +70
+                  </span>
+                  <span className="text-unlock-green font-aeonik text-5xl md:text-6xl lg:text-[64px] font-medium leading-[90%] tracking-[-0.02em] mb-2">
+                    %
+                  </span>
+                </div>
+                <div className="w-full max-w-[350px]">
+                  <p className="text-unlock-dark font-aeonik text-base font-light leading-[150%]">
+                    Of UK institutional investors now incorporate Environmental, Social, and Governance (ESG) factors as a critical part of their due diligence when evaluating alternative investments
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission Section */}
       <section className="py-16 lg:py-24 px-4 md:px-8 lg:px-24 bg-unlock-light">
         <div className="max-w-7xl mx-auto">
