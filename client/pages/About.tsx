@@ -201,7 +201,8 @@ export default function About() {
             {/* Right - Description */}
             <div className="w-full lg:max-w-[690px]">
               <p className="text-white font-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold leading-[110%]">
-                Unlock was born out of the need to provide investors with comprehensive insights and guidance.
+                Unlock was born out of the need to provide investors with
+                comprehensive insights and guidance.
               </p>
             </div>
           </div>
