@@ -14,67 +14,29 @@ export default function About() {
         }}
       >
         <div className="max-w-7xl mx-auto w-full">
-          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16 xl:gap-[113px]">
-            {/* Content */}
-            <div className="flex flex-col items-start gap-8 flex-1 max-w-3xl">
-              {/* Title Block */}
-              <div className="flex flex-col items-start gap-4 w-full">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-light font-aeonik text-unlock-light leading-[0.9] tracking-[-0.02em] w-full">
-                  About Unlock
+          <div className="flex flex-col items-center gap-8">
+            {/* Main Content - Centered */}
+            <div className="flex flex-col items-center gap-8 max-w-4xl">
+              {/* Title */}
+              <div className="flex flex-col items-center gap-2 w-full">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-extralight font-aeonik text-unlock-light leading-[0.81] tracking-[-0.042em] text-center w-full">
+                  Your Partner for Informed Investing
                 </h1>
-                <div className="w-16 h-1 bg-unlock-green"></div>
               </div>
 
               {/* Description */}
-              <p className="text-lg md:text-xl lg:text-2xl text-unlock-light font-light font-aeonik leading-[1.3] max-w-2xl">
-                We're revolutionizing due diligence with AI-powered insights that help investors make smarter, data-driven decisions with confidence and clarity.
+              <p className="text-lg md:text-xl text-unlock-light font-light font-aeonik leading-[1.2] text-center max-w-[629px]">
+                It is our mission to empower investors with the insights they need to make smarter, more informed decisions.
               </p>
 
-              {/* Buttons */}
-              <div className="flex flex-col sm:flex-row items-start gap-4">
+              {/* Button */}
+              <div className="flex items-center gap-4">
                 <UnlockButton
                   size="default"
                   className="rounded-[10px] bg-unlock-green text-unlock-light font-medium uppercase tracking-wide hover:bg-unlock-green/90"
                 >
-                  Join Our Mission
+                  Join
                 </UnlockButton>
-                <UnlockButton
-                  variant="outline"
-                  size="default"
-                  className="rounded-[10px] border-unlock-light text-unlock-light font-medium uppercase tracking-wide hover:bg-unlock-light hover:text-unlock-dark"
-                >
-                  Learn More
-                </UnlockButton>
-              </div>
-            </div>
-
-            {/* Statistics/Key Points */}
-            <div className="hidden lg:flex lg:w-1/3 flex-shrink-0 justify-end">
-              <div className="flex flex-col gap-8">
-                <div className="flex flex-col items-end text-right">
-                  <span className="text-unlock-green font-aeonik text-4xl xl:text-5xl font-light leading-none">
-                    10x
-                  </span>
-                  <span className="text-unlock-light font-aeonik text-sm font-light leading-tight max-w-32">
-                    Faster due diligence than traditional methods
-                  </span>
-                </div>
-                <div className="flex flex-col items-end text-right">
-                  <span className="text-unlock-green font-aeonik text-4xl xl:text-5xl font-light leading-none">
-                    AI
-                  </span>
-                  <span className="text-unlock-light font-aeonik text-sm font-light leading-tight max-w-32">
-                    Enhanced analysis for deeper insights
-                  </span>
-                </div>
-                <div className="flex flex-col items-end text-right">
-                  <span className="text-unlock-green font-aeonik text-4xl xl:text-5xl font-light leading-none">
-                    100%
-                  </span>
-                  <span className="text-unlock-light font-aeonik text-sm font-light leading-tight max-w-32">
-                    Unbiased reporting with no investment advice
-                  </span>
-                </div>
               </div>
             </div>
           </div>
