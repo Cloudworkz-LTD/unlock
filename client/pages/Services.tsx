@@ -534,6 +534,45 @@ export default function Services() {
               </div>
             </div>
           </div>
+
+          {/* Institution Plan */}
+          <div className="flex flex-col lg:flex-row justify-between items-start bg-unlock-gray-light border border-unlock-dark rounded-none p-8 lg:p-12 gap-8 lg:gap-16 mt-6">
+            {/* Left Content */}
+            <div className="flex flex-col gap-8 lg:gap-[58px] flex-1">
+              <div className="flex flex-col gap-10">
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-unlock-dark font-aeonik text-2xl sm:text-3xl lg:text-[40px] font-medium leading-[1.1] tracking-[-0.8px]">
+                    Institution
+                  </h3>
+                  <p className="text-unlock-dark font-aeonik text-lg lg:text-xl font-medium leading-[1.1] tracking-[-0.4px]">
+                    Family offices, research teams, boutique funds
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-start">
+                <UnlockButton
+                  variant="outline"
+                  size="lg"
+                  className="border-unlock-dark text-unlock-dark hover:bg-unlock-dark hover:text-unlock-light px-8 py-3 rounded uppercase text-sm font-medium tracking-wider"
+                >
+                  CALL FOR PRICING
+                </UnlockButton>
+              </div>
+            </div>
+
+            {/* Right Content - Features List */}
+            <div className="flex flex-col justify-end flex-shrink-0 w-full lg:w-[398px] text-unlock-dark font-aeonik text-base leading-[1.3] tracking-[-0.32px]">
+              <div className="space-y-1">
+                <p>5+ seats (expandable)</p>
+                <p>Shared dashboard & pooled DD credits</p>
+                <p>Internal notes, shared watchlists, deal collaboration</p>
+                <p>Optional API/data export access</p>
+                <p>Admin controls, team usage tracking</p>
+                <p>Dedicated account manager & onboarding</p>
+                <p>Optional white-labelling / compliance add-ons</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
