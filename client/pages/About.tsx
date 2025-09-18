@@ -115,7 +115,12 @@ export default function About() {
             <div className="flex flex-col items-start gap-8 w-full max-w-[820px]">
               {/* Description */}
               <p className="text-unlock-light font-aeonik text-base font-light leading-[150%] w-full">
-                Our mission is to ensure that every investor gets access to high-quality, detailed insights to make informed investment decisions. We started with a simple goal: to provide clarity in a complex investment landscape. Over the years, we've grown into a trusted partner for investors worldwide, helping them navigate investment opportunities with confidence.
+                Our mission is to ensure that every investor gets access to
+                high-quality, detailed insights to make informed investment
+                decisions. We started with a simple goal: to provide clarity in
+                a complex investment landscape. Over the years, we've grown into
+                a trusted partner for investors worldwide, helping them navigate
+                investment opportunities with confidence.
               </p>
 
               {/* Button */}
