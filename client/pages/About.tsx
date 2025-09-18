@@ -309,7 +309,8 @@ export default function About() {
             {/* Heading */}
             <div className="w-full max-w-[556px]">
               <h2 className="text-unlock-dark font-aeonik text-xl md:text-2xl lg:text-3xl font-normal leading-[140%] text-center">
-                Partnering with Industry Leaders to Deliver Unmatched Due Diligence
+                Partnering with Industry Leaders to Deliver Unmatched Due
+                Diligence
               </h2>
             </div>
 
@@ -350,7 +351,9 @@ export default function About() {
               <div className="max-w-[687px]">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal font-aeonik leading-[90%]">
                   <span className="text-unlock-light">Unlock: </span>
-                  <span className="text-unlock-green">Connecting Investors Through Insights</span>
+                  <span className="text-unlock-green">
+                    Connecting Investors Through Insights
+                  </span>
                 </h2>
               </div>
             </div>
@@ -358,7 +361,8 @@ export default function About() {
             {/* Right Side - Description & CTA */}
             <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[226px] flex-shrink-0">
               <p className="text-unlock-light font-aeonik text-sm font-normal leading-[150%] w-full">
-                Discover how Unlock can help you make smarter investment decisions and gain a competitive edge.
+                Discover how Unlock can help you make smarter investment
+                decisions and gain a competitive edge.
               </p>
 
               <div className="flex items-center gap-4">
@@ -537,7 +541,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
     </div>
   );
 }
