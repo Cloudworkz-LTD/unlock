@@ -357,32 +357,7 @@ export default function About() {
           {/* Content Container */}
           <div className="relative z-10 w-full h-[574px] px-[78px] pt-[80px] pb-16 flex flex-col lg:flex-row justify-between items-end gap-12 lg:gap-16">
             {/* Left Side - Logo & Heading */}
-            <div className="flex items-center gap-12 lg:gap-16 flex-1">
-              {/* Lock Icon */}
-              <svg
-                className="w-16 h-24 lg:w-20 lg:h-32 flex-shrink-0"
-                width="82"
-                height="80"
-                viewBox="0 0 82 130"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M70.5821 64.9911V31.9944C70.5821 11.9569 57.4434 0 35.4478 0C13.4522 0 0.5 11.9569 0.5 31.9944V65H11.4179V98.0056C11.4179 118.043 24.4855 130 46.3656 130C68.2458 130 81.5 118.043 81.5 98.0056V64.9911H70.5821ZM46.3834 109.661C37.5532 109.661 33.2624 105.678 33.2624 97.4823V65H22.3446V32.5355C22.3446 24.1 26.511 20.1706 35.4656 20.1706C44.4202 20.1706 48.7553 24.1 48.7553 32.5355V64.9911H59.6643V67.0756H59.6732V97.4823C59.6732 105.678 55.3202 109.661 46.3834 109.661Z"
-                  fill="#00BB77"
-                />
-              </svg>
 
-              {/* Mixed Color Heading */}
-              <div className="max-w-[687px]">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-normal font-aeonik leading-[90%]">
-                  <span className="text-unlock-light">Unlock: </span>
-                  <span className="text-unlock-green">
-                    Connecting Investors Through Insights
-                  </span>
-                </h2>
-              </div>
-            </div>
 
             {/* Right Side - Description & CTA */}
             <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[226px] flex-shrink-0">
