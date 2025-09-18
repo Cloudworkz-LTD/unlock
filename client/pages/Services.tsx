@@ -36,27 +36,108 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Services Content Section - Placeholder for now */}
-      <section className="py-24 px-4">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            What We Offer
-          </h2>
-          <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Discover our comprehensive range of services designed to unlock your
-            potential and drive your success forward.
-          </p>
+      {/* Investment Protection Section */}
+      <section className="px-4 sm:px-8 md:px-16 lg:px-[100px] py-16 lg:py-[100px]">
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-32">
+          {/* Left Content */}
+          <div className="flex flex-col justify-between h-auto lg:h-[746px] max-w-[400px]">
+            <div>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[60px] font-light text-unlock-light leading-[1.1] mb-8 lg:mb-16">
+                Protect Your Investments with Confidence
+              </h2>
+            </div>
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+              <UnlockButton
+                size="lg"
+                className="bg-unlock-green hover:bg-unlock-green/90 text-unlock-light px-8 py-3 rounded-[10px] uppercase text-sm font-medium tracking-wider"
+              >
+                JOIN
+              </UnlockButton>
+              <UnlockButton
+                variant="outline"
+                size="lg"
+                className="border-unlock-light text-unlock-light hover:bg-unlock-light hover:text-unlock-dark px-8 py-3 rounded-[10px] uppercase text-sm font-medium tracking-wider"
+              >
+                LEARN MORE
+              </UnlockButton>
+            </div>
+          </div>
 
-          <div className="bg-unlock-light/5 rounded-lg p-8">
-            <h3 className="text-2xl font-semibold text-foreground mb-4">
-              Services Content Coming Soon
-            </h3>
-            <p className="text-muted-foreground mb-6">
-              We're working on adding detailed service offerings. Continue
-              prompting to help us build out this section with specific
-              services, features, and pricing.
-            </p>
-            <UnlockButton variant="outline">Help Us Build This</UnlockButton>
+          {/* Right Content - Feature Cards */}
+          <div className="flex flex-col gap-10 max-w-[775px] w-full">
+            {/* Top Row */}
+            <div className="flex flex-col md:flex-row gap-10">
+              {/* Risk Mitigation Card */}
+              <div className="flex flex-col gap-6 max-w-[340px]">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/8761ae158394f2e8f1939035c7307f9b41425f96?width=80"
+                  alt="Risk mitigation icon"
+                  className="w-10 h-10"
+                />
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-unlock-green font-aeonik text-2xl lg:text-[32px] font-normal leading-[1.2]">
+                    Risk Mitigation for Investors
+                  </h3>
+                  <p className="text-unlock-light font-aeonik text-base font-light leading-[1.5]">
+                    Our mission is to ensure that every investor gets access to high-quality, detailed insights to make informed investment decisions. We started with a simple goal: to provide clarity in a complex investment landscape. Over the years, we've grown into a trusted partner for investors worldwide, helping them navigate investment opportunities with confidence.
+                  </p>
+                </div>
+              </div>
+
+              {/* Transparency & Trust Card */}
+              <div className="flex flex-col gap-6 max-w-[340px]">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/26ecdc8b0ffe15ae04f36888f8852cf17d8d86d2?width=80"
+                  alt="Handshake icon"
+                  className="w-10 h-10"
+                />
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-unlock-green font-aeonik text-2xl lg:text-[32px] font-normal leading-[1.2]">
+                    Our Commitment to Transparency and Trust: Building Strong Relationships
+                  </h3>
+                  <p className="text-unlock-light font-aeonik text-base font-light leading-[1.5]">
+                    Unlock is committed to fostering transparency and trust in the investment process through open and honest communication of our due diligence findings.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Bottom Row */}
+            <div className="flex flex-col md:flex-row gap-10">
+              {/* Due Diligence Card */}
+              <div className="flex flex-col gap-6 max-w-[340px]">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/9907ff30875fbfbea22a13a2b0f10a054075bbed?width=80"
+                  alt="Search check icon"
+                  className="w-10 h-10"
+                />
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-unlock-green font-aeonik text-2xl lg:text-[32px] font-normal leading-[1.2]">
+                    Due Diligence Made Accessible
+                  </h3>
+                  <p className="text-unlock-light font-aeonik text-base font-light leading-[1.5]">
+                    Unlock democratises access to thorough and reliable due diligence, enabling more investors to benefit from high-quality investment analysis without the prohibitive costs.
+                  </p>
+                </div>
+              </div>
+
+              {/* Educational Resource Hub Card */}
+              <div className="flex flex-col gap-6 max-w-[340px]">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/c25c6d74d881acda6e5461c7fba1d1cdab6963d3?width=80"
+                  alt="Blocks icon"
+                  className="w-10 h-10"
+                />
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-unlock-green font-aeonik text-2xl lg:text-[32px] font-normal leading-[1.2]">
+                    Unlock's Educational Resource Hub: Empowering Investors with Knowledge
+                  </h3>
+                  <p className="text-unlock-light font-aeonik text-base font-light leading-[1.5]">
+                    Our website is your go-to resource hub for learning about due diligence, investment strategies, and market insights through blogs, tutorials, and webinars.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
