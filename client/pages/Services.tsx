@@ -37,8 +37,8 @@ export default function Services() {
       </section>
 
       {/* Investment Protection Section */}
-      <section className="px-4 sm:px-8 md:px-16 lg:px-[100px] py-16 lg:py-[100px]">
-        <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-32">
+      <section className="px-4 sm:px-8 md:px-16 lg:px-[50px] py-16 lg:py-[100px]">
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-0 lg:-mr-px">
           {/* Left Content */}
           <div className="flex flex-col justify-between h-auto lg:h-[746px] max-w-[400px]">
             <div>
