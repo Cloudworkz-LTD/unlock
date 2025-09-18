@@ -85,7 +85,7 @@ export default function About() {
 
             {/* Right - Description */}
             <div className="flex-shrink-0 max-w-md lg:max-w-sm xl:max-w-md">
-              <p className="text-unlock-light font-aeonik text-base font-light leading-[150%] pt-[68px]">
+              <p className="text-unlock-light font-aeonik text-base font-light leading-[150%]">
                 Unlock is a trusted provider of meticulous due diligence on investment opportunities. Our history is rooted in serving investors by transforming uncertainty into clarity. With a commitment to our core values and overarching goals, we empower you to make smarter, more informed decisions, invest confidently, and gain a competitive edge in the investment world.
               </p>
             </div>
