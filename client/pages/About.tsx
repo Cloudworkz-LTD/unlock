@@ -160,21 +160,27 @@ export default function About() {
             {/* Insight 1 */}
             <div className="flex-1">
               <p className="text-unlock-light font-aeonik text-base font-light leading-[130%] tracking-[-0.02em]">
-                Over four in ten (45%) self-directed investors do not view 'losing some money' as a potential risk of investing, despite disclaimers​
+                Over four in ten (45%) self-directed investors do not view
+                'losing some money' as a potential risk of investing, despite
+                disclaimers​
               </p>
             </div>
 
             {/* Insight 2 */}
             <div className="flex-1">
               <p className="text-unlock-light font-aeonik text-base font-light leading-[130%] tracking-[-0.02em]">
-                38% of self-directed investors are driven solely by emotional and social motivations, especially those involved in high-risk, high-return investments
+                38% of self-directed investors are driven solely by emotional
+                and social motivations, especially those involved in high-risk,
+                high-return investments
               </p>
             </div>
 
             {/* Insight 3 */}
             <div className="flex-1">
               <p className="text-unlock-light font-aeonik text-base font-light leading-[130%] tracking-[-0.02em]">
-                41% of newer self-directed investors believe that losing some of the money they invest is a genuine risk, indicating lower risk awareness
+                41% of newer self-directed investors believe that losing some of
+                the money they invest is a genuine risk, indicating lower risk
+                awareness
               </p>
             </div>
           </div>
