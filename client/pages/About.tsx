@@ -332,7 +332,7 @@ export default function About() {
           {/* Decorative SVG Border Frame */}
           <div className="absolute inset-0 flex items-start justify-center overflow-hidden pointer-events-none">
             <svg
-              className="w-full max-w-[1241px] h-[394px] absolute top-[115px]"
+              className="w-full max-w-[1241px] h-[394px] absolute top-[40px]"
               width="1242"
               height="394"
               viewBox="0 0 1242 394"
@@ -355,7 +355,7 @@ export default function About() {
           </div>
 
           {/* Content Container */}
-          <div className="relative z-10 w-full h-[574px] px-20 pt-0 pb-32 flex flex-col lg:flex-row justify-between items-end gap-12 lg:gap-16">
+          <div className="relative z-10 w-full h-[574px] px-20 py-16 flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-16">
             {/* Left Side - Logo & Heading */}
             <div className="flex items-center gap-12 lg:gap-16 flex-1">
               {/* Lock Icon */}
