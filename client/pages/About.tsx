@@ -1,4 +1,5 @@
 import { UnlockButton } from "@/components/ui/unlock-button";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -32,12 +33,14 @@ export default function About() {
 
               {/* Button */}
               <div className="flex items-center gap-4">
-                <UnlockButton
-                  size="default"
-                  className="rounded-[10px] bg-unlock-green text-unlock-light font-medium uppercase tracking-wide hover:bg-unlock-green/90"
-                >
-                  Join
-                </UnlockButton>
+                <Link to="/join">
+                  <UnlockButton
+                    size="default"
+                    className="rounded-[10px] bg-unlock-green text-unlock-light font-medium uppercase tracking-wide hover:bg-unlock-green/90"
+                  >
+                    Join
+                  </UnlockButton>
+                </Link>
               </div>
             </div>
           </div>
@@ -124,13 +127,15 @@ export default function About() {
               </p>
 
               {/* Button */}
-              <UnlockButton
-                variant="outline"
-                size="default"
-                className="rounded border border-unlock-light text-unlock-light font-medium uppercase tracking-wide hover:bg-unlock-light hover:text-unlock-dark"
-              >
-                Join Our Waiting List
-              </UnlockButton>
+              <Link to="/join">
+                <UnlockButton
+                  variant="outline"
+                  size="default"
+                  className="rounded border border-unlock-light text-unlock-light font-medium uppercase tracking-wide hover:bg-unlock-light hover:text-unlock-dark"
+                >
+                  Join Our Waiting List
+                </UnlockButton>
+              </Link>
             </div>
           </div>
         </div>
