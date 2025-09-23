@@ -15,6 +15,7 @@ import Services from "./pages/Services";
 import FAQ from "./pages/FAQ";
 import Colors from "./pages/Colors";
 import Contact from "./pages/Contact";
+import Join from "./pages/Join";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
