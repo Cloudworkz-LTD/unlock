@@ -120,13 +120,13 @@ export default function FAQ() {
 
         {/* Main Content */}
         <div className="relative px-4 sm:px-8 lg:px-16 xl:px-24 py-16 lg:py-24">
-          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 lg:gap-12 max-w-7xl mx-auto">
+          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 lg:gap-12 max-w-[1400px] 2xl:max-w-[1600px] mx-auto">
             {/* Left Section - Icon and Title */}
             <div className="flex flex-col sm:flex-row items-start gap-6 lg:gap-12 flex-1">
               {/* Unlock Icon */}
               <div className="flex-shrink-0">
                 <svg
-                  className="w-16 h-24 lg:w-[81px] lg:h-[130px]"
+                  className="w-16 h-24 lg:w-[81px] lg:h-[130px] 2xl:w-[100px] 2xl:h-[160px]"
                   width="81"
                   height="130"
                   viewBox="0 0 81 130"
@@ -141,21 +141,21 @@ export default function FAQ() {
               </div>
 
               {/* Title */}
-              <div className="flex-1 max-w-none lg:max-w-[687px]">
-                <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl xl:text-[64px] font-normal leading-[90%] font-aeonik">
+              <div className="flex-1 max-w-none">
+                <h2 className="text-white text-4xl sm:text-5xl lg:text-6xl xl:text-[72px] 2xl:text-[88px] font-normal leading-[90%] font-aeonik">
                   Unlock Your Investment Potential Today
                 </h2>
               </div>
             </div>
 
             {/* Right Section - Description and Button */}
-            <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[280px] flex-shrink-0">
+            <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[320px] 2xl:max-w-[360px] flex-shrink-0">
               <p className="text-white text-sm font-normal leading-[150%] font-aeonik">
                 Schedule a consultation or request more information about Unlock's comprehensive due diligence services.
               </p>
 
               <div className="flex items-center gap-4">
-                <button className="bg-white text-unlock-dark px-8 py-2.5 rounded font-aeonik text-sm font-medium uppercase leading-[150%] hover:bg-white/90 transition-colors">
+                <button className="bg-white text-unlock-dark px-8 lg:px-10 py-2.5 lg:py-3 rounded font-aeonik text-sm lg:text-base font-medium uppercase leading-[150%] hover:bg-white/90 transition-colors">
                   JOIN
                 </button>
               </div>
