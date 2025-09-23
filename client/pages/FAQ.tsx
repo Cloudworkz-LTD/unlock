@@ -9,24 +9,29 @@ import {
 const faqData = [
   {
     question: "How does Unlock work?",
-    answer: "Unlock conducts meticulous due diligence on investment opportunities, providing comprehensive insights and transforming uncertainty into clarity. Our team of experts thoroughly analyzes companies, their financials, market trends, and potential risks to help you make smarter investment decisions."
+    answer:
+      "Unlock conducts meticulous due diligence on investment opportunities, providing comprehensive insights and transforming uncertainty into clarity. Our team of experts thoroughly analyzes companies, their financials, market trends, and potential risks to help you make smarter investment decisions.",
   },
   {
     question: "What are the benefits?",
-    answer: "By using Unlock's due diligence services, you can invest confidently, knowing that you have access to reliable and thorough information. Our insights give you a competitive edge in the investment world, helping you identify opportunities and avoid potential pitfalls."
+    answer:
+      "By using Unlock's due diligence services, you can invest confidently, knowing that you have access to reliable and thorough information. Our insights give you a competitive edge in the investment world, helping you identify opportunities and avoid potential pitfalls.",
   },
   {
     question: "How can I get started?",
-    answer: "To get started with Unlock, simply join our waiting list, reach out to our team through the contact form or give us a call. We'll be happy to discuss your investment goals and how our services can support you in making informed decisions."
+    answer:
+      "To get started with Unlock, simply join our waiting list, reach out to our team through the contact form or give us a call. We'll be happy to discuss your investment goals and how our services can support you in making informed decisions.",
   },
   {
     question: "Is Unlock trustworthy?",
-    answer: "Unlock is committed to providing accurate and reliable due diligence. Our team of experts follows rigorous processes to ensure the information we provide is trustworthy and up-to-date. We have a track record of helping investors make informed decisions with confidence."
+    answer:
+      "Unlock is committed to providing accurate and reliable due diligence. Our team of experts follows rigorous processes to ensure the information we provide is trustworthy and up-to-date. We have a track record of helping investors make informed decisions with confidence.",
   },
   {
     question: "What if I have more questions?",
-    answer: "If you have more questions about Unlock's services or need further clarification, please don't hesitate to reach out to our team. We're here to assist you and provide the information you need to make confident investment decisions."
-  }
+    answer:
+      "If you have more questions about Unlock's services or need further clarification, please don't hesitate to reach out to our team. We're here to assist you and provide the information you need to make confident investment decisions.",
+  },
 ];
 
 export default function FAQ() {
