@@ -631,7 +631,11 @@ export default function Services() {
             {/* Right Content */}
             <div className="flex flex-col gap-4 max-w-[404px] flex-shrink-0">
               <p className="text-unlock-light font-aeonik text-sm leading-[1.5]">
-                Don't leave your investments to chance. Unlock offers meticulous due diligence, turning complex data into clear, actionable insights for your investment strategy. Join our waiting list today and discover how Unlock can help you make smarter investment decisions.
+                Don't leave your investments to chance. Unlock offers meticulous
+                due diligence, turning complex data into clear, actionable
+                insights for your investment strategy. Join our waiting list
+                today and discover how Unlock can help you make smarter
+                investment decisions.
               </p>
               <div className="flex items-center gap-4">
                 <UnlockButton
