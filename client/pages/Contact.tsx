@@ -10,18 +10,20 @@ export default function Contact() {
     agreeToTerms: false,
   });
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
   const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      agreeToTerms: e.target.checked
+      agreeToTerms: e.target.checked,
     }));
   };
 
@@ -45,7 +47,8 @@ export default function Contact() {
           {/* Description */}
           <div className="max-w-2xl mb-10">
             <p className="text-lg md:text-xl text-white font-light font-aeonik leading-[1.2]">
-              We'd love to hear from you. Contact Unlock today for more information.
+              We'd love to hear from you. Contact Unlock today for more
+              information.
             </p>
           </div>
 
@@ -100,9 +103,7 @@ export default function Contact() {
                       123 Main St, New York, NY 10001
                     </span>
                   </div>
-                  <Button
-                    className="bg-unlock-green text-white font-aeonik text-sm font-medium uppercase leading-[1.5] tracking-wide rounded px-8 py-2.5 hover:bg-unlock-green/90"
-                  >
+                  <Button className="bg-unlock-green text-white font-aeonik text-sm font-medium uppercase leading-[1.5] tracking-wide rounded px-8 py-2.5 hover:bg-unlock-green/90">
                     Get Directions
                   </Button>
                 </div>
@@ -182,7 +183,10 @@ export default function Contact() {
                       className="w-4 h-4 rounded border border-unlock-gray-medium bg-[#DAE3ED] focus:ring-2 focus:ring-unlock-green"
                       required
                     />
-                    <label htmlFor="agreeToTerms" className="text-white font-aeonik text-sm font-light leading-[1.5]">
+                    <label
+                      htmlFor="agreeToTerms"
+                      className="text-white font-aeonik text-sm font-light leading-[1.5]"
+                    >
                       I agree to the Terms
                     </label>
                   </div>
