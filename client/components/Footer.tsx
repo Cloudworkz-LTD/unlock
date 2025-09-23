@@ -197,7 +197,7 @@ export const Footer = () => {
                   Customer Support
                 </a>
                 <a
-                  href="#"
+                  href="/join"
                   className="py-1.5 text-[#F5F7F0] text-sm text-right font-aeonik font-light hover:text-white transition-colors"
                 >
                   Join Now
