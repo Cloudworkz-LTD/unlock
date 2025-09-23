@@ -24,12 +24,14 @@ export default function Services() {
                 investment decisions.
               </p>
               <div className="flex items-center gap-4">
-                <UnlockButton
-                  size="lg"
-                  className="bg-unlock-green hover:bg-unlock-green/90 text-unlock-light px-8 py-3 rounded-[10px] uppercase text-sm font-medium tracking-wider"
-                >
-                  JOIN
-                </UnlockButton>
+                <Link to="/join">
+                  <UnlockButton
+                    size="lg"
+                    className="bg-unlock-green hover:bg-unlock-green/90 text-unlock-light px-8 py-3 rounded-[10px] uppercase text-sm font-medium tracking-wider"
+                  >
+                    JOIN
+                  </UnlockButton>
+                </Link>
               </div>
             </div>
           </div>
