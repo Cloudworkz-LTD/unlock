@@ -2,8 +2,8 @@ export default function FAQ() {
   return (
     <div className="min-h-screen bg-unlock-dark">
       {/* FAQ Hero Section */}
-      <section className="flex flex-col items-center justify-center px-4 py-16 lg:px-24 lg:py-24">
-        <div className="flex flex-col items-center max-w-4xl mx-auto text-center">
+      <section className="flex flex-col items-start justify-center px-4 sm:px-8 lg:px-[100px] py-16 lg:py-24">
+        <div className="flex flex-col items-start max-w-4xl text-left w-full">
           {/* Title */}
           <div className="mb-10">
             <h1 className="text-6xl sm:text-7xl lg:text-8xl xl:text-[96px] font-extralight leading-[81%] tracking-[-2.88px] text-unlock-green font-aeonik">
