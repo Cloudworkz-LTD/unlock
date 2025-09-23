@@ -151,7 +151,8 @@ export default function FAQ() {
             {/* Right Section - Description and Button */}
             <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[420px] 2xl:max-w-[520px] flex-shrink-0">
               <p className="text-white text-sm font-normal leading-[150%] font-aeonik">
-                Schedule a consultation or request more information about Unlock's comprehensive due diligence services.
+                Schedule a consultation or request more information about
+                Unlock's comprehensive due diligence services.
               </p>
 
               <div className="flex items-center gap-4">
