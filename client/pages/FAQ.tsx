@@ -118,7 +118,7 @@ export default function FAQ() {
         </div>
 
         {/* Main Content */}
-        <div className="relative px-4 sm:px-8 lg:px-[179px] py-16 lg:py-[200px]">
+        <div className="relative pl-4 sm:pl-8 lg:pl-[179px] pr-4 sm:pr-8 xl:pr-[300px] py-16 lg:py-[200px]">
           <div className="flex flex-col lg:flex-row justify-between items-end gap-8 lg:gap-12">
             {/* Left Section - Icon and Title */}
             <div className="flex flex-col sm:flex-row items-start gap-8 lg:gap-12">
