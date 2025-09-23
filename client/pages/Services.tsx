@@ -644,12 +644,14 @@ export default function Services() {
                 investment decisions.
               </p>
               <div className="flex items-center gap-4">
-                <UnlockButton
-                  size="lg"
-                  className="bg-white hover:bg-white/90 text-unlock-dark px-8 py-3 rounded uppercase text-sm font-medium tracking-wider"
-                >
-                  JOIN
-                </UnlockButton>
+                <Link to="/join">
+                  <UnlockButton
+                    size="lg"
+                    className="bg-white hover:bg-white/90 text-unlock-dark px-8 py-3 rounded uppercase text-sm font-medium tracking-wider"
+                  >
+                    JOIN
+                  </UnlockButton>
+                </Link>
               </div>
             </div>
           </div>
