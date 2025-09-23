@@ -93,14 +93,15 @@ export default function FAQ() {
       {/* Call-to-Action Section */}
       <section className="relative overflow-hidden">
         {/* Decorative Line Graphics */}
-        <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute inset-0 pointer-events-none hidden lg:block">
           <svg
-            className="absolute left-[101px] top-[76px] w-[1241px] h-[394px]"
+            className="absolute left-[7%] top-[14%] w-[86%] h-[73%]"
             width="1241"
             height="394"
             viewBox="0 0 1241 394"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid meet"
           >
             <path
               d="M1047.3 387.582H1.61719V0.898438H1239.39V387.582"
@@ -118,10 +119,10 @@ export default function FAQ() {
         </div>
 
         {/* Main Content */}
-        <div className="relative pl-4 sm:pl-8 lg:pl-[179px] pr-4 sm:pr-8 xl:pr-[300px] py-16 lg:py-[200px]">
-          <div className="flex flex-col lg:flex-row justify-between items-end gap-8 lg:gap-12">
+        <div className="relative px-4 sm:px-8 lg:px-16 xl:px-24 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 lg:gap-12 max-w-7xl mx-auto">
             {/* Left Section - Icon and Title */}
-            <div className="flex flex-col sm:flex-row items-start gap-8 lg:gap-12">
+            <div className="flex flex-col sm:flex-row items-start gap-6 lg:gap-12 flex-1">
               {/* Unlock Icon */}
               <div className="flex-shrink-0">
                 <svg
@@ -140,7 +141,7 @@ export default function FAQ() {
               </div>
 
               {/* Title */}
-              <div className="max-w-[687px]">
+              <div className="flex-1 max-w-none lg:max-w-[687px]">
                 <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl xl:text-[64px] font-normal leading-[90%] font-aeonik">
                   Unlock Your Investment Potential Today
                 </h2>
@@ -148,7 +149,7 @@ export default function FAQ() {
             </div>
 
             {/* Right Section - Description and Button */}
-            <div className="flex flex-col items-start gap-4 max-w-[226px] flex-shrink-0">
+            <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[280px] flex-shrink-0">
               <p className="text-white text-sm font-normal leading-[150%] font-aeonik">
                 Schedule a consultation or request more information about Unlock's comprehensive due diligence services.
               </p>
