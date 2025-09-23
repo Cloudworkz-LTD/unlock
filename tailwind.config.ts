@@ -76,6 +76,12 @@ export default {
             dark: "hsl(var(--unlock-gray-dark))",
           },
         },
+        form: {
+          "light-blue": "hsl(var(--form-light-blue))",
+          grey: "hsl(var(--form-grey))",
+          blue: "hsl(var(--form-blue))",
+          "input-bg": "hsl(var(--form-input-bg))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
