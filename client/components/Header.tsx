@@ -91,9 +91,11 @@ export const Header = () => {
               </Link>
             ))}
           </div>
-          <UnlockButton variant="secondary" size="default" className="ml-4">
-            Join
-          </UnlockButton>
+          <Link to="/join">
+            <UnlockButton variant="secondary" size="default" className="ml-4">
+              Join
+            </UnlockButton>
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -231,14 +233,15 @@ export const Header = () => {
 
                 {/* Join Button */}
                 <div className="w-[180px]">
-                  <UnlockButton
-                    variant="primary"
-                    size="default"
-                    className="w-full h-[41px] bg-unlock-green text-unlock-light font-aeonik text-sm font-medium uppercase tracking-wide"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    Join
-                  </UnlockButton>
+                  <Link to="/join" onClick={() => setIsMobileMenuOpen(false)} className="w-full">
+                    <UnlockButton
+                      variant="primary"
+                      size="default"
+                      className="w-full h-[41px] bg-unlock-green text-unlock-light font-aeonik text-sm font-medium uppercase tracking-wide"
+                    >
+                      Join
+                    </UnlockButton>
+                  </Link>
                 </div>
               </div>
             </div>
