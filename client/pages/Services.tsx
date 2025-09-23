@@ -179,13 +179,15 @@ export default function Services() {
                 to uncertainty and missed opportunities.
               </p>
               <div className="flex justify-start">
-                <UnlockButton
-                  variant="outline"
-                  size="lg"
-                  className="border-white text-white hover:bg-white hover:text-unlock-green px-8 py-3 rounded uppercase text-sm font-medium tracking-wider"
-                >
-                  SIGN UP
-                </UnlockButton>
+                <Link to="/join">
+                  <UnlockButton
+                    variant="outline"
+                    size="lg"
+                    className="border-white text-white hover:bg-white hover:text-unlock-green px-8 py-3 rounded uppercase text-sm font-medium tracking-wider"
+                  >
+                    SIGN UP
+                  </UnlockButton>
+                </Link>
               </div>
             </div>
 
