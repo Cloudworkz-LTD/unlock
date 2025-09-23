@@ -2,7 +2,7 @@ import { UnlockButton } from "@/components/ui/unlock-button";
 
 export default function Services() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-unlock-dark">
       {/* Hero Section */}
       <section
         className="relative flex items-center justify-center min-h-[722px] px-4 sm:px-8 md:px-16 lg:px-[100px] bg-cover bg-center bg-no-repeat"
