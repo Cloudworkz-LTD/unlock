@@ -10,11 +10,12 @@ export default function FAQ() {
               FAQs
             </h1>
           </div>
-          
+
           {/* Description */}
           <div className="max-w-[629px]">
             <p className="text-white text-lg sm:text-xl font-light leading-[120%] font-aeonik">
-              Find answers to common questions about Unlock's services to help you make informed decisions.
+              Find answers to common questions about Unlock's services to help
+              you make informed decisions.
             </p>
           </div>
         </div>
