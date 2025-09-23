@@ -156,7 +156,10 @@ export default function FAQ() {
               </p>
 
               <div className="flex items-center gap-4">
-                <a href="/join" className="bg-white text-unlock-dark px-8 lg:px-10 py-2.5 lg:py-3 rounded font-aeonik text-sm lg:text-base font-medium uppercase leading-[150%] hover:bg-white/90 transition-colors">
+                <a
+                  href="/join"
+                  className="bg-white text-unlock-dark px-8 lg:px-10 py-2.5 lg:py-3 rounded font-aeonik text-sm lg:text-base font-medium uppercase leading-[150%] hover:bg-white/90 transition-colors"
+                >
                   JOIN
                 </a>
               </div>

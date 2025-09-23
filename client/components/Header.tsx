@@ -233,7 +233,11 @@ export const Header = () => {
 
                 {/* Join Button */}
                 <div className="w-[180px]">
-                  <Link to="/join" onClick={() => setIsMobileMenuOpen(false)} className="w-full">
+                  <Link
+                    to="/join"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="w-full"
+                  >
                     <UnlockButton
                       variant="primary"
                       size="default"
