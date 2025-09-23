@@ -203,7 +203,7 @@ export const Footer = () => {
                   Join Now
                 </a>
                 <a
-                  href="#"
+                  href="/contact"
                   className="py-1.5 text-[#F5F7F0] text-sm text-right font-aeonik font-light hover:text-white transition-colors"
                 >
                   Contact Us
