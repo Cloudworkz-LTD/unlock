@@ -95,7 +95,7 @@ export default function FAQ() {
         {/* Decorative Line Graphics */}
         <div className="absolute inset-0 pointer-events-none hidden lg:block">
           <svg
-            className="absolute left-[7%] top-[14%] w-[86%] h-[73%] 2xl:left-[4%] 2xl:w-[92%] 2xl:h-[76%]"
+            className="absolute top-[12%] left-[6%] w-[88%] h-[72%] xl:left-[5%] xl:w-[90%] 2xl:left-[3%] 2xl:w-[94%] 2xl:h-[76%]"
             width="1241"
             height="394"
             viewBox="0 0 1241 394"
@@ -119,8 +119,8 @@ export default function FAQ() {
         </div>
 
         {/* Main Content */}
-        <div className="relative px-4 sm:px-8 lg:px-12 xl:px-16 2xl:px-12 py-16 lg:py-24">
-          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 lg:gap-12 max-w-[1600px] 2xl:max-w-[1920px] mx-auto">
+        <div className="relative px-4 sm:px-8 lg:px-24 xl:px-32 2xl:px-40 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 lg:gap-12 w-full max-w-none">
             {/* Left Section - Icon and Title */}
             <div className="flex flex-col sm:flex-row items-start gap-6 lg:gap-12 flex-1">
               {/* Unlock Icon */}
@@ -142,14 +142,14 @@ export default function FAQ() {
 
               {/* Title */}
               <div className="flex-1 max-w-none">
-                <h2 className="text-white text-4xl sm:text-5xl lg:text-6xl xl:text-[72px] 2xl:text-[96px] font-normal leading-[90%] font-aeonik">
+                <h2 className="text-white text-4xl sm:text-5xl lg:text-6xl xl:text-[84px] 2xl:text-[112px] font-normal leading-[90%] font-aeonik">
                   Unlock Your Investment Potential Today
                 </h2>
               </div>
             </div>
 
             {/* Right Section - Description and Button */}
-            <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[360px] 2xl:max-w-[420px] flex-shrink-0">
+            <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[420px] 2xl:max-w-[520px] flex-shrink-0">
               <p className="text-white text-sm font-normal leading-[150%] font-aeonik">
                 Schedule a consultation or request more information about Unlock's comprehensive due diligence services.
               </p>
