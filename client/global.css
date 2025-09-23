@@ -110,6 +110,12 @@
     --unlock-gray-medium: 0 0% 83%; /* #D3D3D3 */
     --unlock-gray-dark: 0 0% 24%; /* #3E3E3E */
 
+    /* Form Colors */
+    --form-light-blue: 213 22% 84%; /* #DAE3ED */
+    --form-grey: 0 0% 45%; /* #737373 */
+    --form-blue: 210 43% 15%; /* #1B3D5E */
+    --form-input-bg: 0 0% 16%; /* #2A2A2A */
+
     --background: 236 29% 13%;
     --foreground: 0 0% 100%;
 
