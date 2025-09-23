@@ -14,6 +14,7 @@ import Blog from "./pages/Blog";
 import Services from "./pages/Services";
 import FAQ from "./pages/FAQ";
 import Colors from "./pages/Colors";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
