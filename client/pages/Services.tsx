@@ -49,12 +49,14 @@ export default function Services() {
               </h2>
             </div>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              <UnlockButton
-                size="lg"
-                className="bg-unlock-green hover:bg-unlock-green/90 text-unlock-light px-8 py-3 rounded-[10px] uppercase text-sm font-medium tracking-wider"
-              >
-                JOIN
-              </UnlockButton>
+              <Link to="/join">
+                <UnlockButton
+                  size="lg"
+                  className="bg-unlock-green hover:bg-unlock-green/90 text-unlock-light px-8 py-3 rounded-[10px] uppercase text-sm font-medium tracking-wider"
+                >
+                  JOIN
+                </UnlockButton>
+              </Link>
               <UnlockButton
                 variant="outline"
                 size="lg"
