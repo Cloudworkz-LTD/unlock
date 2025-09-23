@@ -174,13 +174,15 @@ export default function Blog() {
                 </div>
               </div>
 
-              <BlogCard
-                image="https://api.builder.io/api/v1/image/assets/TEMP/dabfb7f6f278593556d842971a0624a606f24bee?width=1560"
-                title="Protecting Investments Against Inflation"
-                description="Strategies to safeguard capital amid rising prices and economic shifts."
-                date="11 Jan 2022"
-                readTime="5 min read"
-              />
+              <div className="lg:col-span-2">
+                <BlogCard
+                  image="https://api.builder.io/api/v1/image/assets/TEMP/dabfb7f6f278593556d842971a0624a606f24bee?width=1560"
+                  title="Protecting Investments Against Inflation"
+                  description="Strategies to safeguard capital amid rising prices and economic shifts."
+                  date="11 Jan 2022"
+                  readTime="5 min read"
+                />
+              </div>
             </div>
 
             {/* Fourth Row */}
