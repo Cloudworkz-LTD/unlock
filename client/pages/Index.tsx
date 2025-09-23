@@ -1,4 +1,5 @@
 import { UnlockButton } from "@/components/ui/unlock-button";
+import { Link } from "react-router-dom";
 
 export default function Index() {
   return (
@@ -30,12 +31,14 @@ export default function Index() {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-start gap-4">
-              <UnlockButton
-                size="default"
-                className="rounded-[10px] bg-unlock-green text-unlock-light font-medium uppercase tracking-wide"
-              >
-                Join
-              </UnlockButton>
+              <Link to="/join">
+                <UnlockButton
+                  size="default"
+                  className="rounded-[10px] bg-unlock-green text-unlock-light font-medium uppercase tracking-wide"
+                >
+                  Join
+                </UnlockButton>
+              </Link>
               <UnlockButton
                 variant="outline"
                 size="default"
@@ -332,13 +335,15 @@ export default function Index() {
             </div>
 
             {/* CTA Button */}
-            <UnlockButton
-              variant="outline"
-              size="default"
-              className="rounded border border-unlock-light text-unlock-light font-medium uppercase tracking-wide hover:bg-unlock-light hover:text-unlock-dark"
-            >
-              Join Our Waiting List
-            </UnlockButton>
+            <Link to="/join">
+              <UnlockButton
+                variant="outline"
+                size="default"
+                className="rounded border border-unlock-light text-unlock-light font-medium uppercase tracking-wide hover:bg-unlock-light hover:text-unlock-dark"
+              >
+                Join Our Waiting List
+              </UnlockButton>
+            </Link>
           </div>
         </div>
       </section>
@@ -407,13 +412,15 @@ export default function Index() {
                   provide investment advice or endorsements, ensuring you
                   receive unbiased insights.
                 </p>
-                <UnlockButton
-                  variant="outline"
-                  size="default"
-                  className="rounded border border-unlock-dark text-unlock-dark font-medium uppercase tracking-wide hover:bg-unlock-dark hover:text-unlock-light"
-                >
-                  Join Our Waiting List
-                </UnlockButton>
+                <Link to="/join">
+                  <UnlockButton
+                    variant="outline"
+                    size="default"
+                    className="rounded border border-unlock-dark text-unlock-dark font-medium uppercase tracking-wide hover:bg-unlock-dark hover:text-unlock-light"
+                  >
+                    Join Our Waiting List
+                  </UnlockButton>
+                </Link>
               </div>
 
               {/* Right Column - Report Types */}
@@ -663,12 +670,14 @@ export default function Index() {
               </p>
 
               <div className="flex items-center gap-4">
-                <UnlockButton
-                  size="default"
-                  className="rounded bg-white text-unlock-dark font-medium uppercase tracking-wide hover:bg-white/90"
-                >
-                  Join Our Waiting List
-                </UnlockButton>
+                <Link to="/join">
+                  <UnlockButton
+                    size="default"
+                    className="rounded bg-white text-unlock-dark font-medium uppercase tracking-wide hover:bg-white/90"
+                  >
+                    Join Our Waiting List
+                  </UnlockButton>
+                </Link>
               </div>
             </div>
           </div>
