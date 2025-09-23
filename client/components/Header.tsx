@@ -64,6 +64,7 @@ const navigationItems = [
   { name: "Blog", href: "/blog" },
   { name: "Services", href: "/services" },
   { name: "FAQ", href: "/faq" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export const Header = () => {
