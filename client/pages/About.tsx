@@ -151,7 +151,7 @@ export default function About() {
 
       {/* Underwater Background Section */}
       <section
-        className="relative flex flex-col items-center min-h-[469px] py-8 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-36"
+        className="relative flex flex-col items-center py-12 md:py-20 lg:py-24 xl:py-25 px-8 md:px-16 lg:px-20 xl:px-24 2xl:px-25"
         style={{
           backgroundImage: `url('https://api.builder.io/api/v1/image/assets/TEMP/370eeb296a8b4a65a63c48a44464742bee4db7fa?width=2880')`,
           backgroundSize: "100% 384.362%",
@@ -160,7 +160,7 @@ export default function About() {
           backgroundColor: "lightgray",
         }}
       >
-        <div className="flex flex-col items-center gap-16 lg:gap-20 w-full max-w-7xl">
+        <div className="flex flex-col items-center gap-12 lg:gap-20 w-full max-w-7xl py-8">
           {/* Title */}
           <div className="flex flex-col items-start w-full max-w-[416px]">
             <h2 className="text-unlock-light font-aeonik text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%] tracking-[-0.02em] w-full">
