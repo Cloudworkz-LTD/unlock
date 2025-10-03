@@ -431,13 +431,15 @@ export default function Index() {
       <section>
         <div className="max-w-7xl mx-auto">
           <div
-            className="relative h-[500px] md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden flex flex-col justify-between items-start w-full"
+            className="relative h-[500px] md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden flex flex-col justify-between items-start"
             style={{
               backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Fdaf7b67ad79a4dd4805e13de6138450b?format=webp&width=2460')`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               padding: "96px 70px 96px 96px",
+              width: "100%",
+              maxWidth: "100%",
             }}
           >
             {/* Text Content Layout */}
