@@ -151,7 +151,7 @@ export default function Index() {
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
-              borderWidth: "1px",
+              borderWidth: "0px",
               borderStyle: "none",
             }}
           >
