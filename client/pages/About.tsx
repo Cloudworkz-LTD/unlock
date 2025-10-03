@@ -20,8 +20,12 @@ export default function About() {
             <div className="flex flex-col items-center gap-8 max-w-4xl">
               {/* Title */}
               <div className="flex flex-col items-center gap-2 w-full">
-                <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl !font-extralight !font-aeonik !text-white !leading-[0.81] !tracking-[-0.042em] text-center" style={{ fontSize: 'clamp(3rem, 10vw, 140px)' }}>
-                  Your Partner for Informed Investing
+                <h1
+                  className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl !font-extralight !font-aeonik !text-white !leading-[0.81] !tracking-[-0.042em] text-center"
+                  style={{ fontSize: "clamp(3rem, 10vw, 140px)" }}
+                >
+                  <span className="block">Your Partner for</span>
+                  <span className="block">Informed Investing</span>
                 </h1>
               </div>
 
