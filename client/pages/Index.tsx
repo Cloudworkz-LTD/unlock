@@ -675,11 +675,11 @@ export default function Index() {
           </div>
 
           {/* Decorative SVG Lines - Responsive Positioning */}
-          <div className="absolute pointer-events-none">
+          <div className="absolute inset-0 pointer-events-none">
             {/* Mobile SVG */}
             <svg
               className="block md:hidden absolute bottom-0 left-0 opacity-30"
-              style={{ width: "90%", height: "auto", transform: "translateY(50%)" }}
+              style={{ width: "90%", height: "auto", transform: "translateY(35%)" }}
               width="374"
               height="513"
               viewBox="0 0 374 513"
