@@ -8,7 +8,7 @@ export default function About() {
       <section
         className="relative flex items-center justify-center min-h-[722px] px-4 md:px-8 lg:px-24 xl:px-[100px] py-20 lg:py-24"
         style={{
-          backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('https://api.builder.io/api/v1/image/assets/TEMP/6b33f16c2b826f3811c0560ba5628bd5d7752172?width=2880')`,
+          backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('https://api.builder.io/api/v1/image/assets/TEMP/38d5c6a0fd4f1a0b5febe81fca971dccd2afaeca?width=2880')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
