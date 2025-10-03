@@ -364,6 +364,8 @@ export default function Index() {
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               padding: "96px 70px 96px 96px",
+              width: "100%",
+              maxWidth: "100%",
             }}
           >
             {/* Text Content Layout */}
