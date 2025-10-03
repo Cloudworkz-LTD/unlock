@@ -23,7 +23,7 @@ export default function Index() {
             </div>
 
             {/* Description */}
-            <p className="text-lg md:text-xl text-white font-aeonik leading-[1.2] max-w-2xl" style={{ fontWeight: 250 }}>
+            <p className="text-lg md:text-xl text-white !font-aeonik leading-[1.2] max-w-2xl" style={{ fontWeight: 250 }}>
               Unlock delivers data-backed due diligence reports, using AI and
               expert analysis to provide investors with clear, actionable
               insights.
