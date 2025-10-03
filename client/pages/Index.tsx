@@ -11,13 +11,13 @@ export default function Index() {
           <div className="flex flex-col items-start gap-8 lg:w-2/3">
             {/* Title Block */}
             <div className="flex flex-col items-start gap-2 w-full">
-              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-[140px] font-light font-aeonik text-unlock-green leading-[0.70] tracking-[-0.03em] w-full" style={{ letterSpacing: '-4.2px' }}>
+              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-[140px] font-light font-aeonik text-unlock-green leading-[0.70] tracking-[-0.03em] w-full">
                 Due Diligence
               </h1>
-              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-[140px] font-extralight font-aeonik text-white leading-[0.70] tracking-[-0.03em] w-full" style={{ letterSpacing: '-4.2px' }}>
+              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-[140px] font-extralight font-aeonik text-white leading-[0.70] tracking-[-0.03em] w-full">
                 for Smarter
               </h1>
-              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-[140px] font-extralight font-aeonik text-white leading-[0.70] tracking-[-0.03em] w-full" style={{ letterSpacing: '-4.2px' }}>
+              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-[140px] font-extralight font-aeonik text-white leading-[0.70] tracking-[-0.03em] w-full">
                 Investments
               </h1>
             </div>
