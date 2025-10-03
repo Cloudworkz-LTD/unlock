@@ -14,13 +14,13 @@ export default function Services() {
         <div className="container mx-auto max-w-7xl">
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-[113px] text-center lg:text-left">
             {/* Hero Content */}
-            <div className="flex flex-col items-center gap-8 max-w-4xl mx-auto text-center">
-              <div className="flex flex-col items-center gap-2">
-                <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-[140px] font-extralight text-white leading-[0.81] tracking-[-4.2px] mb-0">
+            <div className="flex flex-col items-center gap-8 w-full mx-auto text-center">
+              <div className="flex flex-col items-center gap-2 w-full">
+                <h1 className="text-[56px] sm:text-[80px] md:text-[110px] lg:text-[140px] font-extralight text-white leading-[0.81] tracking-[-4.2px] mb-0 px-4">
                   Informed Investing, Simplified
                 </h1>
               </div>
-              <p className="max-w-[629px] text-white text-lg sm:text-xl font-light leading-[1.2] mb-0">
+              <p className="max-w-[629px] text-white text-lg sm:text-xl font-light leading-[1.2] mb-0 px-4">
                 Discover our comprehensive due diligence solutions for smarter
                 investment decisions.
               </p>
