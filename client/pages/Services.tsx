@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { UnlockButton } from "@/components/ui/unlock-button";
+import { TestimonialCarousel } from "@/components/TestimonialCarousel";
 
 export default function Services() {
   return (
@@ -310,111 +311,48 @@ export default function Services() {
               </h2>
             </div>
 
-            {/* Testimonials Grid */}
-            <div className="flex overflow-x-auto gap-6 pb-4">
-              {/* Testimonial 1 - Elena Morozova */}
-              <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-gray-light border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
-                <p className="text-unlock-dark font-aeonik text-base font-light leading-[1.4]">
-                  Unlock transformed the way we assess risk. Their data
-                  dashboards are sharp, intuitive, and investor-ready. I finally
-                  feel like we're making decisions with clarity, not guesswork
-                </p>
-                <div className="flex flex-col">
-                  <h4 className="text-unlock-dark font-aeonik text-base font-normal leading-[1.5]">
-                    Elena Morozova
-                  </h4>
-                  <p className="text-unlock-dark font-aeonik text-xs font-light leading-[1.5]">
-                    Managing Partner at Novus Capital
-                  </p>
-                </div>
-              </div>
-
-              {/* Testimonial 2 - John Doe */}
-              <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-gray-light border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
-                <p className="text-unlock-dark font-aeonik text-base font-light leading-[1.4]">
-                  Unlock's due diligence services have been invaluable in
-                  helping me make informed investment decisions. Their
-                  meticulous research and analysis have given me the confidence
-                  to invest with clarity and certainty.
-                </p>
-                <div className="flex flex-col">
-                  <h4 className="text-unlock-dark font-aeonik text-base font-normal leading-[1.5]">
-                    John Doe
-                  </h4>
-                  <p className="text-unlock-dark font-aeonik text-xs font-light leading-[1.5]">
-                    Investor, ABC Company
-                  </p>
-                </div>
-              </div>
-
-              {/* Testimonial 3 - James Carter */}
-              <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-gray-light border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
-                <p className="text-unlock-dark font-aeonik text-base font-light leading-[1.4]">
-                  Their team doesn't just deliver insights — they uncover
-                  opportunities. Thanks to Unlock, we spotted a trend early that
-                  became one of our strongest portfolio wins last year.
-                </p>
-                <div className="flex flex-col">
-                  <h4 className="text-unlock-dark font-aeonik text-base font-normal leading-[1.5]">
-                    James Carter
-                  </h4>
-                  <p className="text-unlock-dark font-aeonik text-xs font-light leading-[1.5]">
-                    Angel Investor, Fintech Sector
-                  </p>
-                </div>
-              </div>
-
-              {/* Testimonial 4 - Tariq El-Amin */}
-              <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-gray-light border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
-                <p className="text-unlock-dark font-aeonik text-base font-light leading-[1.4]">
-                  Before Unlock, our analytics felt like a black box. Now, every
-                  metric has a narrative, and every report drives action. It's
-                  like having an in-house intelligence unit.
-                </p>
-                <div className="flex flex-col">
-                  <h4 className="text-unlock-dark font-aeonik text-base font-normal leading-[1.5]">
-                    Tariq El-Amin
-                  </h4>
-                  <p className="text-unlock-dark font-aeonik text-xs font-light leading-[1.5]">
-                    Venture Partner at Apex Growth
-                  </p>
-                </div>
-              </div>
-
-              {/* Testimonial 5 - Laura Gutiérrez */}
-              <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-gray-light border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
-                <p className="text-unlock-dark font-aeonik text-base font-light leading-[1.4]">
-                  Unlock brings precision to a chaotic market. Their
-                  investor-focused dashboards helped us streamline our pitch
-                  decks and wow LPs with confidence.
-                </p>
-                <div className="flex flex-col">
-                  <h4 className="text-unlock-dark font-aeonik text-base font-normal leading-[1.5]">
-                    Laura Gutiérrez
-                  </h4>
-                  <p className="text-unlock-dark font-aeonik text-xs font-light leading-[1.5]">
-                    Co-Founder at Capital Bloom
-                  </p>
-                </div>
-              </div>
-
-              {/* Testimonial 6 - David Kwan (Featured) */}
-              <div className="flex-shrink-0 w-[323px] h-[275px] bg-unlock-dark border border-unlock-gray-medium rounded-[10px] p-10 flex flex-col justify-between">
-                <p className="text-unlock-light font-aeonik text-base font-light leading-[1.4]">
-                  We used to rely on generic market reports. Unlock built us a
-                  custom analytics engine tailored to our vertical. It's now our
-                  competitive edge.
-                </p>
-                <div className="flex flex-col">
-                  <h4 className="text-unlock-light font-aeonik text-base font-normal leading-[1.5]">
-                    David Kwan
-                  </h4>
-                  <p className="text-unlock-light font-aeonik text-xs font-extralight leading-[1.5]">
-                    Principal at Skyline Ventures
-                  </p>
-                </div>
-              </div>
-            </div>
+            {/* Testimonials Carousel */}
+            <TestimonialCarousel
+              testimonials={[
+                {
+                  quote:
+                    "Unlock transformed the way we assess risk. Their data dashboards are sharp, intuitive, and investor-ready. I finally feel like we're making decisions with clarity, not guesswork",
+                  name: "Elena Morozova",
+                  title: "Managing Partner at Novus Capital",
+                },
+                {
+                  quote:
+                    "Unlock's due diligence services have been invaluable in helping me make informed investment decisions. Their meticulous research and analysis have given me the confidence to invest with clarity and certainty.",
+                  name: "John Doe",
+                  title: "Investor, ABC Company",
+                },
+                {
+                  quote:
+                    "Their team doesn't just deliver insights — they uncover opportunities. Thanks to Unlock, we spotted a trend early that became one of our strongest portfolio wins last year.",
+                  name: "James Carter",
+                  title: "Angel Investor, Fintech Sector",
+                },
+                {
+                  quote:
+                    "Before Unlock, our analytics felt like a black box. Now, every metric has a narrative, and every report drives action. It's like having an in-house intelligence unit.",
+                  name: "Tariq El-Amin",
+                  title: "Venture Partner at Apex Growth",
+                },
+                {
+                  quote:
+                    "Unlock brings precision to a chaotic market. Their investor-focused dashboards helped us streamline our pitch decks and wow LPs with confidence.",
+                  name: "Laura Gutiérrez",
+                  title: "Co-Founder at Capital Bloom",
+                },
+                {
+                  quote:
+                    "We used to rely on generic market reports. Unlock built us a custom analytics engine tailored to our vertical. It's now our competitive edge.",
+                  name: "David Kwan",
+                  title: "Principal at Skyline Ventures",
+                  featured: true,
+                },
+              ]}
+            />
           </div>
         </div>
       </section>
