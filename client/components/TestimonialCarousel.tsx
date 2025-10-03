@@ -11,7 +11,9 @@ interface TestimonialCarouselProps {
   testimonials: Testimonial[];
 }
 
-export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) {
+export function TestimonialCarousel({
+  testimonials,
+}: TestimonialCarouselProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
