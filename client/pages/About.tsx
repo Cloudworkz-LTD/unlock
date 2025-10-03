@@ -26,7 +26,7 @@ export default function About() {
               </div>
 
               {/* Description */}
-              <p className="text-lg md:text-xl text-unlock-light font-light font-aeonik !leading-[1.2] text-center max-w-[629px]">
+              <p className="text-lg md:text-xl text-unlock-light !font-light !font-aeonik !leading-[1.2] text-center max-w-[629px]">
                 It is our mission to empower investors with the insights they
                 need to make smarter, more informed decisions.
               </p>
