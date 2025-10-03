@@ -24,8 +24,12 @@ export default function About() {
                   className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl !font-extralight !font-aeonik !text-white !leading-[0.81] !tracking-[-0.042em] text-center"
                   style={{ fontSize: "clamp(3rem, 10vw, 140px)" }}
                 >
-                  <span className="block whitespace-nowrap">Your Partner for</span>
-                  <span className="block whitespace-nowrap">Informed Investing</span>
+                  <span className="block whitespace-nowrap">
+                    Your Partner for
+                  </span>
+                  <span className="block whitespace-nowrap">
+                    Informed Investing
+                  </span>
                 </h1>
               </div>
 
