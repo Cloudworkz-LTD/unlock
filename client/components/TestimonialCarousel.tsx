@@ -13,76 +13,59 @@ interface TestimonialCarouselProps {
 
 export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
-  const autoScrollInterval = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const container = scrollContainerRef.current;
-    if (!container) return;
+    if (!container || testimonials.length === 0) {
+      return;
+    }
 
-    const cardWidth = 323;
-    const gap = 24;
-    const scrollAmount = cardWidth + gap;
+    let animationFrameId: number;
+    let scrollPosition = container.scrollLeft;
+    const scrollSpeed = 0.5;
 
-    autoScrollInterval.current = setInterval(() => {
-      if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 10) {
-        container.scrollTo({ left: 0, behavior: "smooth" });
-      } else {
-        container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+    const scroll = () => {
+      scrollPosition += scrollSpeed;
+
+      if (container) {
+        container.scrollLeft = scrollPosition;
+        const maxScroll = container.scrollWidth / 2;
+
+        if (scrollPosition >= maxScroll) {
+          scrollPosition = 0;
+          container.scrollLeft = 0;
+        }
       }
-    }, 3000);
+
+      animationFrameId = requestAnimationFrame(scroll);
+    };
+
+    animationFrameId = requestAnimationFrame(scroll);
 
     return () => {
-      if (autoScrollInterval.current) {
-        clearInterval(autoScrollInterval.current);
+      if (animationFrameId) {
+        cancelAnimationFrame(animationFrameId);
       }
     };
-  }, []);
-
-  const handleMouseEnter = () => {
-    if (autoScrollInterval.current) {
-      clearInterval(autoScrollInterval.current);
-      autoScrollInterval.current = null;
-    }
-  };
-
-  const handleMouseLeave = () => {
-    const container = scrollContainerRef.current;
-    if (!container) return;
-
-    const cardWidth = 323;
-    const gap = 24;
-    const scrollAmount = cardWidth + gap;
-
-    autoScrollInterval.current = setInterval(() => {
-      if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 10) {
-        container.scrollTo({ left: 0, behavior: "smooth" });
-      } else {
-        container.scrollBy({ left: scrollAmount, behavior: "smooth" });
-      }
-    }, 3000);
-  };
+  }, [testimonials.length]);
 
   return (
     <div
       ref={scrollContainerRef}
-      className="flex overflow-x-auto gap-6 pb-4 scroll-smooth"
+      className="testimonial-carousel flex gap-6 w-full overflow-x-hidden pb-4"
       style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
     >
       <style>{`
         .testimonial-carousel::-webkit-scrollbar {
           display: none;
         }
       `}</style>
-      {testimonials.map((testimonial, index) => (
+      {[...testimonials, ...testimonials].map((testimonial, index) => (
         <div
-          key={index}
-          className={`flex-shrink-0 w-[323px] h-[275px] ${
-            testimonial.featured
-              ? "bg-unlock-dark border-unlock-gray-medium"
-              : "bg-unlock-gray-light border-unlock-gray-medium"
-          } border rounded-[10px] py-10 px-6 flex flex-col justify-between`}
+          key={`${testimonial.name}-${index}`}
+          className={`flex-shrink-0 w-[323px] h-[275px] rounded-[10px] border border-unlock-gray-medium py-10 px-6 flex flex-col justify-between ${
+            testimonial.featured ? "bg-unlock-dark" : "bg-unlock-gray-light"
+          }`}
         >
           <p
             className={`${
