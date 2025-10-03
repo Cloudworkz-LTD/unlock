@@ -462,8 +462,8 @@ export default function Index() {
                 className="text-unlock-light font-serif text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium leading-[110%] max-w-sm text-left"
                 style={{ marginLeft: "-5px" }}
               >
-                Get detailed reports faster, without the complexity or high costs
-                of traditional due diligence services
+                Get detailed reports faster, without the complexity or high
+                costs of traditional due diligence services
               </p>
             </div>
           </div>
@@ -585,14 +585,14 @@ export default function Index() {
                 <div
                   key={index}
                   className={`flex flex-col justify-between items-start w-[323px] h-[275px] py-10 px-6 rounded-[10px] border border-unlock-gray-medium flex-shrink-0 ${
-                    testimonial.dark
-                      ? "bg-unlock-dark"
-                      : "bg-unlock-gray-light"
+                    testimonial.dark ? "bg-unlock-dark" : "bg-unlock-gray-light"
                   }`}
                 >
                   <p
                     className={`font-aeonik text-base leading-[130%] w-full ${
-                      testimonial.dark ? "text-unlock-light" : "text-unlock-dark"
+                      testimonial.dark
+                        ? "text-unlock-light"
+                        : "text-unlock-dark"
                     }`}
                     style={{ fontWeight: 250 }}
                   >
