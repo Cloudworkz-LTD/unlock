@@ -26,7 +26,7 @@ export default function About() {
               </div>
 
               {/* Description */}
-              <p className="text-lg md:text-xl text-unlock-light font-light font-aeonik leading-[1.2] text-center max-w-[629px]">
+              <p className="text-lg md:text-xl text-unlock-light font-light font-aeonik !leading-[1.2] text-center max-w-[629px]">
                 It is our mission to empower investors with the insights they
                 need to make smarter, more informed decisions.
               </p>
@@ -89,7 +89,7 @@ export default function About() {
 
             {/* Right - Description */}
             <div className="flex-shrink-0 max-w-md lg:max-w-sm xl:max-w-md">
-              <p className="text-unlock-light font-aeonik text-base font-light leading-[150%] mt-10">
+              <p className="text-unlock-light font-aeonik text-base font-light !leading-[150%] mt-10">
                 Unlock is a trusted provider of meticulous due diligence on
                 investment opportunities. Our history is rooted in serving
                 investors by transforming uncertainty into clarity. With a
