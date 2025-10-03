@@ -77,6 +77,8 @@ export default function Index() {
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
+              borderWidth: "1px",
+              borderStyle: "none",
             }}
           >
             {/* Text Content Block - Left Side */}
