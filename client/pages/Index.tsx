@@ -11,19 +11,19 @@ export default function Index() {
           <div className="flex flex-col items-start gap-8 lg:w-2/3">
             {/* Title Block */}
             <div className="flex flex-col items-start gap-2 w-full">
-              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-light font-aeonik text-unlock-green leading-[0.81] tracking-[-0.03em] w-full">
+              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-[140px] font-light font-aeonik text-unlock-green leading-[0.81] tracking-[-0.03em] w-full" style={{ letterSpacing: '-4.2px' }}>
                 Due Diligence
               </h1>
-              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-extralight font-aeonik text-white leading-[0.81] tracking-[-0.03em] w-full">
+              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-[140px] font-extralight font-aeonik text-white leading-[0.81] tracking-[-0.03em] w-full" style={{ letterSpacing: '-4.2px' }}>
                 for Smarter
               </h1>
-              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-extralight font-aeonik text-white leading-[0.81] tracking-[-0.03em] w-full">
+              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-[140px] font-extralight font-aeonik text-white leading-[0.81] tracking-[-0.03em] w-full" style={{ letterSpacing: '-4.2px' }}>
                 Investments
               </h1>
             </div>
 
             {/* Description */}
-            <p className="text-lg md:text-xl text-white font-light font-aeonik leading-[1.2] max-w-2xl">
+            <p className="text-lg md:text-xl text-white font-aeonik leading-[1.2] max-w-2xl" style={{ fontWeight: 250 }}>
               Unlock delivers data-backed due diligence reports, using AI and
               expert analysis to provide investors with clear, actionable
               insights.
