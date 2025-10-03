@@ -633,9 +633,9 @@ export default function Index() {
           <div className="absolute inset-0 flex items-end justify-center overflow-hidden">
             <svg
               className="w-full max-w-6xl h-auto opacity-50"
-              width="1371"
+              width="1341"
               height="394"
-              viewBox="0 0 1371 394"
+              viewBox="0 0 1341 394"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
