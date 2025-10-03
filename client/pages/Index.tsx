@@ -627,17 +627,126 @@ export default function Index() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-24 lg:py-32 px-4 md:px-8 lg:px-24 bg-unlock-dark relative">
-        <div className="max-w-7xl mx-auto">
-          {/* Decorative SVG Lines */}
-          <div className="absolute inset-0 flex items-end justify-center overflow-hidden">
+      <section className="py-16 md:py-24 lg:py-32 px-8 md:px-12 lg:px-24 bg-unlock-dark relative overflow-hidden">
+        <div className="max-w-7xl mx-auto relative">
+          {/* Content */}
+          <div className="relative z-10 flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 lg:gap-16">
+            {/* Left Side - Lock Icon & Main Text */}
+            <div className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-8 lg:gap-12 flex-1">
+              {/* Lock Icon */}
+              <svg
+                className="w-12 h-20 md:w-16 md:h-24 lg:w-20 lg:h-32 flex-shrink-0"
+                width="81"
+                height="130"
+                viewBox="0 0 81 130"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M70.0821 64.9911V31.9944C70.0821 11.9569 56.9434 0 34.9478 0C12.9522 0 0 11.9569 0 31.9944V65H10.9179V98.0056C10.9179 118.043 23.9855 130 45.8656 130C67.7458 130 81 118.043 81 98.0056V64.9911H70.0821ZM45.8834 109.661C37.0532 109.661 32.7624 105.678 32.7624 97.4823V65H21.8446V32.5355C21.8446 24.1 26.011 20.1706 34.9656 20.1706C43.9202 20.1706 48.2553 24.1 48.2553 32.5355V64.9911H59.1643V67.0756H59.1732V97.4823C59.1732 105.678 54.8202 109.661 45.8834 109.661Z"
+                  fill="#00BB77"
+                />
+              </svg>
+
+              {/* Main Heading */}
+              <h2 className="text-unlock-green font-aeonik text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%] tracking-tight max-w-2xl">
+                Start to making more informed investment decisions
+              </h2>
+            </div>
+
+            {/* Right Side - Description & CTA */}
+            <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[226px] flex-shrink-0">
+              <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
+                Join our waiting list to begin making more informed investment
+                decisions.
+              </p>
+
+              <div className="flex items-center gap-4 w-full md:w-auto">
+                <Link to="/join" className="w-full md:w-auto">
+                  <UnlockButton
+                    size="default"
+                    className="w-full md:w-auto rounded bg-white text-unlock-dark font-medium uppercase tracking-wide hover:bg-white/90"
+                  >
+                    Join Our Waiting List
+                  </UnlockButton>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Decorative SVG Lines - Responsive Positioning */}
+          <div className="absolute pointer-events-none">
+            {/* Mobile SVG */}
             <svg
-              className="w-full max-w-6xl h-auto opacity-50"
+              className="block md:hidden absolute bottom-0 left-0 opacity-30"
+              style={{ width: "90%", height: "auto", transform: "translateY(50%)" }}
+              width="374"
+              height="513"
+              viewBox="0 0 374 513"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMinYMax meet"
+            >
+              <path
+                d="M315.623 504.643H0.486328V1.16992H373.512V504.643"
+                stroke="#F5F7F0"
+                strokeWidth="0.83"
+                strokeMiterlimit="10"
+              />
+              <path
+                d="M176.623 504.645H316.192"
+                stroke="#00BB77"
+                strokeWidth="6"
+                strokeMiterlimit="10"
+              />
+            </svg>
+
+            {/* Tablet SVG */}
+            <svg
+              className="hidden md:block lg:hidden absolute"
+              style={{
+                width: "95%",
+                height: "auto",
+                bottom: "-20%",
+                left: "2%"
+              }}
+              width="796"
+              height="583"
+              viewBox="0 0 796 583"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMinYMax meet"
+            >
+              <path
+                d="M671.757 573.503H1.03711V1.33008H794.964V573.503"
+                stroke="#F5F7F0"
+                strokeWidth="0.83"
+                strokeMiterlimit="10"
+              />
+              <path
+                d="M375.914 573.504H672.964"
+                stroke="#00BB77"
+                strokeWidth="6"
+                strokeMiterlimit="10"
+              />
+            </svg>
+
+            {/* Desktop SVG */}
+            <svg
+              className="hidden lg:block absolute"
+              style={{
+                width: "100%",
+                maxWidth: "1241px",
+                height: "auto",
+                bottom: "-15%",
+                left: "8%"
+              }}
               width="1241"
               height="394"
               viewBox="0 0 1241 394"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMinYMax meet"
             >
               <path
                 d="M1047.3 387.582H1.61719V0.898438H1239.39V387.582"
@@ -652,51 +761,6 @@ export default function Index() {
                 strokeMiterlimit="10"
               />
             </svg>
-          </div>
-
-          {/* Content */}
-          <div className="relative flex flex-col lg:flex-row justify-between items-end gap-12 lg:gap-16">
-            {/* Left Side - Lock Icon & Main Text */}
-            <div className="flex items-center gap-8 lg:gap-12 flex-1">
-              {/* Lock Icon */}
-              <svg
-                className="w-16 h-20 lg:w-20 lg:h-32 flex-shrink-0"
-                width="81"
-                height="130"
-                viewBox="0 0 81 130"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M70.0821 64.9911V31.9944C70.0821 11.9569 56.9434 0 34.9478 0C12.9522 0 0 11.9569 0 31.9944V65H10.9179V98.0056C10.9179 118.043 23.9855 130 45.8656 130C67.7458 130 81 118.043 81 98.0056V64.9911H70.0821ZM45.8834 109.661C37.0532 109.661 32.7624 105.678 32.7624 97.4823V65H21.8446V32.5355C21.8446 24.1 26.011 20.1706 34.9656 20.1706C43.9202 20.1706 48.2553 24.1 48.2553 32.5355V64.9911H59.1643V67.0756H59.1732V97.4823C59.1732 105.678 54.8202 109.661 45.8834 109.661Z"
-                  fill="#00BB77"
-                />
-              </svg>
-
-              {/* Main Heading */}
-              <h2 className="text-unlock-green font-aeonik text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-light leading-[110%] tracking-tight max-w-2xl">
-                Start to making more informed investment decisions
-              </h2>
-            </div>
-
-            {/* Right Side - Description & CTA */}
-            <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[226px] flex-shrink-0">
-              <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[130%] w-full">
-                Join our waiting list to begin making more informed investment
-                decisions.
-              </p>
-
-              <div className="flex items-center gap-4">
-                <Link to="/join">
-                  <UnlockButton
-                    size="default"
-                    className="rounded bg-white text-unlock-dark font-medium uppercase tracking-wide hover:bg-white/90"
-                  >
-                    Join Our Waiting List
-                  </UnlockButton>
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </section>
