@@ -524,27 +524,29 @@ export default function Services() {
       {/* CTA Section */}
       <section className="relative overflow-hidden">
         {/* Background SVG */}
-        <div className="absolute inset-0 w-full h-full">
-          <svg
-            className="absolute left-0 top-[115px] w-full h-[394px]"
-            viewBox="0 0 1242 394"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M1047.8 387.582H2.11719V0.898438H1239.89V387.582"
-              stroke="#F5F7F0"
-              strokeWidth="0.83"
-              strokeMiterlimit="10"
-            />
-            <path
-              d="M586.568 387.582H1049.68"
-              stroke="#00BB77"
-              strokeWidth="6"
-              strokeMiterlimit="10"
-            />
-          </svg>
+        <div className="absolute inset-0 flex justify-center pointer-events-none">
+          <div className="relative w-full max-w-7xl">
+            <svg
+              className="absolute left-0 top-[115px] w-full h-[394px]"
+              viewBox="0 0 1242 394"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M1047.8 387.582H2.11719V0.898438H1239.89V387.582"
+                stroke="#F5F7F0"
+                strokeWidth="0.83"
+                strokeMiterlimit="10"
+              />
+              <path
+                d="M586.568 387.582H1049.68"
+                stroke="#00BB77"
+                strokeWidth="6"
+                strokeMiterlimit="10"
+              />
+            </svg>
+          </div>
         </div>
 
         {/* Content */}
