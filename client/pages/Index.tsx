@@ -437,6 +437,7 @@ export default function Index() {
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
+              padding: "96px 70px 96px 96px",
               width: "100%",
               maxWidth: "100%",
             }}
