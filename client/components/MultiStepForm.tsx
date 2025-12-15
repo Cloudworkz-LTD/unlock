@@ -133,13 +133,13 @@ export function MultiStepForm() {
             {getStepContent()}
 
             {/* Navigation Buttons */}
-            <div className="flex items-start gap-4">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-start gap-3 sm:gap-4 w-full sm:w-auto mt-4 lg:mt-0">
               <UnlockButton
                 variant="outline"
                 size="default"
                 onClick={prevStep}
                 disabled={currentStep === 1}
-                className="rounded border border-form-light-blue text-form-light-blue font-medium uppercase tracking-wide hover:bg-form-light-blue hover:text-unlock-dark disabled:opacity-50 disabled:cursor-not-allowed"
+                className="rounded border border-form-light-blue text-form-light-blue font-medium uppercase tracking-wide hover:bg-form-light-blue hover:text-unlock-dark disabled:opacity-50 disabled:cursor-not-allowed text-xs sm:text-sm flex-1 sm:flex-none"
               >
                 {currentStep === 1 ? "CANCEL" : "BACK"}
               </UnlockButton>
@@ -147,7 +147,7 @@ export function MultiStepForm() {
               <UnlockButton
                 size="default"
                 onClick={currentStep === 4 ? handleSubmit : nextStep}
-                className={`rounded font-medium uppercase tracking-wide ${
+                className={`rounded font-medium uppercase tracking-wide text-xs sm:text-sm flex-1 sm:flex-none ${
                   currentStep === 4
                     ? "bg-unlock-green text-unlock-light hover:bg-unlock-green/90"
                     : "bg-white text-form-blue hover:bg-white/90"
