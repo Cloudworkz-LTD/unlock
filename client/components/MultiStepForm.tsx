@@ -445,20 +445,20 @@ function Phase4({
   updateFormData: (field: keyof FormData, value: string) => void;
 }) {
   return (
-    <div className="flex flex-col items-start gap-4 self-stretch">
+    <div className="flex flex-col items-start gap-3 sm:gap-4 self-stretch w-full">
       {/* Preferred Chat Date */}
       <div className="flex flex-col items-start gap-1 self-stretch">
-        <div className="flex px-4 justify-center items-center gap-2.5 self-stretch">
-          <label className="h-[21px] flex-1 text-white font-aeonik text-base font-normal leading-[150%]">
+        <div className="flex px-2 sm:px-4 justify-center items-center gap-2.5 self-stretch">
+          <label className="flex-1 text-white font-aeonik text-sm sm:text-base font-normal leading-[150%]">
             Preferred Chat Date
           </label>
         </div>
-        <div className="flex py-2.5 px-8 items-center gap-2.5 self-stretch rounded bg-form-input-bg">
+        <div className="flex py-2 sm:py-2.5 px-3 sm:px-8 items-center gap-2.5 self-stretch rounded bg-form-input-bg w-full">
           <input
             type="date"
             value={formData.chatDate}
             onChange={(e) => updateFormData("chatDate", e.target.value)}
-            className="flex-1 bg-transparent text-form-grey font-aeonik text-sm font-light leading-[150%] border-none focus:outline-none"
+            className="flex-1 bg-transparent text-form-grey font-aeonik text-xs sm:text-sm font-light leading-[150%] border-none focus:outline-none w-full"
           />
           <svg
             width="16"
