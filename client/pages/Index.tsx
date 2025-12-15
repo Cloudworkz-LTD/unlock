@@ -430,41 +430,44 @@ export default function Index() {
       {/* Underwater Background Section */}
       <section className="w-full">
         <div
-          className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden flex flex-col justify-between items-start"
+          className="relative w-full h-auto md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden flex flex-col justify-between items-start gap-8 md:gap-0"
           style={{
             backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Fdaf7b67ad79a4dd4805e13de6138450b?format=webp&width=2460')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
-            padding: "96px 70px 96px 96px",
+            padding: "40px 20px md:96px md:70px md:96px lg:96px",
           }}
         >
           {/* Text Content Layout */}
-          <div className="relative flex-1 self-stretch w-full">
+          <div className="relative flex-1 self-stretch w-full flex flex-col justify-between">
             {/* Top Left - Main Title */}
-            <h2 className="text-unlock-light font-aeonik text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%] max-w-3xl">
+            <h2 className="text-unlock-light font-aeonik text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[110%] max-w-full md:max-w-3xl pr-2">
               AI-Enhanced Due Diligence
             </h2>
 
-            {/* Bottom Left - Description */}
-            <div className="absolute bottom-0 left-0">
-              <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[130%] max-w-md lg:max-w-[389px]">
-                Unlock streamlines the due diligence process with AI-powered
-                risk detection and anomaly analysis, delivering more innovative,
-                faster insights while incorporating expert validation where
-                needed.
-              </p>
-            </div>
+            {/* Bottom Content - Responsive Stack */}
+            <div className="relative w-full flex flex-col md:flex-row md:justify-between md:items-end gap-6 md:gap-0 pt-6 md:pt-0">
+              {/* Bottom Left - Description */}
+              <div className="flex-1 min-w-0">
+                <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[130%] max-w-md lg:max-w-[389px]">
+                  Unlock streamlines the due diligence process with AI-powered
+                  risk detection and anomaly analysis, delivering more innovative,
+                  faster insights while incorporating expert validation where
+                  needed.
+                </p>
+              </div>
 
-            {/* Bottom Right - Value Proposition */}
-            <div className="absolute bottom-0 right-0">
-              <p
-                className="text-unlock-light font-serif text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium leading-[110%] max-w-sm text-left"
-                style={{ marginLeft: "-5px" }}
-              >
-                Get detailed reports faster, without the complexity or high
-                costs of traditional due diligence services
-              </p>
+              {/* Bottom Right - Value Proposition */}
+              <div className="flex-1 min-w-0">
+                <p
+                  className="text-unlock-light font-serif text-base md:text-2xl lg:text-3xl xl:text-4xl font-medium leading-[110%] max-w-full md:max-w-sm text-left"
+                  style={{ marginLeft: "0px" }}
+                >
+                  Get detailed reports faster, without the complexity or high
+                  costs of traditional due diligence services
+                </p>
+              </div>
             </div>
           </div>
         </div>
