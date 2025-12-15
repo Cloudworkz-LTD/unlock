@@ -259,7 +259,7 @@ function Phase2({
                 />
               </svg>
               <span
-                className={`font-aeonik text-sm leading-[150%] ${
+                className={`font-aeonik leading-[150%] ${
                   formData.serviceType === type
                     ? "text-unlock-green font-normal"
                     : "text-form-grey font-light"
@@ -274,18 +274,18 @@ function Phase2({
 
       {/* Investment Horizon */}
       <div className="flex flex-col items-start gap-1 self-stretch">
-        <div className="flex px-4 justify-center items-center gap-2.5 self-stretch">
-          <label className="flex-1 text-white font-aeonik text-base font-normal leading-[150%]">
+        <div className="flex px-2 sm:px-4 justify-center items-center gap-2.5 self-stretch">
+          <label className="flex-1 text-white font-aeonik text-sm sm:text-base font-normal leading-[150%]">
             Your Investment Horizon
           </label>
         </div>
-        <div className="flex py-2.5 px-4 items-center gap-2.5 self-stretch rounded border border-unlock-light">
+        <div className="flex py-2 sm:py-2.5 px-3 sm:px-4 items-center gap-2.5 self-stretch rounded border border-unlock-light w-full">
           <select
             value={formData.investmentHorizon}
             onChange={(e) =>
               updateFormData("investmentHorizon", e.target.value)
             }
-            className="flex-1 bg-transparent text-unlock-light font-aeonik text-sm font-light leading-[150%] border-none focus:outline-none"
+            className="flex-1 bg-transparent text-unlock-light font-aeonik text-xs sm:text-sm font-light leading-[150%] border-none focus:outline-none"
           >
             <option value="" className="bg-unlock-dark text-unlock-light">
               Select one...
