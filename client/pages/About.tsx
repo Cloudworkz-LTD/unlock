@@ -340,19 +340,17 @@ export default function About() {
       </section>
 
       {/* Final CTA Section with Decorative Frame */}
-      <section className="flex flex-col items-center bg-unlock-dark px-4 md:px-8 py-12 md:py-16 lg:py-24">
-        <div className="relative w-full max-w-[1241px] border lg:border-0 border-unlock-light lg:border-unlock-light/0 p-6 md:p-8 lg:p-0 lg:min-h-[574px]">
-          {/* Decorative SVG Border Frame - Only visible on lg+ */}
-          <div className="hidden lg:flex absolute inset-0 items-start justify-center overflow-hidden pointer-events-none">
+      <section className="hidden lg:flex flex-col items-center bg-unlock-dark px-8 py-24">
+        <div className="relative w-full max-w-[1241px] min-h-[574px]">
+          {/* Decorative SVG Border Frame */}
+          <div className="absolute inset-0 flex items-start justify-center overflow-hidden pointer-events-none">
             <svg
-              className="w-full h-auto"
+              className="w-full max-w-[1241px] h-[394px] absolute top-[115px]"
               width="1242"
               height="394"
               viewBox="0 0 1242 394"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid meet"
-              style={{ marginTop: "115px" }}
             >
               <path
                 d="M1047.8 387.582H2.11719V0.898438H1239.89V387.582"
@@ -370,7 +368,7 @@ export default function About() {
           </div>
 
           {/* Content Container */}
-          <div className="relative z-10 w-full flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 md:gap-12 lg:gap-16 lg:px-[78px] lg:pb-16 lg:pt-12">
+          <div className="relative z-10 w-full h-[444px] px-[78px] pb-16 flex flex-col lg:flex-row justify-between items-end gap-12 lg:gap-16">
             {/* Left Side - Logo & Heading */}
             <div className="flex items-center gap-12 lg:gap-16 flex-1">
               {/* Lock Icon */}
