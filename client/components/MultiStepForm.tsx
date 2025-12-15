@@ -533,16 +533,16 @@ function Phase4({
 
       {/* Country */}
       <div className="flex flex-col items-start gap-1 self-stretch">
-        <div className="flex px-4 justify-center items-center gap-2.5 self-stretch">
-          <label className="flex-1 text-white font-aeonik text-base font-normal leading-[150%]">
+        <div className="flex px-2 sm:px-4 justify-center items-center gap-2.5 self-stretch">
+          <label className="flex-1 text-white font-aeonik text-sm sm:text-base font-normal leading-[150%]">
             Your Country
           </label>
         </div>
-        <div className="flex py-2.5 px-4 items-center gap-2.5 self-stretch rounded border border-unlock-light">
+        <div className="flex py-2 sm:py-2.5 px-3 sm:px-4 items-center gap-2.5 self-stretch rounded border border-unlock-light w-full">
           <select
             value={formData.country}
             onChange={(e) => updateFormData("country", e.target.value)}
-            className="flex-1 bg-transparent text-unlock-light font-aeonik text-sm font-light leading-[150%] border-none focus:outline-none"
+            className="flex-1 bg-transparent text-unlock-light font-aeonik text-xs sm:text-sm font-light leading-[150%] border-none focus:outline-none w-full"
           >
             <option value="" className="bg-unlock-dark text-unlock-light">
               Select one...
