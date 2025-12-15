@@ -340,17 +340,18 @@ export default function About() {
       </section>
 
       {/* Final CTA Section with Decorative Frame */}
-      <section className="flex flex-col items-center bg-unlock-dark">
-        <div className="relative w-full max-w-[1241px] min-h-[574px]">
-          {/* Decorative SVG Border Frame */}
-          <div className="absolute inset-0 flex items-start justify-center overflow-hidden pointer-events-none">
+      <section className="flex flex-col items-center bg-unlock-dark px-4 md:px-8 py-12 md:py-16 lg:py-24">
+        <div className="relative w-full max-w-[1241px]">
+          {/* Decorative SVG Border Frame - Hidden on mobile, visible on lg+ */}
+          <div className="hidden lg:flex absolute inset-0 items-start justify-center overflow-hidden pointer-events-none">
             <svg
-              className="w-full max-w-[1241px] h-[394px] absolute top-[115px]"
+              className="w-full h-auto"
               width="1242"
               height="394"
               viewBox="0 0 1242 394"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid meet"
             >
               <path
                 d="M1047.8 387.582H2.11719V0.898438H1239.89V387.582"
@@ -367,8 +368,14 @@ export default function About() {
             </svg>
           </div>
 
+          {/* Desktop Border for lg+ screens when SVG is visible */}
+          <div className="hidden lg:block absolute top-[115px] left-0 right-0 h-[394px] border border-unlock-light pointer-events-none"></div>
+
+          {/* Mobile Border - Simple responsive border */}
+          <div className="lg:hidden border border-unlock-light rounded-none w-full"></div>
+
           {/* Content Container */}
-          <div className="relative z-10 w-full h-[444px] px-[78px] pb-16 flex flex-col lg:flex-row justify-between items-end gap-12 lg:gap-16">
+          <div className="relative z-10 w-full py-12 md:py-16 px-4 md:px-8 lg:px-[78px] lg:pb-16 flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 md:gap-12 lg:gap-16">
             {/* Left Side - Logo & Heading */}
             <div className="flex items-center gap-12 lg:gap-16 flex-1">
               {/* Lock Icon */}
