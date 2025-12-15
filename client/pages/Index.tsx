@@ -430,13 +430,12 @@ export default function Index() {
       {/* Underwater Background Section */}
       <section className="w-full">
         <div
-          className="relative w-full h-auto lg:h-[700px] rounded-lg overflow-hidden flex flex-col lg:flex-row items-start gap-8 lg:gap-24"
+          className="relative w-full h-auto lg:h-[700px] rounded-lg overflow-hidden flex flex-col lg:flex-row items-start gap-8 lg:gap-24 p-8 md:p-16 lg:p-24"
           style={{
             backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F1eaa4255fd854d84bde8758c04e23344%2Fdaf7b67ad79a4dd4805e13de6138450b?format=webp&width=2460')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
-            padding: "40px 20px",
           }}
         >
           {/* Left Column - Title and Description */}
