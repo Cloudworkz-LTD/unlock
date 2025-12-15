@@ -172,11 +172,11 @@ function Phase1({
   updateFormData: (field: keyof FormData, value: string) => void;
 }) {
   return (
-    <div className="flex flex-col items-start gap-4 self-stretch">
+    <div className="flex flex-col items-start gap-3 sm:gap-4 self-stretch w-full">
       {/* Name Field */}
       <div className="flex flex-col items-start gap-1 self-stretch">
-        <div className="flex px-4 justify-center items-center gap-2.5 self-stretch">
-          <label className="h-[21px] flex-1 text-white font-aeonik text-base font-normal leading-[150%]">
+        <div className="flex px-2 sm:px-4 justify-center items-center gap-2.5 self-stretch">
+          <label className="flex-1 text-white font-aeonik text-sm sm:text-base font-normal leading-[150%]">
             Your Name
           </label>
         </div>
@@ -185,14 +185,14 @@ function Phase1({
           value={formData.name}
           onChange={(e) => updateFormData("name", e.target.value)}
           placeholder="Enter Full name"
-          className="flex py-2.5 px-8 items-center gap-2.5 self-stretch rounded bg-form-input-bg text-form-grey font-aeonik text-sm font-light leading-[150%] border-none focus:outline-none focus:ring-2 focus:ring-unlock-green"
+          className="flex py-2 sm:py-2.5 px-3 sm:px-8 items-center gap-2.5 self-stretch rounded bg-form-input-bg text-form-grey font-aeonik text-xs sm:text-sm font-light leading-[150%] border-none focus:outline-none focus:ring-2 focus:ring-unlock-green w-full"
         />
       </div>
 
       {/* Email Field */}
       <div className="flex flex-col items-start gap-1 self-stretch">
-        <div className="flex px-4 justify-center items-center gap-2.5 self-stretch">
-          <label className="h-[21px] flex-1 text-white font-aeonik text-base font-normal leading-[150%]">
+        <div className="flex px-2 sm:px-4 justify-center items-center gap-2.5 self-stretch">
+          <label className="flex-1 text-white font-aeonik text-sm sm:text-base font-normal leading-[150%]">
             Your Email
           </label>
         </div>
@@ -201,7 +201,7 @@ function Phase1({
           value={formData.email}
           onChange={(e) => updateFormData("email", e.target.value)}
           placeholder="Enter Email Address"
-          className="flex py-2.5 px-8 items-center gap-2.5 self-stretch rounded bg-form-input-bg text-form-grey font-aeonik text-sm font-light leading-[150%] border-none focus:outline-none focus:ring-2 focus:ring-unlock-green"
+          className="flex py-2 sm:py-2.5 px-3 sm:px-8 items-center gap-2.5 self-stretch rounded bg-form-input-bg text-form-grey font-aeonik text-xs sm:text-sm font-light leading-[150%] border-none focus:outline-none focus:ring-2 focus:ring-unlock-green w-full"
         />
       </div>
     </div>
