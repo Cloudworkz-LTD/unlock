@@ -368,12 +368,12 @@ export default function About() {
           </div>
 
           {/* Content Container */}
-          <div className="relative z-10 w-full lg:h-[444px] px-4 md:px-8 lg:px-[78px] lg:pb-16 flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 md:gap-12 lg:gap-16">
+          <div className="relative z-10 w-full lg:h-[444px] py-8 md:py-12 lg:py-0 lg:px-[78px] lg:pb-16 flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6 md:gap-8 lg:gap-16">
             {/* Left Side - Logo & Heading */}
-            <div className="flex items-center gap-12 lg:gap-16 flex-1">
+            <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8 lg:gap-16 flex-1 w-full">
               {/* Lock Icon */}
               <svg
-                className="w-16 h-24 lg:w-20 lg:h-32 flex-shrink-0"
+                className="w-12 h-16 md:w-16 md:h-24 lg:w-20 lg:h-32 flex-shrink-0"
                 width="82"
                 height="130"
                 viewBox="0 0 82 130"
@@ -388,7 +388,7 @@ export default function About() {
 
               {/* Mixed Color Heading */}
               <div className="max-w-[687px]">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-normal font-aeonik leading-[90%]">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-normal font-aeonik leading-[90%]">
                   <span className="text-unlock-light">Unlock: </span>
                   <span className="text-unlock-green">
                     Connecting Investors Through Insights
@@ -398,7 +398,7 @@ export default function About() {
             </div>
 
             {/* Right Side - Description & CTA */}
-            <div className="flex flex-col items-start gap-4 w-full lg:w-auto lg:max-w-[226px] flex-shrink-0">
+            <div className="flex flex-col items-start gap-4 w-full md:w-auto md:max-w-[226px] lg:flex-shrink-0">
               <p className="text-unlock-light font-aeonik text-sm font-normal leading-[150%] w-full">
                 Discover how Unlock can help you make smarter investment
                 decisions and gain a competitive edge.
