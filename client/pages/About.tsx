@@ -56,13 +56,13 @@ export default function About() {
       </section>
 
       {/* Vision Statement Section */}
-      <section className="relative py-16 lg:py-20 xl:py-24 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-36 bg-unlock-dark">
+      <section className="relative py-12 md:py-16 lg:py-20 xl:py-24 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-36 bg-unlock-dark">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-16">
+          <div className="flex flex-col lg:flex-row justify-between items-start gap-8 md:gap-12 lg:gap-16">
             {/* Left - Vision Statement with decorative border */}
-            <div className="relative flex-1 max-w-3xl">
-              {/* Decorative SVG Border */}
-              <div className="absolute inset-0 flex items-start justify-start overflow-hidden pointer-events-none">
+            <div className="relative flex-1 max-w-3xl w-full">
+              {/* Decorative SVG Border - Hidden on mobile */}
+              <div className="hidden lg:flex absolute inset-0 items-start justify-start overflow-hidden pointer-events-none">
                 <svg
                   className="w-full max-w-[763px] h-auto opacity-80"
                   width="763"
@@ -87,8 +87,8 @@ export default function About() {
               </div>
 
               {/* Vision Text */}
-              <div className="relative z-10 pt-12 mb-9">
-                <h2 className="text-unlock-green font-serif text-3xl font-semibold leading-tight max-w-[690px] pt-[3px] pb-11 pl-8">
+              <div className="relative z-10 lg:pt-12 lg:mb-9 py-6 md:py-8 lg:py-0">
+                <h2 className="text-unlock-green font-serif text-2xl md:text-3xl font-semibold leading-tight max-w-[690px] lg:pt-[3px] lg:pb-11 lg:pl-8 pt-0 pb-0 pl-0">
                   A world where every investor makes decisions with clarity and
                   confidence, backed by thorough due diligence.
                 </h2>
@@ -96,8 +96,8 @@ export default function About() {
             </div>
 
             {/* Right - Description */}
-            <div className="flex-shrink-0 max-w-md lg:max-w-sm xl:max-w-md">
-              <p className="text-unlock-light font-aeonik text-base font-light !leading-[150%] mt-10">
+            <div className="flex-shrink-0 w-full md:max-w-md lg:max-w-sm lg:flex-shrink-0 xl:max-w-md">
+              <p className="text-unlock-light font-aeonik text-sm md:text-base font-light !leading-[150%] lg:mt-10 mt-0">
                 Unlock is a trusted provider of meticulous due diligence on
                 investment opportunities. Our history is rooted in serving
                 investors by transforming uncertainty into clarity. With a
