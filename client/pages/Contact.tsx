@@ -81,15 +81,19 @@ export default function Contact() {
 
                 {/* Address & Get Directions */}
                 <div className="flex flex-col sm:flex-row sm:items-center gap-6">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-start gap-2">
                     <img
                       src="https://api.builder.io/api/v1/image/assets/TEMP/4fc42ed93ac8b964c56e29fd8a8a49d4f3ea6e68?width=56"
                       alt="Location icon"
-                      className="w-14 h-14 rounded-2xl"
+                      className="w-14 h-14 rounded-2xl flex-shrink-0"
                     />
-                    <span className="text-unlock-light font-aeonik text-base font-normal leading-[1.5]">
-                      123 Main St, New York, NY 10001
-                    </span>
+                    <div className="text-unlock-light font-aeonik text-base font-normal leading-[1.5]">
+                      <div>3rd Floor</div>
+                      <div>86-90 Paul Street</div>
+                      <div>London</div>
+                      <div>EC2A 4NE</div>
+                      <div>United Kingdom</div>
+                    </div>
                   </div>
                   <Button className="bg-unlock-green text-white font-aeonik text-sm font-medium uppercase leading-[1.5] tracking-wide rounded px-8 py-2.5 hover:bg-unlock-green/90">
                     Get Directions
