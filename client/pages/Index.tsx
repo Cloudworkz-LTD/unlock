@@ -447,18 +447,17 @@ export default function Index() {
 
             {/* Description */}
             <p className="text-unlock-light font-aeonik text-sm md:text-base font-light leading-[130%] max-w-full lg:max-w-[389px]">
-              Unlock streamlines the due diligence process with AI-powered
-              risk detection and anomaly analysis, delivering more innovative,
-              faster insights while incorporating expert validation where
-              needed.
+              Unlock streamlines the due diligence process with AI-powered risk
+              detection and anomaly analysis, delivering more innovative, faster
+              insights while incorporating expert validation where needed.
             </p>
           </div>
 
           {/* Right Column - Value Proposition */}
           <div className="flex flex-col justify-end w-full lg:w-[437px] self-stretch">
             <p className="text-unlock-light font-serif text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium leading-[110%]">
-              Get detailed reports faster, without the complexity or high
-              costs of traditional due diligence services
+              Get detailed reports faster, without the complexity or high costs
+              of traditional due diligence services
             </p>
           </div>
         </div>
