@@ -353,11 +353,11 @@ function Phase3({
   ];
 
   return (
-    <div className="flex flex-col items-start gap-4 self-stretch">
+    <div className="flex flex-col items-start gap-3 sm:gap-4 self-stretch w-full">
       {/* Occupation */}
       <div className="flex flex-col items-start gap-1 self-stretch">
-        <div className="flex px-4 justify-center items-center gap-2.5 self-stretch">
-          <label className="flex-1 text-white font-aeonik text-xl font-normal leading-[150%]">
+        <div className="flex px-2 sm:px-4 justify-center items-center gap-2.5 self-stretch">
+          <label className="flex-1 text-white font-aeonik text-sm sm:text-lg md:text-xl font-normal leading-[150%]">
             Occupation
           </label>
         </div>
@@ -365,23 +365,23 @@ function Phase3({
           value={formData.occupation}
           onChange={(e) => updateFormData("occupation", e.target.value)}
           placeholder="Describe your occupation..."
-          className="flex h-[78px] py-2.5 px-8 items-start gap-2.5 self-stretch rounded bg-form-input-bg text-form-grey font-aeonik text-sm font-light leading-[150%] border-none focus:outline-none focus:ring-2 focus:ring-unlock-green resize-none"
+          className="flex h-[78px] py-2 sm:py-2.5 px-3 sm:px-8 items-start gap-2.5 self-stretch rounded bg-form-input-bg text-form-grey font-aeonik text-xs sm:text-sm font-light leading-[150%] border-none focus:outline-none focus:ring-2 focus:ring-unlock-green resize-none w-full"
         />
       </div>
 
       {/* Income Range */}
       <div className="flex flex-col items-start gap-1 self-stretch">
-        <div className="flex px-4 pr-8 justify-center items-center gap-2.5 self-stretch">
-          <label className="flex-1 text-white font-aeonik text-xl font-normal leading-[150%]">
+        <div className="flex px-2 sm:px-4 pr-2 sm:pr-8 justify-center items-center gap-2.5 self-stretch">
+          <label className="flex-1 text-white font-aeonik text-sm sm:text-lg md:text-xl font-normal leading-[150%]">
             Income Range
           </label>
         </div>
-        <div className="flex px-4 pr-8 items-start content-start gap-1 self-stretch flex-wrap">
+        <div className="flex px-2 sm:px-4 pr-2 sm:pr-8 items-start content-start gap-1 self-stretch flex-wrap">
           {incomeRanges.map((range) => (
             <div
               key={range}
               onClick={() => updateFormData("incomeRange", range)}
-              className={`flex py-2 px-5 justify-center items-center gap-1 rounded-md cursor-pointer ${
+              className={`flex py-1.5 sm:py-2 px-3 sm:px-5 justify-center items-center gap-1 rounded-md cursor-pointer text-xs sm:text-sm ${
                 formData.incomeRange === range
                   ? "border border-white bg-white"
                   : "border border-form-grey"
