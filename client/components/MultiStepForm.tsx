@@ -224,20 +224,20 @@ function Phase2({
   ];
 
   return (
-    <div className="flex flex-col items-start gap-4 self-stretch">
+    <div className="flex flex-col items-start gap-3 sm:gap-4 self-stretch w-full">
       {/* Service Type */}
       <div className="flex flex-col items-start gap-1 self-stretch">
-        <div className="flex px-4 pr-8 justify-center items-center gap-2.5 self-stretch">
-          <label className="flex-1 text-white font-aeonik text-base font-normal leading-[150%]">
+        <div className="flex px-2 sm:px-4 pr-2 sm:pr-8 justify-center items-center gap-2.5 self-stretch">
+          <label className="flex-1 text-white font-aeonik text-sm sm:text-base font-normal leading-[150%]">
             Service Type
           </label>
         </div>
-        <div className="flex px-4 pr-8 items-start content-start gap-1 self-stretch flex-wrap">
+        <div className="flex px-2 sm:px-4 pr-2 sm:pr-8 items-start content-start gap-1 self-stretch flex-wrap">
           {serviceTypes.map((type) => (
             <div
               key={type}
               onClick={() => updateFormData("serviceType", type)}
-              className={`flex py-2 px-5 justify-center items-center gap-1 rounded-md cursor-pointer ${
+              className={`flex py-1.5 sm:py-2 px-3 sm:px-5 justify-center items-center gap-1 rounded-md cursor-pointer text-xs sm:text-sm ${
                 formData.serviceType === type
                   ? "border border-white bg-white"
                   : "border border-form-grey"
