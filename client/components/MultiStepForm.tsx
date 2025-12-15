@@ -102,26 +102,26 @@ export function MultiStepForm() {
     <div className="px-4 md:px-8 lg:px-16 xl:px-20 2xl:px-[100px] py-0 pb-[100px]">
       <div className="max-w-7xl mx-auto">
         <div
-          className={`flex ${currentStep === 3 || currentStep === 4 ? "min-h-[500px]" : "min-h-[450px]"} p-8 justify-center items-start gap-6 border border-unlock-gray-dark`}
+          className={`flex flex-col lg:flex-row ${currentStep === 3 || currentStep === 4 ? "min-h-auto lg:min-h-[500px]" : "min-h-auto lg:min-h-[450px]"} p-4 md:p-8 justify-center items-start gap-6 lg:gap-8 border border-unlock-gray-dark`}
         >
           {/* Left Column - Title, Description, Step Indicator */}
-          <div className="flex flex-col justify-between items-start flex-1 self-stretch">
-            <div className="flex flex-col items-start gap-4 self-stretch">
-              <h2 className="self-stretch text-unlock-light font-aeonik text-2xl md:text-3xl lg:text-4xl font-normal leading-[140%]">
+          <div className="flex flex-col justify-start lg:justify-between items-start w-full lg:flex-1 self-stretch lg:self-stretch">
+            <div className="flex flex-col items-start gap-3 md:gap-4 self-stretch mb-6 lg:mb-0">
+              <h2 className="self-stretch text-unlock-light font-aeonik text-xl sm:text-2xl md:text-3xl lg:text-4xl font-normal leading-[140%]">
                 {getStepTitle()}
               </h2>
-              <p className="text-form-light-blue font-aeonik text-sm font-light leading-[150%]">
+              <p className="text-form-light-blue font-aeonik text-xs sm:text-sm font-light leading-[150%]">
                 {getStepDescription()}
               </p>
             </div>
 
             {/* Step Indicator */}
-            <div className="flex w-[201px] p-6 justify-center items-center gap-2.5">
+            <div className="flex w-full lg:w-auto p-4 lg:p-6 justify-start lg:justify-center items-center gap-2.5">
               <div className="flex items-end">
-                <span className="text-unlock-green font-aeonik text-8xl md:text-9xl lg:text-[150px] font-extralight leading-[90%] tracking-[-3px]">
+                <span className="text-unlock-green font-aeonik text-6xl sm:text-7xl md:text-8xl lg:text-9xl 2xl:text-[150px] font-extralight leading-[90%] tracking-[-3px]">
                   {currentStep}
                 </span>
-                <span className="text-unlock-gray-dark font-aeonik text-4xl md:text-5xl lg:text-[75px] font-light leading-[90%] tracking-[-1.5px] mb-1">
+                <span className="text-unlock-gray-dark font-aeonik text-3xl sm:text-4xl md:text-5xl lg:text-[75px] font-light leading-[90%] tracking-[-1.5px] mb-1">
                   /4
                 </span>
               </div>
@@ -129,7 +129,7 @@ export function MultiStepForm() {
           </div>
 
           {/* Right Column - Form Fields */}
-          <div className="flex flex-col justify-between items-start flex-1 self-stretch">
+          <div className="flex flex-col justify-between items-start w-full lg:flex-1 self-stretch">
             {getStepContent()}
 
             {/* Navigation Buttons */}
