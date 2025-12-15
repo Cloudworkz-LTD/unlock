@@ -79,18 +79,6 @@ export default function Contact() {
                   </span>
                 </div>
 
-                {/* Phone */}
-                <div className="flex items-center gap-2">
-                  <img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/748dcc647d9ba86422193043c02ebc742e107e5b?width=56"
-                    alt="Phone icon"
-                    className="w-14 h-14 rounded-2xl"
-                  />
-                  <span className="text-unlock-light font-aeonik text-base font-normal leading-[1.5]">
-                    +1 (555) 123-4567
-                  </span>
-                </div>
-
                 {/* Address & Get Directions */}
                 <div className="flex flex-col sm:flex-row sm:items-center gap-6">
                   <div className="flex items-center gap-2">
