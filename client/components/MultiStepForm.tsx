@@ -403,7 +403,7 @@ function Phase3({
                 />
               </svg>
               <span
-                className={`font-aeonik text-sm leading-[150%] ${
+                className={`font-aeonik leading-[150%] ${
                   formData.incomeRange === range
                     ? "text-unlock-green font-normal"
                     : "text-form-grey font-light"
@@ -418,8 +418,8 @@ function Phase3({
 
       {/* Investment Frequency */}
       <div className="flex flex-col items-start gap-1 self-stretch">
-        <div className="flex px-4 justify-center items-center gap-2.5 self-stretch">
-          <label className="flex-1 text-white font-aeonik text-xl font-normal leading-[150%]">
+        <div className="flex px-2 sm:px-4 justify-center items-center gap-2.5 self-stretch">
+          <label className="flex-1 text-white font-aeonik text-sm sm:text-lg md:text-xl font-normal leading-[150%]">
             Investment Frequency
           </label>
         </div>
@@ -429,7 +429,7 @@ function Phase3({
             updateFormData("investmentFrequency", e.target.value)
           }
           placeholder="How often do you invest..."
-          className="flex h-[78px] py-2.5 px-8 items-start gap-2.5 self-stretch rounded bg-form-input-bg text-form-grey font-aeonik text-sm font-light leading-[150%] border-none focus:outline-none focus:ring-2 focus:ring-unlock-green resize-none"
+          className="flex h-[78px] py-2 sm:py-2.5 px-3 sm:px-8 items-start gap-2.5 self-stretch rounded bg-form-input-bg text-form-grey font-aeonik text-xs sm:text-sm font-light leading-[150%] border-none focus:outline-none focus:ring-2 focus:ring-unlock-green resize-none w-full"
         />
       </div>
     </div>
